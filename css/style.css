@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@media screen and (max-width:450px) {
+    #hero-caption{
+        font-size: 60px !important;
+    }
+    #hero-content{
+        padding: 80px 20px !important;
+    }
+}
+*{
+    font-family:'inter',sans-serif ;
+    /* line-height: 2.0; */
+}
+a{
+    text-decoration: none !important;
+}
+
+body{
+    /* background: url('../assets/crumpled-white-paperboard.jpg'); */
+    background-color: ghostwhite;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    background:linear-gradient(225deg,#03045e,#00010e),url('../assets/crumpled-white-paperboard.jpg') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+}
+.nav-brand{color:white;}
+.nav-link {
+    padding: 20px !important;
+    border-radius: 50px;
+}
+.nav-link:hover{
+    background-color: #caf0f82a !important;
+    color: #ffffff !important;
+}
+
+#hero{
+    color: #caf0f8;
+    min-height: 80vh;
+    position: relative;
+}
+#hero h1{
+    font-size: 80px;
+    font-weight: 800;
+}
+#hero-content{
+    height: 100%;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+#hero-content p{
+    margin-bottom: 40px;
+}
+#hero-img{
+    width: 90%;
+}
+#hero-img img{
+    border-radius: 20px;
+    width: 80%;
+}
+#svg-stroke{
+    position: absolute;
+    width: 40%;
+    left: 0;
+    z-index: 0;
+}
+#hero-caption{
+    z-index: 10;
+}
+ion-icon:hover{
+    color: yellow;
+}
+#brush{
+    /* background-image: url('../assets/brush-stroke-banner-4-onlygfx-dot-com.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100;
+    height: 100px;
+    position: absolute;
+    width: 70%;
+    top: 120px;
+    left: -40px;
+    background-size: contain; */
+    display: none;
+}
+ion-icon{
+    transition: all 0.4s ease;
+}
+.active{
+    color: rgba(255, 255, 255, 0.521) !important;
+    /* border-bottom: 1px solid yellow; */
+}
+section{
+    padding: 100px 0;
+}
+#what-we-do h2, #programs h2, .partners-title h2{
+    font-weight: 800;
+    font-size: 50px;
+    color: #03045e;
+}
+
+#what-we-do h3{
+    color: #03045e;
+
+}
+.about-card{
+    transition: 0.5s ease-in-out;
+    border: 1px dashed rgba(165, 165, 165, 0.233);
+    border-radius:20px ;
+    transform-style: preserve-3d;
+    perspective: 60deg;
+
+}
+.about-card:hover{
+    border: 1px dashed rgba(0, 0, 0, 0.308);
+    border-radius:20px ;
+    background-color: #ffffff3f;
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.098);
+}
+.about-card .btn{
+    width: 80%;
+    background-color: #03045e;
+    color: white;
+    margin: 20px 0;
+    padding: 10px 0;
+    border: none;
+    border-radius: 50px;
+    /* transform: rotateY(240deg); */
+    /* transform: rotateX(5deg); */
+    /* transform: translateZ(50deg); */
+    /* transform: skewY(40deg); */
+}
+/* #what-we-do .about-card:not(:last-child){
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.247);
+} */
+#programs{
+    background:linear-gradient(#03045e,#03045e), url('../assets/crumpled-white-paperboard.jpg') ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-blend-mode: multiply;
+    box-sizing: border-box;
+
+}
+.programs-card img{
+    width: 100%;
+    margin-bottom: 10px 0;
+    /* border-radius: 5px; */
+    height: 200px;
+    object-fit: cover;
+    /* box-shadow: 3px 25px 10px rgba(0, 0, 0, 0.057); */
+}
+.programs-card{
+    /* background:linear-gradient(180deg,#caf0f815,#caf0f862,#caf0f808); */
+    border: 1px solid #ffffff28;
+    /* padding: 0 5px 30px 5px; */
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+.programs-card:hover{
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.098);
+
+}
+.programs-card-details{
+    padding: 15px;
+}
+.programs-card-details h3{
+    color: #e7e9ff;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.programs-card-details p{
+    color:#ffffffab;
+    padding-bottom: 10px;
+}
+#partners-showcase ion-icon{
+    font-size: 100px;
+    color: rgb(103, 103, 103);
+}
+#partners-showcase ion-icon:hover{
+    color: #00010e;
+}
+#partners-showcase{
+    width: 100%;
+}
