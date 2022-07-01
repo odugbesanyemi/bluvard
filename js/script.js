@@ -1,1 +1,3 @@
-let btns = document.querySelector('#volunteerBtn')
+$(document).ready(function() {
+    $(".blog-extract-carousel").slick();
+})
