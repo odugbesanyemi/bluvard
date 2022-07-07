@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap');
-.serif {
-    font-family: 'Cinzel', cursive;
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.serif{
+    font-family: 'playfair';
 }
 
 .swiper {
@@ -14,8 +16,9 @@ img {
     object-fit: cover;
 }
 
-#news {
+#news{
     /* background-color: rgba(220, 220, 220, 0.382); */
+    padding-bottom: 0 !important;
 }
 
 .news-elem {
@@ -23,7 +26,6 @@ img {
     margin: 5px;
     /* min-height: 100%; */
 }
-
 .news-bottom {
     height: 150px;
     max-height: 200px;
@@ -36,11 +38,34 @@ img {
     #hero-content {
         padding: 80px 20px !important;
     }
-}
-
-* {
-    font-family: 'inter', sans-serif;
-    /* line-height: 2.0; */
+    .navbar-collapse{
+        background: linear-gradient(rgba(255, 255, 255, 0.041),rgba(255, 255, 255, 0.161),rgba(255, 255, 255, 0.024))  !important;
+        border-radius: 20px;
+        padding: 30px 10px;
+        box-sizing: border-box;
+        margin-top:30px;
+        transition: 2s ease;
+        border: rgba(255, 255, 255, 0.092) 1px solid;
+        box-shadow: 0 15px 25px #0000002a ;
+    }
+    .nav-link{
+        border-radius: 10px;
+    }
+    .navbar-collapse .dropdown-menu{
+        background: linear-gradient(0deg,rgba(255, 255, 255, 0.394),rgba(255, 255, 255, 0.04))  !important;
+        border-radius: 10px !important;
+        color: white !important;
+        border-top: 0;
+        margin-top: 20px !important;
+    }
+    .nav-link:hover{
+        background: linear-gradient(rgba(255, 255, 255, 0.351),rgba(39, 113, 210, 0.106))  !important;
+        box-shadow: 0 5px 10px #00043f35;
+    }
+    .navbar-collapse .dropdown-item{
+        color: white;
+    }
+    
 }
 
 a {
@@ -68,7 +93,8 @@ header {
 
 .nav-link {
     padding: 20px !important;
-    border-radius: 50px;
+    border-radius: 0 30px;
+    transition: 0.3s ease-in-out;
 }
 
 .nav-link:hover {
@@ -77,19 +103,20 @@ header {
 }
 
 #hero {
-    color: #caf0f8;
-    min-height: 80vh;
+    color: #ffffff;
+    min-height: 600px;
     position: relative;
 }
 
 #hero h1 {
     font-size: 80px;
     font-weight: 800;
+    font-family: "playfair";
 }
 
 #hero-content {
     height: 100%;
-    padding: 100px 20px;
+    padding: 40px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -108,7 +135,33 @@ header {
     border-radius: 20px;
     width: 80%;
 }
-
+#icon-stack{
+    background-color: #00032934;
+    border-radius:50px;
+    color: #ffffff53;
+}
+#header-icon-stack{
+    background-color: #f1f2ff16;
+    border-radius:0 30px 30px 0;
+    padding: 0 15px;
+    color: #00021a81;
+    border: rgba(93, 136, 255, 0.075) 1px solid;
+    box-shadow: 0 0 10px#e7e9ff0d ;
+    position: absolute;
+    left: 0;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 306px;
+    transition: 1s ease;
+}
+#header-icon-stack:hover{
+    color: #03045e;
+    background-color: #f1f2ff;
+}
+#header-icon-stack ion-icon:hover{
+    font-size: 45px !important;
+}
 #svg-stroke {
     position: absolute;
     width: 40%;
@@ -120,9 +173,6 @@ header {
     z-index: 10;
 }
 
-ion-icon:hover {
-    color: yellow;
-}
 
 #brush {
     /* background-image: url('../assets/brush-stroke-banner-4-onlygfx-dot-com.svg');
@@ -155,22 +205,32 @@ section {
 #programs h2,
 .partners-title h2 {
     font-weight: 800;
-    font-size: 50px;
+    font-size: 40px;
     color: #03045e;
 }
 
 #what-we-do h3 {
     color: #03045e;
 }
+#what-we-do .about-img{
+    width: 100%;
+    border-radius: 10px;
+    margin: 20px 0;
+    height: 300px;
+    box-sizing: border-box;
+
+}
+
 #about{
-        background-color: #f4f8ff;
+    background:linear-gradient(0deg,white,#f4f9ff) ;
 }
 .about-card {
-    transition: 0.5s ease-in-out; Ag
+    transition: 0.5s ease-in-out;
     border: 1px dashed rgba(165, 165, 165, 0.233);
     border-radius: 20px;
     transform-style: preserve-3d;
     perspective: 60deg;
+    background:linear-gradient(180deg,white,#f4f9ff)  ;
 }
 
 .about-card:hover {
@@ -178,6 +238,7 @@ section {
     border-radius: 20px;
     background-color: #ffffff3f;
     box-shadow: 0 15px 10px rgba(0, 0, 0, 0.098);
+    background: linear-gradient(0deg,white,#f4f9ff) ;
 }
 
 .about-card .btn {
@@ -200,10 +261,10 @@ section {
 } */
 
 #programs {
-    background-color:#41729F;
+    background:linear-gradient(#182a3c,#182a3c),url("../assets/17.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: multiply;
+    /* background-blend-mode: multiply; */
     box-sizing: border-box;
 }
 
@@ -266,6 +327,7 @@ section {
     background-blend-mode:multiply;
     background-attachment: fixed;
     color: white;
+    height: 500px;
 }
 footer{
     background-color: #050A30;

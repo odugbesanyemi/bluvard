@@ -19,14 +19,14 @@
         <nav class="navbar navbar-expand-lg bg-none navbar-dark container">
             <div class="container">
                 <div class="navbar-brand d-flex align-items-center"><img src="assets/bluvard2.svg" alt="" width="80">
-                    <p class="ps-3 text-secondary"><small></small> </p>
+                    <p class="ps-3 fw-bold text-primary mb-0"><small> BLUVARD</small> </p>
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-              </button>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ms-auto">
-                        <a class="nav-link active mx-sm-4 mx-md-2" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active mx-md-2" aria-current="page" href="#">Home</a>
                         <a class="nav-link" href="#">About Us</a>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Our Projects</a>
@@ -49,17 +49,17 @@
 
             </div>
         </nav>
-        <div id="hero" class="container  d-md-flex align-items-center justify-content-between flex-row">
-            <div id="icon-stack" class="d-flex flex-row flex-md-column me-lg-3 d-none d-md-flex">
+            <div id="header-icon-stack" class="d-flex flex-row flex-md-column me-lg-3 d-none d-md-flex">
                 <ion-icon name="logo-facebook" class="fs-3 py-4"></ion-icon>
                 <ion-icon name="logo-twitter" class="fs-3 py-4"></ion-icon>
                 <ion-icon name="logo-instagram" class="fs-3 py-4"></ion-icon>
                 <ion-icon name="logo-pinterest" class="fs-3 py-4"></ion-icon>
             </div>
+        <div id="hero" class="container  d-md-flex align-items-center justify-content-start flex-row">
             <div id="hero-content">
                 <h1 id="hero-caption" class=""> Finding <span style="color:yellow;">Gems</span> in the rough</h1>
                 <span id="brush"></span>
-                <p>join us in our quest to bridge the education divide. support a child today</p>
+                <p class="fs-5">Join us in our quest to bridge the education divide. support a child today</p>
                 <div>
                     <button class="btn btn-primary btn-lg d-flex justify-content-between align-items-center">Learn more <ion-icon class="ps-2" name="chevron-down-circle-outline"></ion-icon></button>
                 </div>
@@ -72,11 +72,15 @@
     </header>
     <aside></aside>
     <section id="about">
-        <div id="what-we-do" class="container ">
-            <h2 class="mb-4 px-3">Who we are</h2>
-            <p class="px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, illum eligendi deleniti quis labore, molestiae id quidem rerum laboriosam recusandae sequi doloribus error eius neque consectetur! Ullam ipsa aspernatur molestiae. Lorem ipsum
-                dolor sit, amet consectetur adipisicing elit. Qui harum non sint, eligendi iure magnam distinctio odit id consequuntur deleniti, atque, labore nemo aperiam soluta nisi a adipisci ducimus illum.</p>
-            <div id="what-we-do-group" class="d-flex flex-column flex-md-row p-4 mx-md-2">
+        <div id="what-we-do" class="container">
+            <h2 class="mb-4 ">Who we are</h2>
+            <div class="d-flex align-items-center flex-column flex-lg-row">
+                <img src="assets/17.jpg" alt="" class="about-img">
+                <p class="px-4 fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, illum eligendi deleniti quis labore, molestiae id quidem rerum laboriosam recusandae sequi doloribus error eius neque consectetur! Ullam ipsa aspernatur molestiae. Lorem ipsum
+                    dolor sit, amet consectetur adipisicing elit. Qui harum non sint, eligendi iure magnam distinctio odit id consequuntur deleniti, atque, labore nemo aperiam soluta nisi a adipisci ducimus illum.
+                </p>
+            </div>
+            <div id="what-we-do-group" class="d-flex flex-column flex-md-row p-4 mx-md-0 px-md-0">
                 <div class="text-secondary p-4 about-card text-left mx-md-2 my-3 my-md-0">
                     <img src="assets/mission.png" alt="" class="mb-4">
                     <h3>Our Mission</h3>
@@ -173,9 +177,9 @@
         <div class="container">
             <p>OUR LATEST NEWS</p>
             <div class="d-flex flex-column flex-md-row justify-content-between">
-                <h2 class="fw-bold">VISIT OUR INSIGHTS AND LATEST NEWS</h2>
+                <h2 class="fw-bold serif">VISIT OUR INSIGHTS AND LATEST NEWS</h2>
                 <p>
-                    <a href="#">Visit our blog</a>
+                    <a href="#">Visit our blog  <ion-icon name="arrow-forward-outline" class="ms-4"></ion-icon></a>
                 </p>
             </div>
             <div id="blog-extract" class="my-5">
