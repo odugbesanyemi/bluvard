@@ -8,7 +8,7 @@
     <meta name="author" content="Tecxha IT Solutions">
     <meta name="description" content="Bluvard is a youth led organisation focused on bridging the education divide through non-conventional learning strategies for children in rural communities.">
     <title>Bluvard Education Initiative- Bridging the Education Divide</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
     <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -26,37 +26,37 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ms-auto">
-                        <a class="nav-link active mx-md-2" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="#">About Us</a>
-                        <a class="nav-link" href="#">Events</a>
+                        <a class="nav-link active mx-md-2" aria-current="page" href="../index.php">Home</a>
+                        <a class="nav-link" href="../pages/about.php">About Us</a>
+                        <a class="nav-link" href="../pages/event.php">Events</a>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Our Projects</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Digital Rural</a></li>
-                                <li><a class="dropdown-item" href="#">Girls in Tech</a></li>
+                                <li><a class="dropdown-item" href="../pages/projects.php?digital_rural">Digital Rural</a></li>
+                                <li><a class="dropdown-item" href="../pages/projects.php?girls_in_tech">Girls in Tech</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">New</a></li>
+                                <li><a class="dropdown-item" href="../pages/events.php">New</a></li>
                             </ul>
                         </li>
-                        <a class="nav-link" href="#">Gallery</a>
-                        <a class="nav-link">contact Us</a>
+                        <a class="nav-link" href="../pages/gallery.php">Gallery</a>
+                        <a class="nav-link" href="../pages/contact.php">contact Us</a>
                     </div>
                     <div id="nav-btn" class="ms-auto">
-                        <button type="button" class="btn btn-primary ms-3 d-flex justify-content-between align-items-center" id="volunteerBtn">Become a volunteer <ion-icon class="ps-2" name="help-buoy-outline"></ion-icon></button>
+                        <a href="../pages/volunteer.php"><button type="button" class="btn btn-primary ms-3 d-flex justify-content-between align-items-center" id="volunteerBtn">Become a volunteer <ion-icon class="ps-2" name="help-buoy-outline"></ion-icon></button></a>
                     </div>
                 </div>
 
             </div>
         </nav>
-            <div id="header-icon-stack" class="d-flex flex-row flex-md-column me-lg-3 d-none d-md-flex">
-                <ion-icon name="logo-facebook" class="fs-3 py-4"></ion-icon>
-                <ion-icon name="logo-twitter" class="fs-3 py-4"></ion-icon>
-                <ion-icon name="logo-instagram" class="fs-3 py-4"></ion-icon>
-                <ion-icon name="logo-pinterest" class="fs-3 py-4"></ion-icon>
-            </div>
-        <div id="hero" class="container  d-md-flex align-items-center justify-content-start flex-row">
+        <div id="header-icon-stack" class="d-flex flex-row flex-md-column me-lg-3 d-none d-md-flex">
+            <ion-icon name="logo-facebook" class="fs-3 py-4"></ion-icon>
+            <ion-icon name="logo-twitter" class="fs-3 py-4"></ion-icon>
+            <ion-icon name="logo-instagram" class="fs-3 py-4"></ion-icon>
+            <ion-icon name="logo-pinterest" class="fs-3 py-4"></ion-icon>
+        </div>
+        <div id="hero" class="container  d-md-flex align-items-center justify-content-center flex-column ">
             <div id="hero-content">
                 <h1 id="hero-caption" class=""> Finding <span style="color:yellow;">Gems</span> in the rough</h1>
                 <span id="brush"></span>
@@ -68,10 +68,11 @@
             <!-- <div id="hero-img" class="d-none d-md-block">
                 <img src="assets/pexels-roman.jpg" alt="">
             </div> -->
-
         </div>
+        <!-- <div class="cursor-down text-center">
+            <ion-icon name="arrow-down-circle-outline" class="text-white fs-1"></ion-icon>
+        </div> -->
     </header>
-    <aside></aside>
     <section id="about">
         <div id="what-we-do" class="container">
             <h2 class="mb-4 ">Who we are</h2>
@@ -82,29 +83,29 @@
                 </p>
             </div>
             <div id="what-we-do-group" class="d-flex flex-column flex-md-row p-4 mx-md-0 px-md-0">
-                <div class="text-secondary p-4 about-card text-left mx-md-2 my-3 my-md-0">
+                <div class="text-secondary p-4 about-card text-left mx-md-2 my-3 my-md-0 text-center">
                     <img src="assets/mission.png" alt="" class="mb-4">
-                    <h3>Our Mission</h3>
+                    <h3 class="text-success">Our Mission</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quidem quisquam assumenda impedit perspiciatis mollitia, quaerat, saepe voluptatibus debitis eos quae sit. Consequatur impedit, odio expedita nulla facilis perferendis nobis.</p>
                     <button class="btn d-flex align-items-center justify-content-center ">read more<ion-icon name="chevron-forward-outline" class="ps-3"></ion-icon></button>
                 </div>
-                <div class="text-secondary p-4 about-card text-left mx-md-2 my-3 my-md-0">
+                <div class="text-secondary p-4 about-card text-left mx-md-2 my-3 my-md-0 text-center">
                     <img src="assets/visionary.png" alt="" class="mb-4">
-                    <h3>Our Vision</h3>
+                    <h3 class="text-warning">Our Vision</h3>
                     <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quidem quisquam assumenda impedit perspiciatis mollitia, quaerat, saepe voluptatibus debitis eos quae sit. Consequatur impedit, odio expedita nulla facilis perferendis nobis.</p>
                     <button class="btn d-flex align-items-center justify-content-center ">read more<ion-icon name="chevron-forward-outline" class="ps-3"></ion-icon></button>
 
                 </div>
-                <div class="text-secondary p-4 about-card text-left mx-md-2 my-3 my-md-0">
+                <div class="text-secondary p-4 about-card text-left mx-md-2 my-3 my-md-0 text-center">
                     <i class="fa fa-desktop" aria-hidden="true"></i><img src="assets/goal.png" alt="" class="mb-4">
-                    <h3>Our Goals</h3>
+                    <h3 class="text-danger">Our Goals</h3>
                     <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quidem quisquam assumenda impedit perspiciatis mollitia, quaerat, saepe voluptatibus debitis eos quae sit. Consequatur impedit, odio expedita nulla facilis perferendis nobis.</p>
                     <button class="btn d-flex align-items-center justify-content-center ">read more<ion-icon name="chevron-forward-outline" class="ps-3"></ion-icon></button>
                 </div>
             </div>
         </div>
     </section>
-    <section id="programs" class="pt-0">
+    <section id="programs" class="">
         <div class="container overflow-hidden">
             <h2 class="mb-4 px-3  mb-5">Our Programs</h2>
             <div id="programs-container" class="row gx-4 gy-3">
@@ -202,7 +203,7 @@
                                 <div>
                                     <ion-icon name="bookmark-outline" class="pe-2"></ion-icon>Digital Rural</div>
                             </div>
-                            <h4 class="fs-2 serif">Tecxha partners with Bluvard Education Initiative</h4>
+                            <h4 class="fs-2">Tecxha partners with Bluvard Education Initiative</h4>
                             <p>Read more</p>
                         </div>
                     </div>
@@ -274,13 +275,13 @@
             </div>
         </div>
     </section>
-    <section id="Events" class="pb-0">
+    <section id="Events" class="">
         <div class="container">
         <p>Our Future Events</p>
         <h2 class="fw-bold">UPCOMING EVENTS</h2>
         <div id="events-body" class="py-4">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 border-0">
                     <div class="event-img">
                         <img src="assets/projectdigitalrural.jpg" alt="" class="w-100 rounded">
                     </div>
@@ -290,7 +291,7 @@
                         <p class="d-flex align-items-center"><ion-icon name="location-outline" class="me-2"></ion-icon>Charaton Hotel & Suites,Lagos</p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 border-0">
                     <div class="event-img">
                         <img src="assets/projectdigitalrural.jpg" alt="" class="w-100 rounded">
                     </div>
@@ -300,7 +301,7 @@
                         <p class="d-flex align-items-center"><ion-icon name="location-outline" class="me-2"></ion-icon>Charaton Hotel & Suites,Lagos</p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 ">
                     <div class="event-img">
                         <img src="assets/projectdigitalrural.jpg" alt="" class="w-100 rounded">
                     </div>
@@ -328,102 +329,4 @@
             </div>
         </div>
     </section>
-    <footer>
-        <div class="container">
-            <div class="d-flex flex-column flex-md-row w-100 py-md-5 pb-0 py-5">
-                <div class="footer-about w-100 mb-3 mb-md-0">
-                    <ul class="text-center text-md-start">
-                        <img src="assets/bluvard2.svg" width="125" alt="">
-                        <h4 class="pt-4 fs-5">Bluvard</h4>
-                        <h5 class="fs-6 fw-light">Education Initiative</h5>
-                        <div id="icon-stack" class="d-flex me-lg-3  d-md-flex pt-3 justify-content-center justify-content-md-start" >
-                            <ion-icon name="logo-facebook" class="fs-3 pe-2"></ion-icon>
-                            <ion-icon name="logo-twitter" class="fs-3 px-2"></ion-icon>
-                            <ion-icon name="logo-instagram" class="fs-3 px-2"></ion-icon>
-                            <ion-icon name="logo-pinterest" class="fs-3 px-2"></ion-icon>
-                        </div>
-                    </ul>
-                </div>
-                <div class="footer-quicklinks w-100 mb-3 mb-md-0">
-                    <ul class="text-center text-md-start">
-                        <h4>Quick Links </h4>
-                        <li> <a href="#">Home</a></li>
-                        <li> <a href="#">About us</a></li>
-                        <li> <a href="#">Our Programs</a></li>
-                        <li> <a href="#">Contact Us</a></li>
-                        <li> <a href="#">Our Gallery</a></li>
-                    </ul>
-                </div>
-                <div class="footer-ourlinks w-100 mb-3 mb-md-0">
-                    <ul class="text-center text-md-start">
-                        <h4>Our Links </h4>
-                        <li> <a href="#">Become a Volunteer</a></li>
-                        <li> <a href="#">Upcoming Events</a></li>
-                        <li> <a href="#">Ongoing Programs</a></li>
-                        <li> <a href="#">Become a sponsor</a></li>
-
-                    </ul>
-                </div>
-                <div class="footer-newsletter w-100 mb-3 mb-md-0">
-                    <ul class="text-center text-md-start">
-                        <h4>Newsletter</h4>
-                        <p>Subscribe to get latest news and information on our programs,special offers and lifetime deals</p>
-                        <form action="#" class="">
-                            <div class="newsletter-form mb-3">
-                                <input type="text" name="" id="" placeholder="Full Name" class="border-0 form-control bg-none shadow-none">
-                            </div>
-                            <div class="form-group d-flex newsletter-form">
-                                <input type="email" name="" id="" placeholder="Email Address" class="border-0 form-control bg-none shadow-none">
-                                <button class="border-0">SUBSCRIBE</button>
-                            </div>
-                        </form>
-                    </ul>
-
-                </div>
-            </div>
-        </div>
-        <div class="footer-under">
-            <div class="container py-3 text-center">
-                <p>Copyright &copy; 2022 Bluvard Education Initiative </p>
-            </div>
-
-        </div>
-    </footer>
-</body>
-<script src="js/script.js"></script>
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js " integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
-<script type="text/javascript " src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js "></script>
-<script>
-    $(document).ready(function() {
-        // $(".blog-extract-carousel ").slick();
-        // create a function that sets the below settings 
-        $.fn.slickElement = function(elem){ 
-            $(elem).slick({
-            arrow: true,
-            dots: true,
-            prevArrow: '<button type="button" data-role="none" class="slick-prev">Previous</button>',
-            nextArrow: '<button type="button" data-role="none" class="slick-next">Next</button>',
-            autoplay: true,
-            autoplaySpeed: 6000,
-            fade: false,
-            row: 1,
-            slidesPerRow: 3,
-            slidesToShow: 2,
-            responsive: [{
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                }
-            }]
-        })
-        }
-        $.fn.slickElement('.blog-extract-carousel')
-        $.fn.slickElement('#partners-showcase')
-        
-    })
-</script>
-
-</html>
+<?php include("includes/footer.php") ?>
