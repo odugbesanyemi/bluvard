@@ -18,9 +18,9 @@
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark heading">
     <div class="container">
-        <div class="navbar-brand d-flex align-items-center"><img src="../assets/bluvard2.svg" alt="" width="80">
+        <a href="../index.php"><div class="navbar-brand d-flex align-items-center"><img src="../assets/bluvard2.svg" alt="" width="80">
             <p class="ps-3 fw-bold text-white mb-0"><small> BLUVARD</small> </p>
-        </div>
+        </div></a>
         <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -32,7 +32,7 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Our Projects</a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="../pages/projects.php?digital_rural">Digital Rural</a></li>
+                        <li><a class="dropdown-item" href="../pages/digital_rural.php">Digital Rural</a></li>
                         <li><a class="dropdown-item" href="../pages/projects.php?girls_in_tech">Girls in Tech</a></li>
                         <li>
                             <hr class="dropdown-divider">

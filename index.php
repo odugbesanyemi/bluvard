@@ -62,7 +62,7 @@
                 <span id="brush"></span>
                 <p class="fs-5">Join us in our quest to bridge the education divide. support a child today</p>
                 <div>
-                    <button class="btn btn-primary btn-lg d-flex justify-content-between align-items-center">Learn more <ion-icon class="ps-2" name="chevron-down-circle-outline"></ion-icon></button>
+                    <button class="btn btn-primary btn-lg d-flex justify-content-between align-items-center"onclick="window.location.assign('pages/about.php')">Learn more <ion-icon class="ps-2" name="chevron-down-circle-outline"></ion-icon></button>
                 </div>
             </div>
             <!-- <div id="hero-img" class="d-none d-md-block">
@@ -75,7 +75,8 @@
     </header>
     <section id="about">
         <div id="what-we-do" class="container">
-            <h2 class="mb-4 ">Who we are</h2>
+            <p>WHO WE ARE</p>
+            <h2 class="mb-4 serif fw-bold text-uppercase">ABOUT US</h2>
             <div class="d-flex align-items-center flex-column flex-lg-row">
                 <img src="assets/17.jpg" alt="" class="about-img">
                 <p class="px-4 fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, illum eligendi deleniti quis labore, molestiae id quidem rerum laboriosam recusandae sequi doloribus error eius neque consectetur! Ullam ipsa aspernatur molestiae. Lorem ipsum
@@ -87,27 +88,28 @@
                     <img src="assets/mission.png" alt="" class="mb-4">
                     <h3 class="text-success">Our Mission</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quidem quisquam assumenda impedit perspiciatis mollitia, quaerat, saepe voluptatibus debitis eos quae sit. Consequatur impedit, odio expedita nulla facilis perferendis nobis.</p>
-                    <button class="btn d-flex align-items-center justify-content-center ">read more<ion-icon name="chevron-forward-outline" class="ps-3"></ion-icon></button>
+                    <button class="btn d-flex align-items-center justify-content-center "onclick="window.location.assign('pages/about.php?#about-mission')">read more<ion-icon name="chevron-forward-outline" class="ps-3"></ion-icon></button>
                 </div>
                 <div class="text-secondary p-4 about-card text-left mx-md-2 my-3 my-md-0 text-center">
                     <img src="assets/visionary.png" alt="" class="mb-4">
                     <h3 class="text-warning">Our Vision</h3>
                     <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quidem quisquam assumenda impedit perspiciatis mollitia, quaerat, saepe voluptatibus debitis eos quae sit. Consequatur impedit, odio expedita nulla facilis perferendis nobis.</p>
-                    <button class="btn d-flex align-items-center justify-content-center ">read more<ion-icon name="chevron-forward-outline" class="ps-3"></ion-icon></button>
+                    <button class="btn d-flex align-items-center justify-content-center "onclick="window.location.assign('pages/about.php?#about-vision')">read more<ion-icon name="chevron-forward-outline" class="ps-3"></ion-icon></button>
 
                 </div>
                 <div class="text-secondary p-4 about-card text-left mx-md-2 my-3 my-md-0 text-center">
                     <i class="fa fa-desktop" aria-hidden="true"></i><img src="assets/goal.png" alt="" class="mb-4">
                     <h3 class="text-danger">Our Goals</h3>
                     <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quidem quisquam assumenda impedit perspiciatis mollitia, quaerat, saepe voluptatibus debitis eos quae sit. Consequatur impedit, odio expedita nulla facilis perferendis nobis.</p>
-                    <button class="btn d-flex align-items-center justify-content-center ">read more<ion-icon name="chevron-forward-outline" class="ps-3"></ion-icon></button>
+                    <button class="btn d-flex align-items-center justify-content-center"onclick="window.location.assign('pages/about.php?#about-goals')">read more<ion-icon name="chevron-forward-outline" class="ps-3"></ion-icon></button>
                 </div>
             </div>
         </div>
     </section>
     <section id="programs" class="">
         <div class="container overflow-hidden">
-            <h2 class="mb-4 px-3  mb-5">Our Programs</h2>
+            <P>WHAT WE DO</P>
+            <h2 class="mb-4 serif mb-5fw-bold">OUR PROGRAMS</h2>
             <div id="programs-container" class="row gx-4 gy-3">
                 <div class="col-md-4">
                     <div class="programs-card">
@@ -122,7 +124,7 @@
                                     <ion-icon name="logo-twitter" class="fs-4 pe-4"></ion-icon>
                                 </div>
                             </p>
-                            <button class="btn d-flex justify-content-between align-items-center btn-outline-secondary">Read more <ion-icon class="ps-2" name="chevron-down-circle-outline"></ion-icon></button>
+                            <button class="btn d-flex justify-content-between align-items-center btn-outline-secondary" onclick="window.location.assign('pages/digital_rural.php')">Read more <ion-icon class="ps-2" name="chevron-down-circle-outline"></ion-icon></button>
                         </div>
                     </div>
                 </div>
@@ -161,8 +163,6 @@
                     </div>
                 </div>
 
-                <a href="#" class="my-md-5 text-secondary">
-                    <ion-icon class="px-2 text-secondary" name="extension-puzzle-outline"></ion-icon> See more programs</a>
             </div>
 
         </div>
@@ -277,8 +277,8 @@
     </section>
     <section id="Events" class="">
         <div class="container">
-        <p>Our Future Events</p>
-        <h2 class="fw-bold">UPCOMING EVENTS</h2>
+        <p>OUR EVENTS</p>
+        <h2 class="fw-bold serif fw-bold" >UPCOMING EVENTS</h2>
         <div id="events-body" class="py-4">
             <div class="row">
                 <div class="col-md-4 border-0">

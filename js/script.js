@@ -27,3 +27,20 @@ if(window.location.pathname == "/pages/about.php"){
         }
     }
 }
+if(window.location.pathname == "/pages/gallery.php"){
+    const imglikebtn = document.querySelectorAll(".imglike")
+    for (const x of imglikebtn) {
+        x.onclick= ()=>{
+            if(x.getAttribute('name')=="heart-outline"){
+                // it means the heart has not been clicked before
+                x.setAttribute('name', 'heart')
+                x.style.color = "red"
+            }else{
+                // means it has been clicked
+                x.setAttribute('name',"heart-outline")
+                x.style.color = "white"
+            }
+            
+        }
+    }
+}

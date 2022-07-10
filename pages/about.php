@@ -1,18 +1,18 @@
 <?php include("../includes/header.php") ?>
 <div class="page-head about-img">
-            <div class="container">
-                <h2 class="fw-bold">About Us</h2>
-                <p>Get to know us better</p>
-                <div class="breadcrumb mb-0">
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Library</li>
-                        </ol>
-                    </nav>
-                </div>
-            </div>
+    <div class="container">
+        <h2 class="fw-bold">About Us</h2>
+        <p>Get to know us better</p>
+        <div class="breadcrumb mb-0">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Library</li>
+                </ol>
+            </nav>
         </div>
+    </div>
+</div>
 <div id="about-group" class="py-5">
     <div class="d-flex flex-column flex-md-row container">
         <aside class="w-100 d-none d-md-block">

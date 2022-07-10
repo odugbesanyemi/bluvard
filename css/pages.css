@@ -64,3 +64,30 @@
     position: sticky;
     top: 40px;
 }
+.galleryimg-group{
+    position: relative;
+}
+.galleryimg-desc{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    font-size: 30px;
+    background-color: #050a30a2;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    opacity: 0;
+    transition: 0.5s ease;
+    flex-direction: column;
+    align-items: end;
+    backdrop-filter: blur(5px);
+}
+.galleryimg-group:hover .galleryimg-desc{
+    opacity: 1;
+}
+.contact-img img{
+    
+}
