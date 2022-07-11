@@ -7,20 +7,32 @@
     font-family: serif;
 }
 :root{
-    --headingbg: #050A30 ;
+    --primaryColor: #050A30 ;
+    --SecondaryColor: #050A30 ;
+    /* --tertiaryColor:;
+    --textHeader:;
+    --text */
 }
 .swiper {
     width: 600px;
     height: 300px;
 }
-
+h2{
+    font-family: serif;
+}
+h3{
+    font-size: 20px !important;
+}
+p{
+    font-weight: 300 !important;
+    font-size: 14px;
+}
 img {
     width: 100;
     object-fit: cover;
 }
 .heading{
-    background-color: #050A30 !important;
-    background-blend-mode: multiply;
+    background-color: #0c62c5 !important;
 }
 #news{
     background-color: rgba(220, 220, 220, 0.382);
@@ -103,12 +115,12 @@ body {
 }
 
 header {
-    background:linear-gradient(#050A30,#050A30), url("../assets/pexels-roman.jpg") ;
+    background:linear-gradient(180deg,#060d41,#1376e7be), url("../assets/pexels-roman.jpg") ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-blend-mode: multiply;
     position: relative;
+    /* background-blend-mode: multiply; */
 }
 
 .nav-brand {
@@ -236,6 +248,7 @@ section {
 
 #what-we-do h3 {
     color: #03045e;
+    
 }
 #what-we-do .about-img{
     width: 100%;

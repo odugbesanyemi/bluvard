@@ -79,7 +79,7 @@
             <h2 class="mb-4 serif fw-bold text-uppercase">ABOUT US</h2>
             <div class="d-flex align-items-center flex-column flex-lg-row">
                 <img src="assets/17.jpg" alt="" class="about-img">
-                <p class="px-4 fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, illum eligendi deleniti quis labore, molestiae id quidem rerum laboriosam recusandae sequi doloribus error eius neque consectetur! Ullam ipsa aspernatur molestiae. Lorem ipsum
+                <p class="px-0 px-md-5 fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, illum eligendi deleniti quis labore, molestiae id quidem rerum laboriosam recusandae sequi doloribus error eius neque consectetur! Ullam ipsa aspernatur molestiae. Lorem ipsum
                     dolor sit, amet consectetur adipisicing elit. Qui harum non sint, eligendi iure magnam distinctio odit id consequuntur deleniti, atque, labore nemo aperiam soluta nisi a adipisci ducimus illum.
                 </p>
             </div>
@@ -109,7 +109,7 @@
     <section id="programs" class="">
         <div class="container overflow-hidden">
             <P>WHAT WE DO</P>
-            <h2 class="mb-4 serif mb-5fw-bold">OUR PROGRAMS</h2>
+            <h2 class="mb-4 serif mb-5 fw-bold">OUR PROGRAMS</h2>
             <div id="programs-container" class="row gx-4 gy-3">
                 <div class="col-md-4">
                     <div class="programs-card">
