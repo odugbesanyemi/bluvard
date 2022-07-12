@@ -77,7 +77,6 @@ img {
         box-sizing: border-box;
         margin-top:30px;
         transition: 2s ease;
-        border: rgba(255, 255, 255, 0.092) 1px solid;
         box-shadow: 0 15px 25px #0000002a ;
     }
     .nav-link{
@@ -116,7 +115,8 @@ body {
 }
 
 header {
-    background:linear-gradient(180deg,#060d41,#1376e7be), url("../assets/pexels-roman.jpg") ;
+    background: radial-gradient();
+    background:radial-gradient(ellipse at bottom,#e2efff68,#1376e7be) ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -404,7 +404,7 @@ footer a{
 }
 .newsletter-form {
     background-color: rgba(255, 255, 255, 0.155);
-    border-radius: 50px;
+    /* border-radius: 50px; */
     padding: 10px 15px;
 }
 .newsletter-form .form-control{
@@ -413,7 +413,7 @@ footer a{
     color:white !important;
 }
 .newsletter-form button{
-    border-radius: 50px;
+    border-radius: 5px;
     background-color: #00054d;
     color: white;
     font-size: 10px;
