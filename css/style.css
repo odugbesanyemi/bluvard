@@ -9,6 +9,7 @@
 :root{
     --primaryColor: #050A30 ;
     --SecondaryColor: #050A30 ;
+    --footer:#0c62c5;
     /* --tertiaryColor:;
     --textHeader:;
     --text */
@@ -371,7 +372,7 @@ section {
     height: 500px;
 }
 footer{
-    background-color: #050A30;
+    background-color: var(--footer);
 }
 footer ul{
     list-style-type: none;
@@ -398,7 +399,8 @@ footer a{
 }
 .footer-under p{
     margin-bottom: 0;
-    color: rgba(255, 255, 255, 0.289);
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.556);
 }
 .newsletter-form {
     background-color: rgba(255, 255, 255, 0.155);
