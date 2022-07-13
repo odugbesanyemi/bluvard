@@ -26,8 +26,17 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ms-auto">
                         <a class="nav-link active mx-md-2" aria-current="page" href="../index.php">Home</a>
-                        <a class="nav-link" href="../pages/about.php">About Us</a>
-                        <a class="nav-link" href="../pages/event.php">Events</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="../pages/projects.php?digital_rural">Digital Rural</a></li>
+                                <li><a class="dropdown-item" href="../pages/projects.php?girls_in_tech">Girls in Tech</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="../pages/events.php">New</a></li>
+                            </ul>
+                        </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Our Projects</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -39,6 +48,7 @@
                                 <li><a class="dropdown-item" href="../pages/events.php">New</a></li>
                             </ul>
                         </li>
+                        <a class="nav-link" href="../pages/event.php">Events</a>
                         <a class="nav-link" href="../pages/gallery.php">Gallery</a>
                         <a class="nav-link" href="../pages/contact.php">contact Us</a>
                     </div>
@@ -82,7 +92,7 @@
                     dolor sit, amet consectetur adipisicing elit. Qui harum non sint, eligendi iure magnam distinctio odit id consequuntur deleniti, atque, labore nemo aperiam soluta nisi a adipisci ducimus illum.
                 </p>
             </div>
-            <div id="what-we-do-group" class="d-flex flex-column flex-md-row p-4 mx-md-0 px-md-0">
+            <!-- <div id="what-we-do-group" class="d-flex flex-column flex-md-row p-4 mx-md-0 px-md-0">
                 <div class="text-secondary p-4 about-card text-left mx-md-2 my-3 my-md-0 text-center">
                     <img src="assets/mission.png" alt="" class="mb-4">
                     <h3 class="text-success">Our Mission</h3>
@@ -102,7 +112,7 @@
                     <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quidem quisquam assumenda impedit perspiciatis mollitia, quaerat, saepe voluptatibus debitis eos quae sit. Consequatur impedit, odio expedita nulla facilis perferendis nobis.</p>
                     <button class="btn d-flex align-items-center justify-content-center"onclick="window.location.assign('pages/about.php?#about-goals')">read more<ion-icon name="chevron-forward-outline" class="ps-3"></ion-icon></button>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
     <section id="programs" class="">
@@ -281,34 +291,41 @@
         <div id="events-body" class="py-4">
             <div class="row">
                 <div class="col-md-4 border-0">
-                    <div class="event-img">
-                        <img src="assets/projectdigitalrural.jpg" alt="" class="w-100 rounded">
-                    </div>
-                    <div class="event-body py-4 px-2">
-                        <h3 class="">Visit To Motherless Homes</h3>
-                        <p class="d-flex align-items-center"><ion-icon name="time-outline" class="me-2"></ion-icon>24th June, 2022</p>
-                        <p class="d-flex align-items-center"><ion-icon name="location-outline" class="me-2"></ion-icon>Charaton Hotel & Suites,Lagos</p>
+                    <div class="bg-white">
+                        <div class="event-img">
+                            <img src="assets/projectdigitalrural.jpg" alt="" class="w-100">
+                        </div>
+                        <div class="event-body py-4 px-4">
+                            <h3 class="">Visit To Motherless Homes</h3>
+                            <p class="d-flex align-items-center"><ion-icon name="time-outline" class="me-2"></ion-icon>24th June, 2022</p>
+                            <p class="d-flex align-items-center"><ion-icon name="location-outline" class="me-2"></ion-icon>Charaton Hotel & Suites,Lagos</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-4 border-0">
-                    <div class="event-img">
-                        <img src="assets/projectdigitalrural.jpg" alt="" class="w-100 rounded">
-                    </div>
-                    <div class="event-body py-4 px-2">
-                        <h3 class="">Visit To Motherless Homes</h3>
-                        <p class="d-flex align-items-center"><ion-icon name="time-outline" class="me-2"></ion-icon>24th June, 2022</p>
-                        <p class="d-flex align-items-center"><ion-icon name="location-outline" class="me-2"></ion-icon>Charaton Hotel & Suites,Lagos</p>
+                    <div class="bg-white">
+                        <div class="event-img">
+                            <img src="assets/projectdigitalrural.jpg" alt="" class="w-100">
+                        </div>
+                        <div class="event-body py-4 px-4">
+                            <h3 class="">Visit To Motherless Homes</h3>
+                            <p class="d-flex align-items-center"><ion-icon name="time-outline" class="me-2"></ion-icon>24th June, 2022</p>
+                            <p class="d-flex align-items-center"><ion-icon name="location-outline" class="me-2"></ion-icon>Charaton Hotel & Suites,Lagos</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4 ">
-                    <div class="event-img">
-                        <img src="assets/projectdigitalrural.jpg" alt="" class="w-100 rounded">
+                <div class="col-md-4">
+                    <div class="bg-white">
+                        <div class="event-img">
+                            <img src="assets/projectdigitalrural.jpg" alt="" class="w-100">
+                        </div>
+                        <div class="event-body py-4 px-4">
+                            <h3 class="">Visit To Motherless Homes</h3>
+                            <p class="d-flex align-items-center"><ion-icon name="time-outline" class="me-2"></ion-icon>24th June, 2022</p>
+                            <p class="d-flex align-items-center"><ion-icon name="location-outline" class="me-2"></ion-icon>Charaton Hotel & Suites,Lagos</p>
+                        </div>
                     </div>
-                    <div class="event-body py-4 px-2">
-                        <h3 class="">Visit To Motherless Homes</h3>
-                        <p class="d-flex align-items-center"><ion-icon name="time-outline" class="me-2"></ion-icon>24th June, 2022</p>
-                        <p class="d-flex align-items-center"><ion-icon name="location-outline" class="me-2"></ion-icon>Charaton Hotel & Suites,Lagos</p>
-                    </div>
+
                 </div>
             </div>
             <a href="#" class="my-3 d-flex align align-items-center">see more events <ion-icon name="arrow-forward-outline" class="ms-4"></ion-icon></a>

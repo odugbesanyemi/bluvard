@@ -7,7 +7,7 @@
     background-blend-mode: multiply;
 }
 .about-img{
-    background:linear-gradient(rgba(0, 0, 0, 0.801),#050A30), url("../assets/IMG-20211222-WA0015.jpg");
+    background:linear-gradient(rgba(18, 140, 253, 0.801),#1328cc), url("../assets/IMG-20211222-WA0015.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }

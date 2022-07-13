@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark  heading">
+    <nav class="navbar navbar-expand-lg navbar-dark  heading py-0">
         <div class="container">
             <a href="../index.php">
                 <div class="navbar-brand d-flex align-items-center"><img src="../assets/bluvard2.svg" alt="" width="80">
@@ -33,8 +33,19 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
                     <a class="nav-link active mx-md-2" aria-current="page" href="../index.php">Home</a>
-                    <a class="nav-link" href="../pages/about.php">About Us</a>
-                    <a class="nav-link" href="../pages/event.php">Events</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="../pages/digital_rural.php">Our Team</a></li>
+                            <li><a class="dropdown-item" href="../pages/projects.php?girls_in_tech">Girls in Tech</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="../pages/events.php">New</a></li>
+                        </ul>
+                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">Our Projects</a>
@@ -48,14 +59,18 @@
                             <li><a class="dropdown-item" href="../pages/events.php">New</a></li>
                         </ul>
                     </li>
+                    <a class="nav-link" href="../pages/event.php">Events</a>
                     <a class="nav-link" href="../pages/gallery.php">Gallery</a>
                     <a class="nav-link" href="../pages/contact.php">contact Us</a>
                 </div>
                 <div id="nav-btn" class="ms-auto">
-                    <a href="../pages/volunteer.php"><button type="button"
-                            class="btn btn-primary ms-3 d-flex justify-content-between align-items-center"
-                            id="volunteerBtn">Become a volunteer <ion-icon class="ps-2" name="help-buoy-outline">
-                            </ion-icon></button></a>
+                    <a href="../pages/volunteer.php">
+                        <button type="button"
+                            class="btn btn-primary  d-flex justify-content-between align-items-center "
+                            id="volunteerBtn">Become a volunteer 
+                            <ion-icon class="ps-2" name="help-buoy-outline">
+                            </ion-icon>
+                        </button></a>
                 </div>
             </div>
         </div>
