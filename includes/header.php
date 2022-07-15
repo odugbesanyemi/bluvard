@@ -11,6 +11,7 @@
     <title>Bluvard Education Initiative- Bridging the Education Divide</title>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/pages.css">
+    <link rel="shortcut icon" href="../assets/logos/BLUVARD_FAVICON.svg" type="image/x-icon">
     <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
     <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -37,13 +38,9 @@
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="../pages/digital_rural.php">Our Team</a></li>
-                            <li><a class="dropdown-item" href="../pages/projects.php?girls_in_tech">Girls in Tech</a>
+                            <li><a class="dropdown-item" href="../pages/about.php">The Organisation</a></li>
+                            <li><a class="dropdown-item" href="../pages/about.php#about-team">Our Team</a>
                             </li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="../pages/events.php">New</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">

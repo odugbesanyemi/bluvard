@@ -8,6 +8,7 @@
     <meta name="description" content="Bluvard is a youth led organisation focused on bridging the education divide through non-conventional learning strategies for children in rural communities.">
     <title>Bluvard Education Initiative- Bridging the Education Divide</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="assets/logos/BLUVARD_FAVICON.svg" type="image/x-icon">
     <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
     <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -17,8 +18,8 @@
     <header class="py-4">
         <nav class="navbar navbar-expand-lg bg-none navbar-dark container">
             <div class="container">
-                <div class="navbar-brand d-flex align-items-center"><img src="assets/bluvard2.svg" alt="" width="80">
-                    <p class="ps-3 fw-bold text-white mb-0"><small> BLUVARD</small> </p>
+                <div class="navbar-brand d-flex align-items-center"><img src="assets/logos/Bluvard_svg_logo.svg" alt="" width="80">
+                    <p class="ps-3 fw-bold text-white mb-0"><small> Bluvard Education Initiative</small> </p>
                 </div>
                 <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -29,12 +30,8 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="../pages/projects.php?digital_rural">Digital Rural</a></li>
-                                <li><a class="dropdown-item" href="../pages/projects.php?girls_in_tech">Girls in Tech</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="../pages/events.php">New</a></li>
+                                <li><a class="dropdown-item" href="pages/about.php">The organisation</a></li>
+                                <li><a class="dropdown-item" href="pages/about.php#about-team">Our Team</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -42,10 +39,6 @@
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="../pages/projects.php?digital_rural">Digital Rural</a></li>
                                 <li><a class="dropdown-item" href="../pages/projects.php?girls_in_tech">Girls in Tech</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="../pages/events.php">New</a></li>
                             </ul>
                         </li>
                         <a class="nav-link" href="../pages/event.php">Events</a>
@@ -69,7 +62,7 @@
             <div id="hero-content">
                 <h1 id="hero-caption" class=""> Finding <span style="color:yellow;">Gems</span> in the rough</h1>
                 <span id="brush"></span>
-                <p class="fs-5">Join us in our quest to bridge the education divide. support a child today</p>
+                <p class="">Join us in our quest to bridge the education divide. support a child today</p>
                 <div>
                     <button class="btn btn-primary btn-lg d-flex justify-content-between align-items-center"onclick="window.location.assign('pages/about.php')">Learn more <ion-icon class="ps-2" name="chevron-down-circle-outline"></ion-icon></button>
                 </div>
@@ -84,13 +77,17 @@
     </header>
     <section id="about">
         <div id="what-we-do" class="container">
-            <p>WHO WE ARE</p>
-            <h2 class="mb-4 serif fw-bold text-uppercase">ABOUT US</h2>
+            <h2 class="mb-4 fw-bold fs-1">The Problem</h2>
+            <p class="fs-5">
+                Many limited resource youth have poor health skills and limited knowledge of the relationship of health practices and health status. EFNEP curriculum has the materials that enable     these youth to easily learn basic nutrition, health and food safety skills. A limited amount of EFNEP paraprofessional time is devoted to teaching these skills.
+            </p>
             <div class="d-flex align-items-center flex-column flex-lg-row">
-                <img src="assets/17.jpg" alt="" class="about-img">
-                <p class="px-0 px-md-5 fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, illum eligendi deleniti quis labore, molestiae id quidem rerum laboriosam recusandae sequi doloribus error eius neque consectetur! Ullam ipsa aspernatur molestiae. Lorem ipsum
-                    dolor sit, amet consectetur adipisicing elit. Qui harum non sint, eligendi iure magnam distinctio odit id consequuntur deleniti, atque, labore nemo aperiam soluta nisi a adipisci ducimus illum.
-                </p>
+                <img src="assets/pexels-dazzle-jam-1029783.jpg" alt="" class="about-img">
+                <div class="px-0 px-md-5">
+                    <h2>What We did?</h2>
+                    <p class=" fs-5 ">An EFNEP paraprofessional time taught 740 youth basic nutrition skills. 96% of these youth were elementary age. Four percent were teens. These youth were taught in 28 groups with each group averaging six 45 minutes lessons. These youth could all be considered high risk intercity children as they all were residents of housing projects in inner-city Jackson.</p>
+                </div>
+
             </div>
             <!-- <div id="what-we-do-group" class="d-flex flex-column flex-md-row p-4 mx-md-0 px-md-0">
                 <div class="text-secondary p-4 about-card text-left mx-md-2 my-3 my-md-0 text-center">
@@ -179,8 +176,8 @@
     </section>
     <section id="learnmore">
         <div class="text-center container">
-            <p class="fs-6">WE WELCOME YOU TO LEARN ABOUT US</p>
-            <h3 class="fs-1 mb-4 fw-bolder serif">WE WOULD BE HAPPY TO HEAR FROM YOU</h3>
+            <p class="text-center">WE WELCOME YOU TO LEARN ABOUT US</p>
+            <h3 class="fs-1 mb-4 ">We would be happy to hear from you.</h3>
             <button class="btn btn-primary px-4 py-3 mt-4">Contact Us</button>
         </div>
     </section>
@@ -207,10 +204,8 @@
                         <div class="news-bottom my-4 px-3 d-flex flex-column justify-content-around">
                             <div class="d-flex flex-row justify-content-between">
                                 <div>
-                                    <ion-icon name="calendar-outline" class="pe-2"></ion-icon> 25th May, 2022
+                                    <ion-icon name="calendar-outline" class="pe-2 mb-0"></ion-icon> 25th May, 2022
                                 </div>
-                                <div>
-                                    <ion-icon name="bookmark-outline" class="pe-2"></ion-icon>Digital Rural</div>
                             </div>
                             <h4 class="fs-2">Tecxha partners with Bluvard Education Initiative</h4>
                             <p>Read more</p>
@@ -228,10 +223,8 @@
                         <div class="news-bottom my-4 px-3 d-flex flex-column justify-content-around">
                             <div class="d-flex flex-row justify-content-between">
                                 <div>
-                                    <ion-icon name="calendar-outline" class="pe-2"></ion-icon> 25th May, 2022
+                                    <ion-icon name="calendar-outline" class="pe-2 mb-0"></ion-icon> 25th May, 2022
                                 </div>
-                                <div>
-                                    <ion-icon name="bookmark-outline" class="pe-2"></ion-icon>Digital Rural</div>
                             </div>
                             <h4 class="fs-2">The Girl Child future</h4>
                             <p>Read more</p>
@@ -250,10 +243,8 @@
                         <div class="news-bottom my-4 px-3 d-flex flex-column justify-content-around">
                             <div class="d-flex flex-row justify-content-between">
                                 <div>
-                                    <ion-icon name="calendar-outline" class="pe-2"></ion-icon> 25th May, 2022
+                                    <ion-icon name="calendar-outline" class="pe-2 mb-0"></ion-icon> 25th May, 2022
                                 </div>
-                                <div>
-                                    <ion-icon name="bookmark-outline" class="pe-2"></ion-icon>Digital Rural</div>
                             </div>
                             <h4 class="fs-2">Tecxha partners with Bluvard</h4>
                             <p>Read more</p>
@@ -271,10 +262,8 @@
                         <div class="news-bottom my-4 px-3 d-flex flex-column justify-content-around">
                             <div class="d-flex flex-row justify-content-between">
                                 <div>
-                                    <ion-icon name="calendar-outline" class="pe-2"></ion-icon> 25th May, 2022
+                                    <ion-icon name="calendar-outline" class="pe-2 mb-0" ></ion-icon> 25th May, 2022
                                 </div>
-                                <div>
-                                    <ion-icon name="bookmark-outline" class="pe-2"></ion-icon>Digital Rural</div>
                             </div>
                             <h4 class="fs-2">The Girl Child future</h4>
                             <p>Read more</p>
@@ -289,7 +278,7 @@
         <p>OUR EVENTS</p>
         <h2 class="fw-bold serif fw-bold" >UPCOMING EVENTS</h2>
         <div id="events-body" class="py-4">
-            <div class="row">
+            <div class="row gy-3">
                 <div class="col-md-4 border-0">
                     <div class="bg-white">
                         <div class="event-img">
@@ -297,7 +286,7 @@
                         </div>
                         <div class="event-body py-4 px-4">
                             <h3 class="">Visit To Motherless Homes</h3>
-                            <p class="d-flex align-items-center"><ion-icon name="time-outline" class="me-2"></ion-icon>24th June, 2022</p>
+                            <p class="d-flex align-items-center mb-0"><ion-icon name="time-outline" class="me-2 mb-0"></ion-icon>24th June, 2022</p>
                             <p class="d-flex align-items-center"><ion-icon name="location-outline" class="me-2"></ion-icon>Charaton Hotel & Suites,Lagos</p>
                         </div>
                     </div>
@@ -309,7 +298,7 @@
                         </div>
                         <div class="event-body py-4 px-4">
                             <h3 class="">Visit To Motherless Homes</h3>
-                            <p class="d-flex align-items-center"><ion-icon name="time-outline" class="me-2"></ion-icon>24th June, 2022</p>
+                            <p class="d-flex align-items-center mb-0"><ion-icon name="time-outline" class="me-2 mb-0"></ion-icon>24th June, 2022</p>
                             <p class="d-flex align-items-center"><ion-icon name="location-outline" class="me-2"></ion-icon>Charaton Hotel & Suites,Lagos</p>
                         </div>
                     </div>
@@ -321,7 +310,7 @@
                         </div>
                         <div class="event-body py-4 px-4">
                             <h3 class="">Visit To Motherless Homes</h3>
-                            <p class="d-flex align-items-center"><ion-icon name="time-outline" class="me-2"></ion-icon>24th June, 2022</p>
+                            <p class="d-flex align-items-center mb-0"><ion-icon name="time-outline" class="me-2 mb-0"></ion-icon>24th June, 2022</p>
                             <p class="d-flex align-items-center"><ion-icon name="location-outline" class="me-2"></ion-icon>Charaton Hotel & Suites,Lagos</p>
                         </div>
                     </div>
