@@ -18,27 +18,26 @@
             <div class="footer-quicklinks w-100 mb-3 mb-md-0">
                 <ul class="text-start text-md-start">
                     <h4>Quick Links </h4>
-                    <li> <a href="#">Home</a></li>
-                    <li> <a href="#">About us</a></li>
-                    <li> <a href="#">Our Programs</a></li>
-                    <li> <a href="#">Contact Us</a></li>
-                    <li> <a href="#">Our Gallery</a></li>
+                    <li> <a href="../index.php">Home</a></li>
+                    <li> <a href="../pages/about.php">About us</a></li>
+                    <li> <a href="../pages/projects.php">Our Programs</a></li>
+                    <li> <a href="../pages/contact.php">Contact Us</a></li>
+                    <li> <a href="../pages/gallery.php">Our Gallery</a></li>
                 </ul>
             </div>
             <div class="footer-ourlinks w-100 mb-3 mb-md-0">
                 <ul class="text-start text-md-start">
                     <h4>Our Links </h4>
-                    <li> <a href="#">Become a Volunteer</a></li>
-                    <li> <a href="#">Upcoming Events</a></li>
-                    <li> <a href="#">Ongoing Programs</a></li>
+                    <li> <a href="../pages/volunteer.php">Become a Volunteer</a></li>
+                    <li> <a href="../pages/event.php?category=upcoming">Upcoming Events</a></li>
+                    <li> <a href="../pages/event.php?category=upcoming">Ongoing Programs</a></li>
                     <li> <a href="#">Become a sponsor</a></li>
-
                 </ul>
             </div>
             <div class="footer-newsletter w-100 mb-3 mb-md-0">
                 <ul class="text-start text-md-start">
                     <h4>Newsletter</h4>
-                    <p>Subscribe to get latest news and information on our programs,special offers and lifetime deals
+                    <p class="text-white my-3">Subscribe to get latest news and information on our programs,special offers and lifetime deals
                     </p>
                     <form action="#" class="">
                         <div class="newsletter-form mb-3">

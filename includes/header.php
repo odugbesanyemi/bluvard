@@ -19,11 +19,11 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark  heading py-0">
+    <nav class="navbar navbar-expand-lg navbar-dark  heading py-3">
         <div class="container">
             <a href="../index.php">
-                <div class="navbar-brand d-flex align-items-center"><img src="../assets/bluvard2.svg" alt="" width="80">
-                    <p class="ps-3 fw-bold text-white mb-0"><small> BLUVARD</small> </p>
+                <div class="navbar-brand d-flex align-items-center"><img src="../assets/logos/Bluvard_svg_logo.svg" alt="" width="50">
+                    <p class="ps-3 fw-bold text-white mb-0">Bluvard Education Initiative</p>
                 </div>
             </a>
             <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
@@ -40,6 +40,7 @@
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="../pages/about.php">The Organisation</a></li>
                             <li><a class="dropdown-item" href="../pages/about.php#about-team">Our Team</a>
+                            <li><a class="dropdown-item" href="../pages/blog.php">Blog</a>
                             </li>
                         </ul>
                     </li>

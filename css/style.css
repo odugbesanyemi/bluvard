@@ -9,7 +9,7 @@
 :root{
     --primaryColor: #050A30 ;
     --SecondaryColor: #050A30 ;
-    --footer:#0c62c5;
+    --footer:#1328e7ec;
     /* --tertiaryColor:;
     --textHeader:;
     --text */
@@ -127,7 +127,7 @@ body {
 }
 
 header {
-    background: linear-gradient(0deg,#1376e7be,#1376e7be),url('../assets/crumpled-white-paperboard.jpg'),url('../assets/DSC_1491.jpg');
+    background: linear-gradient(0deg,#1328e7ec,#1328e7ec),url('../assets/DSC_1491.jpg');
     /* background-blend-mode:multiply ; */
     background-size: cover;
     background-position: center;
@@ -191,11 +191,11 @@ header {
     color: #ffffff53;
 }
 #header-icon-stack{
-    background-color: #f1f2ff16;
+    background-color: #180874;
     border-radius:0 30px 30px 0;
     padding: 0 15px;
-    color: #00021a81;
-    border: rgba(93, 136, 255, 0.075) 1px solid;
+    color: #ffffffb2;
+    border: rgba(255, 255, 255, 0.075) 1px solid;
     box-shadow: 0 0 10px#e7e9ff0d ;
     position: absolute;
     left: 0;

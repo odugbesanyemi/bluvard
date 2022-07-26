@@ -18,8 +18,8 @@
     <header class="py-4">
         <nav class="navbar navbar-expand-lg bg-none navbar-dark container">
             <div class="container">
-                <div class="navbar-brand d-flex align-items-center"><img src="assets/logos/Bluvard_svg_logo.svg" alt="" width="80">
-                    <p class="ps-3 fw-bold text-white mb-0"><small> Bluvard Education Initiative</small> </p>
+                <div class="navbar-brand d-flex align-items-center"><img src="assets/logos/Bluvard_svg_logo.svg" alt="" width="50">
+                    <p class="ps-3 fw-bold text-white mb-0" onclick="window.location.assign('#')">Bluvard Education Initiative</p>
                 </div>
                 <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -32,6 +32,7 @@
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="pages/about.php">The organisation</a></li>
                                 <li><a class="dropdown-item" href="pages/about.php#about-team">Our Team</a></li>
+                                <li><a class="dropdown-item" href="pages/blog.php">Blog</a>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -187,7 +188,7 @@
             <div class="d-flex flex-column flex-md-row justify-content-between">
                 <h2 class="fw-bold serif">VISIT OUR INSIGHTS AND LATEST NEWS</h2>
                 <p>
-                    <a href="#">Visit our blog  <ion-icon name="arrow-forward-outline" class="ms-4"></ion-icon></a>
+                    <a href="pages/blog.php">Visit our blog  <ion-icon name="arrow-forward-outline" class="ms-4"></ion-icon></a>
                 </p>
             </div>
             <div id="blog-extract" class="my-5">

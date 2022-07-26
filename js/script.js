@@ -44,3 +44,21 @@ if(window.location.pathname == "/pages/gallery.php"){
         }
     }
 }
+
+// 
+if(window.location.pathname == "/pages/blog.php" || window.location.pathname =="/pages/blog-posts.php"){
+    var head = document.getElementsByTagName('HEAD')[0];
+    console.log(head)
+    // Create new link Element
+    var link = document.createElement('link');
+
+    // set the attributes for link element
+    link.rel = 'stylesheet';
+ 
+    link.type = 'text/css';
+ 
+    link.href = '../css/templatemo-stand-blog.css';
+
+    // Append link element to HTML head
+    head.appendChild(link);
+}

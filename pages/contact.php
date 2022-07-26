@@ -18,20 +18,25 @@
         <div class="d-flex align-items-center flex-column flex-md-row">
             <form action="#" class="text-start w-100 container">
                 <div class="form-head mb-5">                
-                    <h3 class="fw-bold">Lets Meet you</h3>
+                    <h2 class="fw-bold">SEND US A MESSAGE</h2>
                     <p>We are online 24/7 we respond almost immediately</p>
                 </div>
-                <div class="form-group">
-                    <input type="text" name="" id="name" placeholder="Full Name" class="border-0 p-4 w-100 mb-3">
+                <div class="form-group row gx-2">
+                    <div class="col-md-6"><input type="text" name="" id="name" placeholder="Full Name" class="border p-4 w-100 mb-3 "></div>
+                    <div class="col-md-6"><input type="email" name="" id="name" placeholder="Email Address" class="border p-4 w-100 mb-3"></div>
                 </div>
                 <div class="form-group">
-                    <input type="email" name="" id="name" placeholder="Email Address" class="border-0 p-4 w-100 mb-3">
+                    <input type="tel" name="" id="name" placeholder="Mobile Number" class="border p-4 w-100 mb-3">
+                </div>
+                <div class="form-group"> 
+                    <input type="text" name="" id="msg_subject" placeholder="Message Subject" class="border p-4 w-100 mb-3">
+                </div>
+
+                <div class="form-group"> 
+                    <Textarea placeholder="Your Message" class="p-4 mb-3 w-100 border"></Textarea>
                 </div>
                 <div class="form-group">
-                    <input type="tel" name="" id="name" placeholder="Mobile Number" class="border-0 p-4 w-100 mb-3">
-                </div>
-                <div class="form-group">
-                    <input type="submit" value="Submit" class="border-0 p-4 mb-3 bg-warning w-100">
+                    <input type="submit" value="Submit" class="border p-4 mb-3 bg-warning w-100">
                 </div>
             </form>
             <div class="contact-img">
