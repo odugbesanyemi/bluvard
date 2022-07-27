@@ -68,7 +68,7 @@ if (isset($_SESSION['logged_in'])){
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="authors.php">
               <i class="bi bi-bar-chart"></i> Authors
             </a>
           </li>
@@ -81,6 +81,11 @@ if (isset($_SESSION['logged_in'])){
           <li class="nav-item">
             <a class="nav-link" href="#">
               <i class="bi bi-bookmarks"></i> Events
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="bi bi-bookmarks"></i> Newsletters
             </a>
           </li>
           <li class="nav-item">

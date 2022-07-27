@@ -34,7 +34,7 @@ if (isset($_SESSION['logged_in'])){
                     <form method="post" action="script/login.php">
                         <div class="mb-5">
                             <label class="form-label" for="username">Username</label>
-                            <input type="text" class="form-control" id="username" placeholder="Username" name="email"
+                            <input type="text" class="form-control" id="username" placeholder="Username" name="username"
                                 required>
                         </div>
                         <div class="mb-5">
