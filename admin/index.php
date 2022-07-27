@@ -4,7 +4,7 @@ session_start();
 if (isset($_SESSION['logged_in'])){
     // redirect to index.php
 } else{
-    header('location:admin/auth.php');
+    header('location:auth.php');
 }
 include('includes/adminheader.php') 
 ?>
