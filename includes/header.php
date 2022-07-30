@@ -22,7 +22,8 @@
     <nav class="navbar navbar-expand-lg navbar-dark  heading py-3">
         <div class="container">
             <a href="../index.php">
-                <div class="navbar-brand d-flex align-items-center"><img src="../assets/logos/Bluvard_svg_logo.svg" alt="" width="50">
+                <div class="navbar-brand d-flex align-items-center"><img src="../assets/logos/Bluvard_svg_logo.svg"
+                        alt="" width="50">
                     <p class="ps-3 fw-bold text-white mb-0">Bluvard Education Initiative</p>
                 </div>
             </a>
@@ -33,7 +34,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
-                    <a class="nav-link active mx-md-2" aria-current="page" href="../index.php">Home</a>
+                    <a class="nav-link  mx-md-2" aria-current="page" href="../index.php">Home</a>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
@@ -65,7 +66,7 @@
                     <a href="../pages/volunteer.php">
                         <button type="button"
                             class="btn btn-primary  d-flex justify-content-between align-items-center "
-                            id="volunteerBtn">Become a volunteer 
+                            id="volunteerBtn">Become a volunteer
                             <ion-icon class="ps-2" name="help-buoy-outline">
                             </ion-icon>
                         </button></a>

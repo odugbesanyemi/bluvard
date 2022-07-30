@@ -3,7 +3,7 @@
         <div class="d-flex flex-column flex-md-row w-100 py-md-5 pb-0 py-5">
             <div class="footer-about w-100 mb-3 mb-md-0">
                 <ul class="text-left text-md-start">
-                    <img src="../assets/bluvard2.svg" width="125" alt="">
+                    <img src="../assets/logos/Bluvard_svg_logo.svg" class="w-25" alt="">
                     <h4 class="pt-4 fs-5">Bluvard</h4>
                     <h5 class="fs-6 fw-light">Education Initiative</h5>
                     <div id="icon-stack"
@@ -37,7 +37,8 @@
             <div class="footer-newsletter w-100 mb-3 mb-md-0">
                 <ul class="text-start text-md-start">
                     <h4>Newsletter</h4>
-                    <p class="text-white my-3">Subscribe to get latest news and information on our programs,special offers and lifetime deals
+                    <p class="text-white my-3">Subscribe to get latest news and information on our programs,special
+                        offers and lifetime deals
                     </p>
                     <form action="#" class="">
                         <div class="newsletter-form mb-3">
@@ -56,8 +57,8 @@
         </div>
     </div>
     <div class="footer-under">
-        <div class="container py-3 text-center">
-            <p>Copyright &copy; 2022 Bluvard Education Initiative </p>
+        <div class="container py-3 text-center text-center">
+            <p class="text-center">Copyright &copy; 2022 Bluvard Education Initiative </p>
         </div>
 
     </div>
