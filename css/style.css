@@ -384,7 +384,7 @@ section {
     color: white;
 }
 footer{
-    background-color: var(--footer);
+    background-color: #00043f;
 }
 footer ul{
     list-style-type: none;
@@ -403,7 +403,7 @@ footer li:hover a{
     color: white;
 }
 footer a{
-    color: rgba(255, 255, 255, 0.334) !important;
+    color: rgba(255, 255, 255, 0.716) !important;
 }
 .footer-under{
     background-color: #00043f;

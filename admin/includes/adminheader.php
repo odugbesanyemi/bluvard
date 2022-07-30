@@ -74,12 +74,6 @@ if (isset($_SESSION['logged_in'])){
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">
-              <i class="bi bi-chat"></i> Messages
-              <span class="badge bg-soft-primary text-primary rounded-pill d-inline-flex align-items-center ms-auto">6</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
               <i class="bi bi-bookmarks"></i> Events
             </a>
           </li>
