@@ -1,16 +1,15 @@
 <?php include("../includes/header.php") ?>
-<div class="page-head about-img">
-    <div class="container">
-        <h2 class="fw-bold">Donec tincidunt leo</h2>
-        <div class="breadcrumb mb-0">
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Contact us</li>
-                </ol>
-            </nav>
-        </div>
+<div class="container">
+    <h2 class="fw-bold">Donec tincidunt leo</h2>
+    <div class="breadcrumb mb-0">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Contact us</li>
+            </ol>
+        </nav>
     </div>
+</div>
 </div>
 
 

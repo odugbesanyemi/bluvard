@@ -1,18 +1,18 @@
 <?php include("../includes/header.php") ?>
 <!-- END OF HEADER -->
-<div class="page-head about-img">
-    <div class="container">
-        <h2 class="fw-bold">RECENT POSTS</h2>
-        <p>Our recent blog entries</p>
-        <div class="breadcrumb mb-0">
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Contact us</li>
-                </ol>
-            </nav>
-        </div>
+
+<div class="container">
+    <h2 class="fw-bold">RECENT POSTS</h2>
+    <p>Our recent blog entries</p>
+    <div class="breadcrumb mb-0">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Contact us</li>
+            </ol>
+        </nav>
     </div>
+</div>
 </div>
 <section class="blog-posts grid-system">
     <div class="container">

@@ -19,58 +19,56 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark  heading py-3">
-        <div class="container">
-            <a href="../index.php">
-                <div class="navbar-brand d-flex align-items-center"><img src="../assets/logos/Bluvard_svg_logo.svg"
-                        alt="" width="50">
-                    <p class="ps-3 fw-bold text-white mb-0">Bluvard Education Initiative</p>
-                </div>
-            </a>
-            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ms-auto">
-                    <a class="nav-link  mx-md-2" aria-current="page" href="../index.php">Home</a>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="../pages/about.php">The Organisation</a></li>
-                            <li><a class="dropdown-item" href="../pages/about.php#about-team">Our Team</a>
-                            <li><a class="dropdown-item" href="../pages/blog.php">Blog</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">Our Projects</a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="../pages/digital_rural.php">Digital Rural</a></li>
-                            <li><a class="dropdown-item" href="../pages/projects.php?girls_in_tech">Girls in Tech</a>
-                            </li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="../pages/events.php">New</a></li>
-                        </ul>
-                    </li>
-                    <a class="nav-link" href="../pages/event.php">Events</a>
-                    <a class="nav-link" href="../pages/gallery.php">Gallery</a>
-                    <a class="nav-link" href="../pages/contact.php">contact Us</a>
-                </div>
-                <div id="nav-btn" class="ms-auto">
-                    <a href="../pages/volunteer.php">
-                        <button type="button"
-                            class="btn btn-primary  d-flex justify-content-between align-items-center "
-                            id="volunteerBtn">Become a volunteer
-                            <ion-icon class="ps-2" name="help-buoy-outline">
-                            </ion-icon>
-                        </button></a>
+    <div class="page-head about-img">
+        <nav class="navbar navbar-expand-md navbar-dark  heading">
+            <div class="container">
+                <a href="../index.php">
+                    <div class="navbar-brand d-flex align-items-center"><img src="../assets/logos/Bluvard_svg_logo.svg"
+                            alt="" width="50">
+                        <p class="ps-3 fw-bold text-white mb-0">Bluvard Education Initiative</p>
+                    </div>
+                </a>
+                <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link  mx-md-2" aria-current="page" href="../index.php">Home</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="../pages/about.php">The Organisation</a></li>
+                                <li><a class="dropdown-item" href="../pages/about.php#about-team">Our Team</a>
+                                <li><a class="dropdown-item" href="../pages/blog.php">Blog</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">projects</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="../pages/digital_rural.php">Digital Rural</a></li>
+                                <li><a class="dropdown-item" href="../pages/projects.php?girls_in_tech">Girls in
+                                        Tech</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <a class="nav-link" href="../pages/event.php">events</a>
+                        <a class="nav-link" href="../pages/gallery.php">gallery</a>
+                        <a class="nav-link" href="../pages/contact.php">contact</a>
+                    </div>
+                    <div id="nav-btn" class="ms-auto">
+                        <a href="../pages/volunteer.php">
+                            <button type="button"
+                                class="btn btn-white  d-flex justify-content-between align-items-center "
+                                id="volunteerBtn">volunteer
+                                <ion-icon class="ps-2" name="help-buoy-outline">
+                                </ion-icon>
+                            </button></a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>

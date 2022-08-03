@@ -1,18 +1,18 @@
 <?php include("../includes/header.php") ?>
-<div class="page-head about-img">
-    <div class="container">
-        <h2 class="fw-bold">PROJECT DIGITAL RURAL</h2>
-        <p>Cohort 1.0</p>
-        <div class="breadcrumb mb-0">
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item active"><a href="#">Projects</a></li>
-                    <li class="breadcrumb-item" aria-current="page">Digital Rural</li>
-                </ol>
-            </nav>
-        </div>
+
+<div class="container">
+    <h2 class="fw-bold">PROJECT DIGITAL RURAL</h2>
+    <p>Cohort 1.0</p>
+    <div class="breadcrumb mb-0">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active"><a href="#">Projects</a></li>
+                <li class="breadcrumb-item" aria-current="page">Digital Rural</li>
+            </ol>
+        </nav>
     </div>
+</div>
 </div>
 <div class="page-group py-5 my-5">
     <div class="d-flex container flex-column flex-md-row">
@@ -22,7 +22,8 @@
                     <h3 class="fs-5">GOAL</h3>
                 </div>
                 <div class="content p-3">
-                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam eos cupiditate nam hic odit. Necessitatibus, rerum quibusdam tempora similique id perspiciatis?</p>  
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam eos
+                        cupiditate nam hic odit. Necessitatibus, rerum quibusdam tempora similique id perspiciatis?</p>
                 </div>
             </div>
             <div id="outcome">
@@ -41,9 +42,15 @@
         </aside>
         <div class="page-content flex-fill">
             <div class="px-4">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos accusantium repudiandae illum ipsum ducimus, fugit ratione vero sint voluptatibus. Eveniet sequi cupiditate obcaecati natus hic accusantium harum a reiciendis ipsam!</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos accusantium repudiandae illum ipsum ducimus, fugit ratione vero sint voluptatibus. Eveniet sequi cupiditate obcaecati natus hic accusantium harum a reiciendis ipsam!</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos accusantium repudiandae illum ipsum ducimus, fugit ratione vero sint voluptatibus. Eveniet sequi cupiditate obcaecati natus hic accusantium harum a reiciendis ipsam!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos accusantium repudiandae illum
+                    ipsum ducimus, fugit ratione vero sint voluptatibus. Eveniet sequi cupiditate obcaecati natus hic
+                    accusantium harum a reiciendis ipsam!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos accusantium repudiandae illum
+                    ipsum ducimus, fugit ratione vero sint voluptatibus. Eveniet sequi cupiditate obcaecati natus hic
+                    accusantium harum a reiciendis ipsam!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos accusantium repudiandae illum
+                    ipsum ducimus, fugit ratione vero sint voluptatibus. Eveniet sequi cupiditate obcaecati natus hic
+                    accusantium harum a reiciendis ipsam!</p>
             </div>
             <div class="objectives">
                 <ul>
@@ -76,22 +83,22 @@
                 <img src="../assets/IMG-20211222-WA0015.jpg" alt="" class="w-100">
             </div>
             <div class="col-md-3">
-                <img src="../assets/IMG-20211222-WA0015.jpg" alt=""class="w-100">
+                <img src="../assets/IMG-20211222-WA0015.jpg" alt="" class="w-100">
             </div>
             <div class="col-md-3">
-                <img src="../assets/IMG-20211222-WA0015.jpg" alt=""class="w-100">
+                <img src="../assets/IMG-20211222-WA0015.jpg" alt="" class="w-100">
             </div>
             <div class="col-md-3">
-                <img src="../assets/IMG-20211222-WA0015.jpg" alt=""class="w-100">
+                <img src="../assets/IMG-20211222-WA0015.jpg" alt="" class="w-100">
             </div>
             <div class="col-md-3">
-                <img src="../assets/IMG-20211222-WA0015.jpg" alt=""class="w-100">
+                <img src="../assets/IMG-20211222-WA0015.jpg" alt="" class="w-100">
             </div>
             <div class="col-md-3">
-                <img src="../assets/IMG-20211222-WA0015.jpg" alt=""class="w-100">
+                <img src="../assets/IMG-20211222-WA0015.jpg" alt="" class="w-100">
             </div>
             <div class="col-md-3">
-                <img src="../assets/IMG-20211222-WA0015.jpg" alt=""class="w-100">
+                <img src="../assets/IMG-20211222-WA0015.jpg" alt="" class="w-100">
             </div>
         </div>
     </div>

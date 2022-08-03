@@ -1,17 +1,17 @@
 <?php include("../includes/header.php") ?>
-<div class="page-head about-img">
-    <div class="container">
-        <h2 class="fw-bold">Become a Volunteer</h2>
-        <p>Do you share our vision? Join us.</p>
-        <div class="breadcrumb mb-0">
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Volunteer</li>
-                </ol>
-            </nav>
-        </div>
+
+<div class="container">
+    <h2 class="fw-bold">Volunteer</h2>
+    <p>Do you share our vision? Join us.</p>
+    <div class="breadcrumb mb-0">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Volunteer</li>
+            </ol>
+        </nav>
     </div>
+</div>
 </div>
 <section>
     <div class="container">
@@ -21,7 +21,7 @@
             </div>
             <div class="volunteer-data w-100 mt-5 mt-md-0">
                 <form action="#" class="text-start w-100 container">
-                    <div class="form-head mb-5">                
+                    <div class="form-head mb-5">
                         <h3 class="fw-bold">Lets Meet you</h3>
                     </div>
                     <div class="form-group">
@@ -31,13 +31,15 @@
                         <input type="text" name="" id="name" placeholder="Last Name" class="border-0 p-4 w-100 mb-3">
                     </div>
                     <div class="form-group">
-                        <input type="email" name="" id="name" placeholder="Email Address" class="border-0 p-4 w-100 mb-3">
+                        <input type="email" name="" id="name" placeholder="Email Address"
+                            class="border-0 p-4 w-100 mb-3">
                     </div>
                     <div class="form-group">
                         <input type="tel" name="" id="name" placeholder="Mobile Number" class="border-0 p-4 w-100 mb-3">
                     </div>
                     <div class="form-group">
-                        <input type="text" name="" id="name" placeholder="How can you help?" class="border-0 p-4 w-100 mb-3">
+                        <input type="text" name="" id="name" placeholder="How can you help?"
+                            class="border-0 p-4 w-100 mb-3">
                     </div>
                     <div class="form-group">
                         <input type="submit" value="Submit" class="border-0 p-4 mb-3 bg-warning w-100">
@@ -47,4 +49,4 @@
         </div>
     </div>
 </section>
-<?php include("../includes/footer.php") ?> 
+<?php include("../includes/footer.php") ?>

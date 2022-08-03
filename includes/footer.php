@@ -40,14 +40,14 @@
                     <p class="text-white my-3">Subscribe to get latest news and information on our programs,special
                         offers and lifetime deals
                     </p>
-                    <form action="#" class="">
+                    <form action="../scripts/newsletter.php" method="POST">
                         <div class="newsletter-form mb-3">
-                            <input type="text" name="" id="" placeholder="Full Name"
-                                class="border-0 form-control bg-none shadow-none">
+                            <input type="text" name="newslettername" id="" placeholder="Full Name"
+                                class="border-0 form-control bg-none shadow-none" required>
                         </div>
                         <div class="form-group d-flex newsletter-form">
-                            <input type="email" name="" id="" placeholder="Email Address"
-                                class="border-0 form-control shadow-none">
+                            <input type="email" name="newsletteremail" id="" placeholder="Email Address"
+                                class="border-0 form-control shadow-none" required>
                             <button class="border-0">SUBSCRIBE</button>
                         </div>
                     </form>

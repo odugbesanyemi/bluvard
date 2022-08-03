@@ -34,7 +34,7 @@ img {
     object-fit: cover;
 }
 .heading{
-    background-color: var(--footer) !important;
+    margin-bottom: 30px;
 }
 #news{
     background-color: white;
@@ -148,8 +148,7 @@ header {
 }
 
 .nav-link:hover {
-
-    color: #00043f   !important;
+    color: white !important;
 }
 
 #hero {
