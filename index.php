@@ -19,14 +19,12 @@
 
 <body>
     <header class="py-4">
-        <nav class="navbar navbar-expand-md bg-none navbar-dark container">
-            <div class="container">
-                <div class="navbar-brand d-flex align-items-center"><img src="assets/logos/Bluvard_svg_logo.svg" alt=""
-                        width="50">
-                    <p class="ps-3 fw-bold text-white mb-0" onclick="window.location.assign('#')">Bluvard Education
-                        Initiative</p>
+        <nav class="navbar navbar-expand-lg bg-none navbar-dark align-items-center">
+            <div class="container align-items-center px-4">
+                <div class="navbar-brand d-flex align-items-center"><img src="assets/logos/Bluvard_svg_logo.svg" alt="" width="50">
+                    <p class="ps-1 fw-bold text-white mb-0" onclick="window.location.assign('#')">Bluvard Education Initiative</p>
                 </div>
-                <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler border-0 shadow-none p-0" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>

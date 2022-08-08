@@ -1,11 +1,11 @@
 <?php include("../includes/header.php") ?>
 
-<div class="container">
+<div class="container text-center">
     <h2 class="fw-bold">Volunteer</h2>
-    <p>Do you share our vision? Join us.</p>
+    <p class="text-center">Do you share our vision? Join us.</p>
     <div class="breadcrumb mb-0">
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
+        <nav aria-label="breadcrumb" class="w-100">
+            <ol class="breadcrumb justify-content-center">
                 <li class="breadcrumb-item"><a href="#">Home</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Volunteer</li>
             </ol>
@@ -15,15 +15,13 @@
 </div>
 <section>
     <div class="container">
+        <div class="form-head mb-5"><h3 class="fw-bold">Lets Meet you</h3></div>
         <div class="d-flex flex-column flex-md-row">
             <div class="volunteer-img">
                 <img src="/assets/volunteer.jpeg" alt="" class="w-100 rounded-1">
             </div>
-            <div class="volunteer-data w-100 mt-5 mt-md-0">
-                <form action="#" class="text-start w-100 container">
-                    <div class="form-head mb-5">
-                        <h3 class="fw-bold">Lets Meet you</h3>
-                    </div>
+            <div class="volunteer-data w-100 mt-5 mt-md-0 px-md-4">
+                <form action="#" class="text-start w-100 ">
                     <div class="form-group">
                         <input type="text" name="" id="name" placeholder="First Name" class="border-0 p-4 w-100 mb-3">
                     </div>

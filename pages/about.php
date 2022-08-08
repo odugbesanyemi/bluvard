@@ -1,10 +1,10 @@
 <?php include("../includes/header.php") ?>
-<div class="container">
+<div class="container text-center">
     <h2 class="fw-bold">About Us</h2>
     <p>Get to know us better</p>
     <div class="breadcrumb mb-0">
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
+        <nav aria-label="breadcrumb" class="w-100">
+            <ol class="breadcrumb justify-content-center">
                 <li class="breadcrumb-item"><a href="#">Home</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Library</li>
             </ol>

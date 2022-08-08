@@ -1,9 +1,9 @@
 <?php include("../includes/header.php") ?>
 
-<div class="container">
+<div class="container text-center">
     <h2 class="fw-bold">Gallery</h2>
-    <p>Moments that we cherish</p>
-    <div class="breadcrumb mb-0">
+    <p class="text-center">Moments that we cherish</p>
+    <div class="breadcrumb mb-0 justify-content-center">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="#">Home</a></li>
