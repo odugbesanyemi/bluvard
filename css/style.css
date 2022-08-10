@@ -361,6 +361,9 @@ section {
 .programs-card-desc{
     color: #00010e !important;
 }
+.programs-header p{
+    transform: skewX();
+}
 #partners{
     background:linear-gradient(rgba(255, 255, 255, 0.856),rgba(255, 255, 255, 0.836)), url('../assets/patterns/background-pattern.jpg');
 }

@@ -115,16 +115,16 @@ include('scripts/dbConnect.php');
         </div>
 
     </section>
-    <section id="programs" class=" position-relative">
-        <div class="programs-header px-4 py-2" >
-            <P class="m-0 text-center">WHAT WE DO</P>
-            <h2 class="mb-4 serif fw-bold text-center">Our Initiatives</h2>
+    <section id="programs" class=" position-relative p-0">
+        <div class="programs-header d-flex align-items-center" >
+            <P class="m-0 text-center bg-danger px-5 py-4 text-white">WHAT WE DO</P>
+            <h2 class="mb-0 px-4 serif fw-bold text-center">Our Initiatives</h2>
         </div>
-        <div class="programs-showcase">
+        <div class="programs-showcase py-5 my-5">
             <div class="programs1 container">
                 <div class="row g-4">
                     <div class="col-md-4 bg-white ">
-                        <div class="shadow">
+                        <div class="shadow shadow-sm">
                             <div class="p-4 ">
                                 <h2 class="fw-bold mb-3">Project Digital Rural</h2>
                                 <p class="">Project Digital Rural is a digital inclusion project aimed at equipping out-of-school/unemployed youths in rural communities across Nigeria with in-depth digital skills, and mentorship sufficient to launch a career in different digital fields</p>
@@ -135,7 +135,7 @@ include('scripts/dbConnect.php');
                         </div>
                     </div>
                     <div class="col-md-4 bg-white ">
-                    <div class="shadow">
+                    <div class="shadow shadow-sm">
                             <div class="p-4 ">
                                 <h2 class="fw-bold mb-3">Project Digital Rural</h2>
                                 <p class="">Project Digital Rural is a digital inclusion project aimed at equipping out-of-school/unemployed youths in rural communities across Nigeria with in-depth digital skills, and mentorship sufficient to launch a career in different digital fields</p>
@@ -146,7 +146,7 @@ include('scripts/dbConnect.php');
                         </div>
                     </div>
                     <div class="col-md-4 bg-white ">
-                    <div class="shadow">
+                    <div class="shadow shadow-sm">
                             <div class="p-4 ">
                                 <h2 class="fw-bold mb-3">Project Digital Rural</h2>
                                 <p class="">Project Digital Rural is a digital inclusion project aimed at equipping out-of-school/unemployed youths in rural communities across Nigeria with in-depth digital skills, and mentorship sufficient to launch a career in different digital fields</p>
