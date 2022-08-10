@@ -15,62 +15,71 @@
 </div>
 </div>
 <div class="page-group py-5 my-5">
-    <div class="d-flex container flex-column flex-md-row">
-        <aside class="flex-shrink-2">
-            <div id="goal">
-                <div class="title bg-success text-white py-2 px-3">
-                    <h3 class="fs-5">GOAL</h3>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <aside class="">
+                    <div id="goal">
+                        <div class="title bg-success text-white py-2 px-3">
+                            <h3 class="fs-5">GOAL</h3>
+                        </div>
+                        <div class="content p-3">
+                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam eos
+                                cupiditate nam hic odit. Necessitatibus, rerum quibusdam tempora similique id perspiciatis?</p>
+                        </div>
+                    </div>
+                    <div id="outcome">
+                        <div class="title bg-success text-white py-2 px-3">
+                            <h3 class="fs-5">Expected Outcome</h3>
+                        </div>
+                        <div class="p-2 bg-white">
+                            <ul>
+                                <li>Capture the minds of youth</li>
+                                <li>Introduce out of school graduates to Programming</li>
+                                <li>shape the Future of Ikorodu Environs</li>
+                                <li>Raise funds for unhealthy Children</li>
+                            </ul>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+            <div class="col-lg-6">
+                <div class="page-content flex-fill">
+                    <div class="px-4">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos accusantium repudiandae illum
+                            ipsum ducimus, fugit ratione vero sint voluptatibus. Eveniet sequi cupiditate obcaecati natus hic
+                            accusantium harum a reiciendis ipsam!</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos accusantium repudiandae illum
+                            ipsum ducimus, fugit ratione vero sint voluptatibus. Eveniet sequi cupiditate obcaecati natus hic
+                            accusantium harum a reiciendis ipsam!</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos accusantium repudiandae illum
+                            ipsum ducimus, fugit ratione vero sint voluptatibus. Eveniet sequi cupiditate obcaecati natus hic
+                            accusantium harum a reiciendis ipsam!</p>
+                    </div>
+                    <div class="objectives">
+                        <ul>
+                            <h3 class="fs-5">Objectives</h3>
+                            <li>Capture the minds of youth</li>
+                            <li>Introduce out of school graduates to Programming</li>
+                            <li>shape the Future of Ikorodu Environs</li>
+                            <li>Raise funds for unhealthy Children</li>
+                        </ul>
+                    </div>
+                    <div class="target">
+                        <ul>
+                            <h3 class="fs-5">Target</h3>
+                            <li>Capture the minds of youth</li>
+                            <li>Introduce out of school graduates to Programming</li>
+                            <li>shape the Future of Ikorodu Environs</li>
+                            <li>Raise funds for unhealthy Children</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="content p-3">
-                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam eos
-                        cupiditate nam hic odit. Necessitatibus, rerum quibusdam tempora similique id perspiciatis?</p>
-                </div>
             </div>
-            <div id="outcome">
-                <div class="title bg-success text-white py-2 px-3">
-                    <h3 class="fs-5">Expected Outcome</h3>
-                </div>
-                <div class="p-2 bg-white">
-                    <ul>
-                        <li>Capture the minds of youth</li>
-                        <li>Introduce out of school graduates to Programming</li>
-                        <li>shape the Future of Ikorodu Environs</li>
-                        <li>Raise funds for unhealthy Children</li>
-                    </ul>
-                </div>
-            </div>
-        </aside>
-        <div class="page-content flex-fill">
-            <div class="px-4">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos accusantium repudiandae illum
-                    ipsum ducimus, fugit ratione vero sint voluptatibus. Eveniet sequi cupiditate obcaecati natus hic
-                    accusantium harum a reiciendis ipsam!</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos accusantium repudiandae illum
-                    ipsum ducimus, fugit ratione vero sint voluptatibus. Eveniet sequi cupiditate obcaecati natus hic
-                    accusantium harum a reiciendis ipsam!</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos accusantium repudiandae illum
-                    ipsum ducimus, fugit ratione vero sint voluptatibus. Eveniet sequi cupiditate obcaecati natus hic
-                    accusantium harum a reiciendis ipsam!</p>
-            </div>
-            <div class="objectives">
-                <ul>
-                    <h3 class="fs-5">Objectives</h3>
-                    <li>Capture the minds of youth</li>
-                    <li>Introduce out of school graduates to Programming</li>
-                    <li>shape the Future of Ikorodu Environs</li>
-                    <li>Raise funds for unhealthy Children</li>
-                </ul>
-            </div>
-            <div class="target">
-                <ul>
-                    <h3 class="fs-5">Target</h3>
-                    <li>Capture the minds of youth</li>
-                    <li>Introduce out of school graduates to Programming</li>
-                    <li>shape the Future of Ikorodu Environs</li>
-                    <li>Raise funds for unhealthy Children</li>
-                </ul>
-            </div>
+            <div class="col-lg-3"></div>
         </div>
+
+
     </div>
     <div class="gallery container py-5 px-3 text-center">
         <h3 class="fw-bold">GALLERY</h3>
@@ -119,7 +128,7 @@
                     <input type="tel" name="" id="name" placeholder="Mobile Number" class="border-0 p-4 w-100 mb-3">
                 </div>
                 <div class="form-group">
-                    <input type="submit" value="Submit" class="border-0 p-4 w-25 mb-3 bg-warning">
+                    <input type="submit" value="Submit" class="border-0 p-4     mb-3 bg-warning">
                 </div>
             </form>
         </div>

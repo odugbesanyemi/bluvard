@@ -1,7 +1,7 @@
 <footer>
     <div class="container px-4 px-md-0">
-        <div class="d-flex flex-column flex-md-row w-100 py-md-5 pb-0 py-5">
-            <div class="footer-about w-100 mb-3 mb-md-0">
+        <div class="row py-md-5 pb-0 py-5">
+            <div class="footer-about col-md-3">
                 <ul class="text-left text-md-start">
                     <img src="../assets/logos/Bluvard_svg_logo.svg" class="w-25" alt="">
                     <h4 class="pt-4 fs-5">Bluvard</h4>
@@ -15,7 +15,7 @@
                     </div>
                 </ul>
             </div>
-            <div class="footer-quicklinks w-100 mb-3 mb-md-0">
+            <div class="footer-quicklinks col-md-3">
                 <ul class="text-start text-md-start">
                     <h4>Quick Links </h4>
                     <li> <a href="../index.php">Home</a></li>
@@ -25,7 +25,7 @@
                     <li> <a href="../pages/gallery.php">Our Gallery</a></li>
                 </ul>
             </div>
-            <div class="footer-ourlinks w-100 mb-3 mb-md-0">
+            <div class="footer-ourlinks col-md-3">
                 <ul class="text-start text-md-start">
                     <h4>Our Links </h4>
                     <li> <a href="../pages/volunteer.php">Become a Volunteer</a></li>
@@ -34,7 +34,7 @@
                     <li> <a href="#">Become a sponsor</a></li>
                 </ul>
             </div>
-            <div class="footer-newsletter w-100 mb-3 mb-md-0">
+            <div class="footer-newsletter col-md-3">
                 <ul class="text-start text-md-start">
                     <h4>Newsletter</h4>
                     <p class="text-white my-3">Subscribe to get latest news and information on our programs,special

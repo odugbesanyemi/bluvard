@@ -62,3 +62,12 @@ if(window.location.pathname == "/pages/blog.php" || window.location.pathname =="
     // Append link element to HTML head
     head.appendChild(link);
 }
+
+if(window.location.pathname == "/index.php"){
+    // text limit for the program card descriptions
+    let programDesc = document.querySelectorAll('.programs-card-desc')
+    for (const x of programDesc) {
+        let newText = x.textContent.substring(0,211)
+        x.textContent = newText +"..."
+    }
+}

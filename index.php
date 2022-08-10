@@ -1,3 +1,6 @@
+<?php 
+include('scripts/dbConnect.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,9 +21,24 @@
 </head>
 
 <body>
-    <header class="py-4">
-        <nav class="navbar navbar-expand-lg bg-none navbar-dark align-items-center">
-            <div class="container align-items-center px-4">
+    <nav class="">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class=""> 
+                    <p class="m-0">for more info on schedules call +2347015131887, 456038222</p>
+                </div>
+                <div class="">            
+                    <ion-icon name="logo-facebook" class="fs-3 p-3"></ion-icon>
+                    <ion-icon name="logo-twitter" class="fs-3 p-3"></ion-icon>
+                    <ion-icon name="logo-instagram" class="fs-3 p-3"></ion-icon>
+                    <ion-icon name="logo-pinterest" class="fs-3 p-3"></ion-icon>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header class="">
+        <nav class="navbar navbar-expand-lg bg-none navbar-dark align-items-center py-3">
+            <div class="container align-items-center">
                 <div class="navbar-brand d-flex align-items-center"><img src="assets/logos/Bluvard_svg_logo.svg" alt="" width="50">
                     <p class="ps-1 fw-bold text-white mb-0" onclick="window.location.assign('#')">Bluvard Education Initiative</p>
                 </div>
@@ -29,25 +47,24 @@
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav ms-auto">
-                        <a class="nav-link active mx-md-2" aria-current="page" href="../index.php">Home</a>
+                <div class="collapse navbar-collapse p-0" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">about Us</a>
+                                data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="pages/about.php">The organisation</a></li>
-                                <li><a class="dropdown-item" href="pages/about.php#about-team">our Team</a></li>
+                                <li><a class="dropdown-item" href="pages/about.php#about-team">Our Team</a></li>
                                 <li><a class="dropdown-item" href="pages/blog.php">Blog</a>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">projects</a>
+                                data-bs-toggle="dropdown" aria-expanded="false">Programmes</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="../pages/projects.php?digital_rural">Digital
                                         Rural</a></li>
-                                <li><a class="dropdown-item" href="../pages/projects.php?girls_in_tech">girls in
+                                <li><a class="dropdown-item" href="../pages/projects.php?girls_in_tech">Girls in
                                         Tech</a></li>
                             </ul>
                         </li>
@@ -66,94 +83,97 @@
 
             </div>
         </nav>
-        <div id="header-icon-stack" class="d-flex flex-row flex-md-column me-lg-3 d-none d-md-flex">
+        <div id="header-icon-stack" class="d-none">
             <ion-icon name="logo-facebook" class="fs-3 py-4"></ion-icon>
             <ion-icon name="logo-twitter" class="fs-3 py-4"></ion-icon>
             <ion-icon name="logo-instagram" class="fs-3 py-4"></ion-icon>
             <ion-icon name="logo-pinterest" class="fs-3 py-4"></ion-icon>
         </div>
-        <div id="hero" class="container  d-md-flex align-items-center justify-content-center flex-column ">
-            <div id="hero-content">
-                <h1 id="hero-caption" class=""> Finding <span style="color:yellow;">Gems</span> in the rough</h1>
-                <span id="brush"></span>
-                <p class="">Join us in our quest to bridge the education divide. support a child today</p>
-                <div>
-                    <button class="btn btn-primary btn-lg d-flex justify-content-between align-items-center"
-                        onclick="window.location.assign('pages/about.php')">Learn more <ion-icon class="ps-2"
-                            name="chevron-down-circle-outline"></ion-icon></button>
+        <div id="hero" class="container d-flex align-items-start justify-content-center flex-column position-relative">
+            <div id="hero-content" class="row">
+                <div class="col-md-8">
+                    <h1 id="hero-caption" class=""> Finding <span style="color:yellow;">Gems</span> in the rough</h1>
+                    <p class="mb-3">Join us in our quest to bridge the education divide. support a child today</p>
+                    <div>
+                        <button class="btn btn-primary btn py-2 d-flex justify-content-between align-items-center"
+                            onclick="window.location.assign('pages/about.php')">Learn more <ion-icon class="ps-2"
+                                name="chevron-down-circle-outline"></ion-icon></button>
+                    </div>
                 </div>
+
             </div>
-            <!-- <div id="hero-img" class="d-none d-md-block">
-                <img src="assets/pexels-roman.jpg" alt="">
-            </div> -->
         </div>
-        <!-- <div class="cursor-down text-center">
-            <ion-icon name="arrow-down-circle-outline" class="text-white fs-1"></ion-icon>
-        </div> -->
     </header>
-    <section id="about">
-        <div id="what-we-do" class="container">
-            <h2 class="mb-4 fw-bold fs-1">The Problem</h2>
-            <p class="fs-5">
-                Many limited resource youth have poor health skills and limited knowledge of the relationship of health
-                practices and health status. EFNEP curriculum has the materials that enable these youth to easily learn
-                basic nutrition, health and food safety skills. A limited amount of EFNEP paraprofessional time is
-                devoted to teaching these skills.
-            </p>
-            <div class="d-flex align-items-center flex-column flex-lg-row">
-                <img src="assets/pexels-dazzle-jam-1029783.jpg" alt="" class="about-img">
-                <div class="px-0 px-md-5">
-                    <h2>What We did?</h2>
-                    <p class=" fs-5 ">An EFNEP paraprofessional time taught 740 youth basic nutrition skills. 96% of
-                        these youth were elementary age. Four percent were teens. These youth were taught in 28 groups
-                        with each group averaging six 45 minutes lessons. These youth could all be considered high risk
-                        intercity children as they all were residents of housing projects in inner-city Jackson.</p>
+    <section id="about" class="">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-8 container">
+                    <h2 class="mb-4 fw-bold fs-1 text-white text-center">1 in every 3 children from sub-Saharan Africa may never have the opportunity to go to school and 1 in every 5 out-of-school children are from Nigeria</h2>
+                    <p class="text-white text-center">If quality education is not just a basic human right but also fundamental in closing the gaps created by inequality and ultimately reducing global poverty, how then do we democratize access to quality education for young people in rural communities across Nigeria?</p>
                 </div>
-
             </div>
-            <!-- <div id="what-we-do-group" class="d-flex flex-column flex-md-row p-4 mx-md-0 px-md-0">
-                <div class="text-secondary p-4 about-card text-left mx-md-2 my-3 my-md-0 text-center">
-                    <img src="assets/mission.png" alt="" class="mb-4">
-                    <h3 class="text-success">Our Mission</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quidem quisquam assumenda impedit perspiciatis mollitia, quaerat, saepe voluptatibus debitis eos quae sit. Consequatur impedit, odio expedita nulla facilis perferendis nobis.</p>
-                    <button class="btn d-flex align-items-center justify-content-center "onclick="window.location.assign('pages/about.php?#about-mission')">read more<ion-icon name="chevron-forward-outline" class="ps-3"></ion-icon></button>
-                </div>
-                <div class="text-secondary p-4 about-card text-left mx-md-2 my-3 my-md-0 text-center">
-                    <img src="assets/visionary.png" alt="" class="mb-4">
-                    <h3 class="text-warning">Our Vision</h3>
-                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quidem quisquam assumenda impedit perspiciatis mollitia, quaerat, saepe voluptatibus debitis eos quae sit. Consequatur impedit, odio expedita nulla facilis perferendis nobis.</p>
-                    <button class="btn d-flex align-items-center justify-content-center "onclick="window.location.assign('pages/about.php?#about-vision')">read more<ion-icon name="chevron-forward-outline" class="ps-3"></ion-icon></button>
-
-                </div>
-                <div class="text-secondary p-4 about-card text-left mx-md-2 my-3 my-md-0 text-center">
-                    <i class="fa fa-desktop" aria-hidden="true"></i><img src="assets/goal.png" alt="" class="mb-4">
-                    <h3 class="text-danger">Our Goals</h3>
-                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quidem quisquam assumenda impedit perspiciatis mollitia, quaerat, saepe voluptatibus debitis eos quae sit. Consequatur impedit, odio expedita nulla facilis perferendis nobis.</p>
-                    <button class="btn d-flex align-items-center justify-content-center"onclick="window.location.assign('pages/about.php?#about-goals')">read more<ion-icon name="chevron-forward-outline" class="ps-3"></ion-icon></button>
-                </div>
-            </div> -->
         </div>
+
     </section>
-    <section id="programs" class="">
-        <div class="container overflow-hidden">
-            <P>WHAT WE DO</P>
-            <h2 class="mb-4 serif mb-5 fw-bold">OUR PROGRAMS</h2>
+    <section id="programs" class=" position-relative">
+        <div class="programs-header px-4 py-2" >
+            <P class="m-0 text-center">WHAT WE DO</P>
+            <h2 class="mb-4 serif fw-bold text-center">Our Initiatives</h2>
+        </div>
+        <div class="programs-showcase">
+            <div class="programs1 container">
+                <div class="row g-4">
+                    <div class="col-md-4 bg-white ">
+                        <div class="shadow">
+                            <div class="p-4 ">
+                                <h2 class="fw-bold mb-3">Project Digital Rural</h2>
+                                <p class="">Project Digital Rural is a digital inclusion project aimed at equipping out-of-school/unemployed youths in rural communities across Nigeria with in-depth digital skills, and mentorship sufficient to launch a career in different digital fields</p>
+                            </div>
+                            <div class="bg-secondary p-3">
+                                <a href="#" class="text-white">Click more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 bg-white ">
+                    <div class="shadow">
+                            <div class="p-4 ">
+                                <h2 class="fw-bold mb-3">Project Digital Rural</h2>
+                                <p class="">Project Digital Rural is a digital inclusion project aimed at equipping out-of-school/unemployed youths in rural communities across Nigeria with in-depth digital skills, and mentorship sufficient to launch a career in different digital fields</p>
+                            </div>
+                            <div class="bg-secondary p-3">
+                                <a href="#" class="text-white">Click more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 bg-white ">
+                    <div class="shadow">
+                            <div class="p-4 ">
+                                <h2 class="fw-bold mb-3">Project Digital Rural</h2>
+                                <p class="">Project Digital Rural is a digital inclusion project aimed at equipping out-of-school/unemployed youths in rural communities across Nigeria with in-depth digital skills, and mentorship sufficient to launch a career in different digital fields</p>
+                            </div>
+                            <div class="bg-secondary p-3">
+                                <a href="#" class="text-white">Click more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="container overflow-hidden">
             <div id="programs-container" class="row gx-4 gy-3">
                 <div class="col-md-4">
                     <div class="programs-card">
-                        <img src="assets/projectdigitalrural.jpg" alt="">
-                        <div class="programs-card-details mb-4">
-                            <h3 class="">Project Digital Rural</h3>
-                            <p class="programs-card-desc">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius pariatur praesentium
-                                delectus, voluptate quas fuga veritatis
-                            <div class="programs-card-social d-flex justify-content-start align-items-center">
+                        <div class="programs-card-details">
+                            <h3 class="mb-3">Project Digital Rural</h3>
+                            <p class="programs-card-desc text-secondary">
+                                Project Digital Rural is a digital inclusion project aimed at equipping out-of-school/unemployed youths in rural communities across Nigeria with in-depth digital skills, and mentorship sufficient to launch a career in different digital fields
+                            <div class="programs-card-social d-flex align-items-center">
                                 <ion-icon name="logo-instagram" class="fs-4 pe-4"></ion-icon>
                                 <ion-icon name="logo-facebook" class="fs-4 pe-4"></ion-icon>
                                 <ion-icon name="logo-twitter" class="fs-4 pe-4"></ion-icon>
                             </div>
                             </p>
-                            <button class="btn d-flex justify-content-between align-items-center btn-outline-secondary"
+                            <button class="btn d-flex justify-content-between align-items-center "
                                 onclick="window.location.assign('pages/digital_rural.php')">Read more <ion-icon
                                     class="ps-2" name="chevron-down-circle-outline"></ion-icon></button>
                         </div>
@@ -162,39 +182,38 @@
                 <div class="col-md-4">
                     <div class="programs-card">
                         <img src="assets/projectdigitalrural.jpg" alt="">
-                        <div class="programs-card-details mb-4">
-                            <h3 class="">Project Digital Rural</h3>
-                            <p class="programs-card-desc">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius pariatur praesentium
-                                delectus, voluptate quas fuga veritatis
-                            <div class="programs-card-social d-flex justify-content-start align-items-center ">
+                        <div class="programs-card-details">
+                            <h3 class="mb-3">Center For Education and Lifelong skills(CELLS)</h3>
+                            <p class="programs-card-desc text-secondary">
+                            At Bluvard,  we establish  local innovation hubs in rural or underserved communities across Nigeria. These  CELLS serve as points of convergence for  young people can collaborate, innovate and build together. 
+                            <div class="programs-card-social d-flex  align-items-center ">
                                 <ion-icon name="logo-instagram" class="fs-4 pe-4"></ion-icon>
                                 <ion-icon name="logo-facebook" class="fs-4 pe-4"></ion-icon>
                                 <ion-icon name="logo-twitter" class="fs-4 pe-4"></ion-icon>
                             </div>
                             </p>
                             <button
-                                class="btn d-flex justify-content-between align-items-center btn-outline-secondary">Read
-                                more <ion-icon class="ps-2" name="chevron-down-circle-outline"></ion-icon></button>
+                                class="btn d-flex justify-content-between align-items-center">Read
+                                more <ion-icon class="ps-2" name="chevron-down-circle-outline"></ion-icon>
+                            </button>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="programs-card">
                         <img src="assets/IMG-20211222-WA0015.jpg" alt="">
-                        <div class="programs-card-details mb-4">
-                            <h3 class="">Project Digital Rural</h3>
-                            <p class="programs-card-desc">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius pariatur praesentium
-                                delectus, voluptate quas fuga veritatis
-                            <div class="programs-card-social d-flex justify-content-start align-items-center ">
+                        <div class="programs-card-details">
+                            <h3 class="mb-3">Rural Heroes</h3>
+                            <p class="programs-card-desc text-muted">
+                            Every month, we bring the spotlight to one young person in a rural community using their skill/ talent to impact the lives of others in their community. 
+                            <div class="programs-card-social d-flex  align-items-center ">
                                 <ion-icon name="logo-instagram" class="fs-4 pe-4"></ion-icon>
                                 <ion-icon name="logo-facebook" class="fs-4 pe-4"></ion-icon>
                                 <ion-icon name="logo-twitter" class="fs-4 pe-4"></ion-icon>
                             </div>
                             </p>
                             <button
-                                class="btn d-flex justify-content-between align-items-center btn-outline-secondary">Read
+                                class="btn d-flex justify-content-between align-items-center">Read
                                 more <ion-icon class="ps-2" name="chevron-down-circle-outline"></ion-icon></button>
                         </div>
                     </div>
@@ -202,14 +221,13 @@
 
             </div>
 
-        </div>
-
+        </div> -->
     </section>
-    <section id="learnmore">
+    <!-- <section id="learnmore">
         <div class="text-center container">
             <p class="text-center">WE WELCOME YOU TO LEARN ABOUT US</p>
-            <h3 class="fs-1 mb-4 ">We would be happy to hear from you.</h3>
-            <button class="btn btn-primary px-4 py-3 mt-4">Contact Us</button>
+            <h3 class="fs-2 fw-bold mb-4">We would be happy to hear from you.</h3>
+            <button class="btn btn-primary px-4 py-2 btn-sm d-flex align-items-center justify-content-center rounded-pill mx-auto">Contact Us <ion-icon name="arrow-forward-circle-outline" class="ps-2 text-white fs-5"></ion-icon></button>
         </div>
     </section>
     <section id="news">
@@ -321,7 +339,7 @@
             </div>
         </div>
     </section>
-    <section id="Events" class="">
+    <section id="Events" class="bg-danger">
         <div class="container">
             <p>OUR EVENTS</p>
             <h2 class="fw-bold serif fw-bold">UPCOMING EVENTS</h2>
@@ -384,7 +402,7 @@
                         name="arrow-forward-outline" class="ms-4"></ion-icon></a>
             </div>
         </div>
-    </section>
+    </section> -->
     <section id="partners">
         <div class="container">
             <div class="partners-title text-center">
