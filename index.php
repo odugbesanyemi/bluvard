@@ -26,13 +26,13 @@ include('scripts/dbConnect.php');
         <div class="container">
             <div class="d-flex align-items-center justify-content-between">
                 <div class="">
-                    <p class="m-0">for more info on schedules call +2347015131887, 456038222</p>
+                    <p class="m-0"><span class="d-none d-md-inline">for more info on schedules call</span>  +2347015131887, 456038222</p>
                 </div>
                 <div class="">
-                    <ion-icon name="logo-facebook" class="fs-3 p-3"></ion-icon>
-                    <ion-icon name="logo-twitter" class="fs-3 p-3"></ion-icon>
-                    <ion-icon name="logo-instagram" class="fs-3 p-3"></ion-icon>
-                    <ion-icon name="logo-pinterest" class="fs-3 p-3"></ion-icon>
+                    <ion-icon name="logo-facebook" class="fs-3 p-md-3 p-1"></ion-icon>
+                    <ion-icon name="logo-twitter" class="fs-3 p-md-3 p-1"></ion-icon>
+                    <ion-icon name="logo-instagram" class="fs-3 p-md-3 p-1"></ion-icon>
+                    <ion-icon name="logo-pinterest" class="fs-3 p-md-3 p-1"></ion-icon>
                 </div>
             </div>
         </div>
@@ -135,7 +135,7 @@ include('scripts/dbConnect.php');
         <div class="programs-showcase py-5 my-5">
             <div class="program container">
                 <div class="row g-4 justify-content-end align-items-end">
-                    <div class="col-md-4 bg-white" data-aos="fade-right">
+                    <div class="col-md-4 bg-white">
                         <div class="">
                             <div class="p-4 ">
                                 <img src="assets/IMG_20211207_112142_184.jpg" alt="" class="w-100 mb-4">
@@ -145,13 +145,14 @@ include('scripts/dbConnect.php');
                                     digital skills, and mentorship sufficient to launch a career in different digital
                                     fields
                                 </p>
+                                <div class="">
+                                    <a href="#" class="">Click more </a><ion-icon name="arrow-forward-circle-outline" class="ms-3 fs-4 "></ion-icon>
+                                </div>
                             </div>
-                            <div class="bg-secondary p-3 d-flex justify-content-around">
-                                <a href="#" class="text-white">Click more </a><ion-icon name="arrow-forward-circle-outline" class="ms-3 fs-4 text-white "></ion-icon>
-                            </div>
+
                         </div>
                     </div>
-                    <div class="col-md-4 bg-white " data-aos="zoom-out" data-aos-delay="400">
+                    <div class="col-md-4 bg-white ">
                         <div class="">
                             <div class="p-4 ">
                                 <h2 class="fw-bold mb-3">Center For Education and Lifelong skills(CELLS)</h2>
@@ -159,13 +160,14 @@ include('scripts/dbConnect.php');
                                     communities across Nigeria. These CELLS serve as points of convergence for young
                                     people can collaborate, innovate and build together.
                                 </p>
+                                <div class="">
+                                    <a href="#" class="">Click more</a><ion-icon name="arrow-forward-circle-outline" class="ms-3 fs-4 "></ion-icon>
+                                </div>
                             </div>
-                            <div class="bg-secondary p-3 d-flex justify-content-around">
-                                <a href="#" class="text-white">Click more</a><ion-icon name="arrow-forward-circle-outline" class="ms-3 fs-4 text-white "></ion-icon>
-                            </div>
+
                         </div>
                     </div>
-                    <div class="col-md-4 bg-white" data-aos="fade-left" data-aos-delay="800">
+                    <div class="col-md-4 bg-white">
                         <div class="">
                             <div class="p-4 ">
                                 <h2 class="fw-bold mb-3">Rural Heroes</h2>
@@ -173,78 +175,16 @@ include('scripts/dbConnect.php');
                                     community using their skill/ talent to impact the lives of others in their
                                     community.
                                 </p>
+                                <div class="">
+                                    <a href="#" class="">Click more</a><ion-icon name="arrow-forward-circle-outline" class="ms-3 fs-4 "></ion-icon>
+                                </div>
                             </div>
-                            <div class="bg-secondary p-3 d-flex justify-content-around">
-                                <a href="#" class="text-white">Click more</a><ion-icon name="arrow-forward-circle-outline" class="ms-3 fs-4 text-white "></ion-icon>
-                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- <div class="container overflow-hidden">
-            <div id="programs-container" class="row gx-4 gy-3">
-                <div class="col-md-4">
-                    <div class="programs-card">
-                        <div class="programs-card-details">
-                            <h3 class="mb-3">Project Digital Rural</h3>
-                            <p class="programs-card-desc text-secondary">
-                                Project Digital Rural is a digital inclusion project aimed at equipping out-of-school/unemployed youths in rural communities across Nigeria with in-depth digital skills, and mentorship sufficient to launch a career in different digital fields
-                            <div class="programs-card-social d-flex align-items-center">
-                                <ion-icon name="logo-instagram" class="fs-4 pe-4"></ion-icon>
-                                <ion-icon name="logo-facebook" class="fs-4 pe-4"></ion-icon>
-                                <ion-icon name="logo-twitter" class="fs-4 pe-4"></ion-icon>
-                            </div>
-                            </p>
-                            <button class="btn d-flex justify-content-between align-items-center "
-                                onclick="window.location.assign('pages/digital_rural.php')">Read more <ion-icon
-                                    class="ps-2" name="chevron-down-circle-outline"></ion-icon></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="programs-card">
-                        <img src="assets/projectdigitalrural.jpg" alt="">
-                        <div class="programs-card-details">
-                            <h3 class="mb-3">Center For Education and Lifelong skills(CELLS)</h3>
-                            <p class="programs-card-desc text-secondary">
-                            At Bluvard,  we establish  local innovation hubs in rural or underserved communities across Nigeria. These  CELLS serve as points of convergence for  young people can collaborate, innovate and build together. 
-                            <div class="programs-card-social d-flex  align-items-center ">
-                                <ion-icon name="logo-instagram" class="fs-4 pe-4"></ion-icon>
-                                <ion-icon name="logo-facebook" class="fs-4 pe-4"></ion-icon>
-                                <ion-icon name="logo-twitter" class="fs-4 pe-4"></ion-icon>
-                            </div>
-                            </p>
-                            <button
-                                class="btn d-flex justify-content-between align-items-center">Read
-                                more <ion-icon class="ps-2" name="chevron-down-circle-outline"></ion-icon>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="programs-card">
-                        <img src="assets/IMG-20211222-WA0015.jpg" alt="">
-                        <div class="programs-card-details">
-                            <h3 class="mb-3">Rural Heroes</h3>
-                            <p class="programs-card-desc text-muted">
-                            Every month, we bring the spotlight to one young person in a rural community using their skill/ talent to impact the lives of others in their community. 
-                            <div class="programs-card-social d-flex  align-items-center ">
-                                <ion-icon name="logo-instagram" class="fs-4 pe-4"></ion-icon>
-                                <ion-icon name="logo-facebook" class="fs-4 pe-4"></ion-icon>
-                                <ion-icon name="logo-twitter" class="fs-4 pe-4"></ion-icon>
-                            </div>
-                            </p>
-                            <button
-                                class="btn d-flex justify-content-between align-items-center">Read
-                                more <ion-icon class="ps-2" name="chevron-down-circle-outline"></ion-icon></button>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </div> -->
     </section>
     <!-- <section id="learnmore">
         <div class="text-center container">
