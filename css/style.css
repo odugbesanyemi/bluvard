@@ -323,12 +323,8 @@ section {
     color: #00043f;
 }
 
-.programs-card img {
-    width: 100%;
-    border-radius: 5px;
-    height: 200px;
-    object-fit: cover;
-    /* box-shadow: 3px 25px 10px rgba(0, 0, 0, 0.057); */
+.programs img{
+    height: 300px;
 }
 
 .programs-card {
@@ -379,8 +375,10 @@ section {
 #partners-showcase {
     width: 100%;
 }
-#partners-showcase img{
-    /* width: 200px !important; */
+#partners-showcase div img{
+    width: 100%;
+    max-height: 100px;
+    object-fit: contain;
 }
 #learnmore{
     background: linear-gradient(rgba(255, 0, 0, 0.184),rgba(0, 21, 128, 0.64)),url('../assets/pexels-dazzle-jam-1029783.jpg');

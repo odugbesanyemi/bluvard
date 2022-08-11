@@ -16,6 +16,7 @@ include('scripts/dbConnect.php');
     <link rel="shortcut icon" href="assets/logos/BLUVARD_FAVICON.svg" type="image/x-icon">
     <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
     <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
@@ -24,10 +25,10 @@ include('scripts/dbConnect.php');
     <nav class="">
         <div class="container">
             <div class="d-flex align-items-center justify-content-between">
-                <div class=""> 
+                <div class="">
                     <p class="m-0">for more info on schedules call +2347015131887, 456038222</p>
                 </div>
-                <div class="">            
+                <div class="">
                     <ion-icon name="logo-facebook" class="fs-3 p-3"></ion-icon>
                     <ion-icon name="logo-twitter" class="fs-3 p-3"></ion-icon>
                     <ion-icon name="logo-instagram" class="fs-3 p-3"></ion-icon>
@@ -39,8 +40,10 @@ include('scripts/dbConnect.php');
     <header class="">
         <nav class="navbar navbar-expand-lg bg-none navbar-dark align-items-center py-3">
             <div class="container align-items-center">
-                <div class="navbar-brand d-flex align-items-center"><img src="assets/logos/Bluvard_svg_logo.svg" alt="" width="50">
-                    <p class="ps-1 fw-bold text-white mb-0" onclick="window.location.assign('#')">Bluvard Education Initiative</p>
+                <div class="navbar-brand d-flex align-items-center"><img src="assets/logos/Bluvard_svg_logo.svg" alt=""
+                        width="50">
+                    <p class="ps-1 fw-bold text-white mb-0" onclick="window.location.assign('#')">Bluvard Education
+                        Initiative</p>
                 </div>
                 <button class="navbar-toggler border-0 shadow-none p-0" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -107,52 +110,72 @@ include('scripts/dbConnect.php');
     <section id="about" class="">
         <div class="container">
             <div class="row ">
-                <div class="col-md-8 container">
-                    <h2 class="mb-4 fw-bold fs-1 text-white text-center">1 in every 3 children from sub-Saharan Africa may never have the opportunity to go to school and 1 in every 5 out-of-school children are from Nigeria</h2>
-                    <p class="text-white text-center">If quality education is not just a basic human right but also fundamental in closing the gaps created by inequality and ultimately reducing global poverty, how then do we democratize access to quality education for young people in rural communities across Nigeria?</p>
+                <div class="col-md-8 container text-center">
+                    <h2 class="mb-4 fw-bold fs-1 text-white text-center">1 in every 3 children
+                        from sub-Saharan Africa
+                        may never have the opportunity to go to school and 1 in every 5 out-of-school children are from
+                        Nigeria</h2>
+                    <p class="text-white text-center" data-aos="zoom-out-up">If quality education is not just a basic
+                        human right but also
+                        fundamental in closing the gaps created by inequality and ultimately reducing global poverty,
+                        how then do we democratize access to quality education for young people in rural communities
+                        across Nigeria?
+                    </p>
+                    <button class="button btn btn-light d-flex align-items-center mx-auto">Read more <ion-icon name="arrow-forward-circle-outline" class="ms-3 fs-4"></ion-icon></button>
                 </div>
             </div>
         </div>
 
     </section>
     <section id="programs" class=" position-relative p-0">
-        <div class="programs-header d-flex align-items-center" >
+        <div class="programs-header d-flex align-items-center">
             <P class="m-0 text-center bg-danger px-5 py-4 text-white">WHAT WE DO</P>
             <h2 class="mb-0 px-4 serif fw-bold text-center">Our Initiatives</h2>
         </div>
         <div class="programs-showcase py-5 my-5">
-            <div class="programs1 container">
-                <div class="row g-4">
-                    <div class="col-md-4 bg-white ">
-                        <div class="shadow shadow-sm">
+            <div class="program container">
+                <div class="row g-4 justify-content-end align-items-end">
+                    <div class="col-md-4 bg-white" data-aos="fade-right">
+                        <div class="">
                             <div class="p-4 ">
+                                <img src="assets/IMG_20211207_112142_184.jpg" alt="" class="w-100 mb-4">
                                 <h2 class="fw-bold mb-3">Project Digital Rural</h2>
-                                <p class="">Project Digital Rural is a digital inclusion project aimed at equipping out-of-school/unemployed youths in rural communities across Nigeria with in-depth digital skills, and mentorship sufficient to launch a career in different digital fields</p>
+                                <p class="">Project Digital Rural is a digital inclusion project aimed at equipping
+                                    out-of-school/unemployed youths in rural communities across Nigeria with in-depth
+                                    digital skills, and mentorship sufficient to launch a career in different digital
+                                    fields
+                                </p>
                             </div>
-                            <div class="bg-secondary p-3">
-                                <a href="#" class="text-white">Click more</a>
+                            <div class="bg-secondary p-3 d-flex justify-content-around">
+                                <a href="#" class="text-white">Click more </a><ion-icon name="arrow-forward-circle-outline" class="ms-3 fs-4 text-white "></ion-icon>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 bg-white ">
-                    <div class="shadow shadow-sm">
+                    <div class="col-md-4 bg-white " data-aos="zoom-out" data-aos-delay="400">
+                        <div class="">
                             <div class="p-4 ">
-                                <h2 class="fw-bold mb-3">Project Digital Rural</h2>
-                                <p class="">Project Digital Rural is a digital inclusion project aimed at equipping out-of-school/unemployed youths in rural communities across Nigeria with in-depth digital skills, and mentorship sufficient to launch a career in different digital fields</p>
+                                <h2 class="fw-bold mb-3">Center For Education and Lifelong skills(CELLS)</h2>
+                                <p class=""> At Bluvard, we establish local innovation hubs in rural or underserved
+                                    communities across Nigeria. These CELLS serve as points of convergence for young
+                                    people can collaborate, innovate and build together.
+                                </p>
                             </div>
-                            <div class="bg-secondary p-3">
-                                <a href="#" class="text-white">Click more</a>
+                            <div class="bg-secondary p-3 d-flex justify-content-around">
+                                <a href="#" class="text-white">Click more</a><ion-icon name="arrow-forward-circle-outline" class="ms-3 fs-4 text-white "></ion-icon>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 bg-white ">
-                    <div class="shadow shadow-sm">
+                    <div class="col-md-4 bg-white" data-aos="fade-left" data-aos-delay="800">
+                        <div class="">
                             <div class="p-4 ">
-                                <h2 class="fw-bold mb-3">Project Digital Rural</h2>
-                                <p class="">Project Digital Rural is a digital inclusion project aimed at equipping out-of-school/unemployed youths in rural communities across Nigeria with in-depth digital skills, and mentorship sufficient to launch a career in different digital fields</p>
+                                <h2 class="fw-bold mb-3">Rural Heroes</h2>
+                                <p class=""> Every month, we bring the spotlight to one young person in a rural
+                                    community using their skill/ talent to impact the lives of others in their
+                                    community.
+                                </p>
                             </div>
-                            <div class="bg-secondary p-3">
-                                <a href="#" class="text-white">Click more</a>
+                            <div class="bg-secondary p-3 d-flex justify-content-around">
+                                <a href="#" class="text-white">Click more</a><ion-icon name="arrow-forward-circle-outline" class="ms-3 fs-4 text-white "></ion-icon>
                             </div>
                         </div>
                     </div>
@@ -411,9 +434,14 @@ include('scripts/dbConnect.php');
                     today lets showcase you.</p>
             </div>
             <div id="partners-showcase" class="d-flex justify-content-around  align-items-center py-md-5">
-                <img src="assets/microsoft-logo-2012-present.jpeg" alt="">
-                <img src="assets/Tech4Dev-IAmAWomanTechster-Campaign.jpg" alt="">
-                <img src="assets/logo-global-youth-mobilization.png" alt="">
+                <div class="partner-logo"><img src="assets/microsoft-logo-2012-present.jpeg" alt=""></div>
+                <div class="partner-logo"><img src="assets/Tech4Dev-IAmAWomanTechster-Campaign.jpg" alt=""></div>
+                <div class="partner-logo"><img src="assets/logo-global-youth-mobilization.png" alt=""></div>
+                <div class="partner-logo"><img src="assets/tecxha logo-04.jpg" alt=""></div>
+                <div class="partner-logo"><img src="assets/LBS-sustainability-centre-logo_big.png" alt=""></div>
+                <div class="partner-logo"><img src="assets/innocentChukwumalogo.png" alt=""></div>
+                <div class="partner-logo"><img src="assets/carrignton_youth_fellowship.png" alt=""></div>
+                <div class="partner-logo"><img src="assets/young_africa_leadership.png" alt=""></div>
             </div>
         </div>
     </section>
