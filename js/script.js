@@ -1,5 +1,7 @@
 // on scroll function in about.php function to check when an id is on focus and when so, we want to change the active in the table of content
 // about.php javascript code
+const aboutImg = document.querySelector('.about-img');
+
 if(window.location.pathname == "/pages/about.php"){
     const historySection = document.querySelector('#history')
     const missionStatement = document.querySelector('#about-mission')
@@ -26,6 +28,28 @@ if(window.location.pathname == "/pages/about.php"){
             }
         }
     }
+
+    // for image
+    aboutImg.style.background= "linear-gradient(#00000090,#00000090),url('../assets/17.jpg')"
+    aboutImg.style.backgroundSize = "cover"
+    aboutImg.style.minHeight = `${400}px`
+    //  for priority areas
+    const prioritytabs = document.querySelectorAll("#priority-tabs>button");
+    const priorityfield = document.querySelectorAll("#priority-field>div");
+    for (const x of prioritytabs) {
+        x.onclick =()=>{
+            // first remove active from all of the priority field
+            for (const y of priorityfield) {
+                // set the corresponding y data to class active
+                if (y.id == `priority-${x.dataset.priority}`){
+                    y.classList.toggle('hidden')
+                }else{
+                }
+            }
+
+        }
+    }
+
 }
 if(window.location.pathname == "/pages/gallery.php"){
     const imglikebtn = document.querySelectorAll(".imglike")
@@ -71,3 +95,34 @@ if(window.location.pathname == "/index.php"){
         x.textContent = newText +"..."
     }
 }
+
+if(window.location.pathname == "/pages/volunteer.php"){
+    
+    aboutImg.style.background= "linear-gradient(#00000090,#00000090),url('../assets/pexels-rodnae-productions-6646852.jpg')"
+    aboutImg.style.backgroundSize = "cover"
+    aboutImg.style.minHeight = `${400}px`
+}
+// priority areas
+if(window.location.pathname == "/pages/event.php"){
+    
+    aboutImg.style.background= "linear-gradient(#00000090,#00000090),url('../assets/pexels-luis-quintero-2774556.jpg')"
+    aboutImg.style.backgroundSize = "cover"
+    aboutImg.style.minHeight = `${400}px`
+    aboutImg.style.backgroundPosition="center"
+}
+// close btn function
+let closeFunction = (btn, target)=>{
+    let btnElement = document.querySelector(btn)
+    let targetElement = document.querySelector(target)
+    
+        btnElement.onclick =()=>{
+            if(targetElement.classList.contains("show")){
+            targetElement.classList.remove('show')
+           }else{
+            targetElement.classList.add('show')
+            }
+        }
+ 
+
+}
+

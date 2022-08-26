@@ -1,8 +1,7 @@
 <?php include("../includes/header.php") ?>
 
-<div class="container text-center">
+<div class="container text-center mt-5">
     <h2 class="fw-bold">Gallery</h2>
-    <p class="text-center">Moments that we cherish</p>
     <div class="breadcrumb mb-0 justify-content-center">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">

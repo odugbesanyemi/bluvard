@@ -1,8 +1,7 @@
 <?php include("../includes/header.php") ?>
 
-<div class="container text-center">
+<div class="container text-center mt-5">
     <h2 class="fw-bold">Contact Us</h2>
-    <p class="text-center">Need Help? we are just a message away.</p>
     <div class="breadcrumb mb-0">
         <nav aria-label="breadcrumb" class="w-100">
             <ol class="breadcrumb justify-content-center">

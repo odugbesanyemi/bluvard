@@ -2,12 +2,12 @@
     <div class="container px-4 px-md-0">
         <div class="row py-md-5 pb-0 py-5">
             <div class="footer-about col-md-3">
-                <ul class="text-left text-md-start">
+                <ul class="text-left text-md-start text-center">
                     <img src="../assets/logos/Bluvard_svg_logo.svg" class="w-25" alt="">
-                    <h4 class="pt-4 fs-5">Bluvard</h4>
+                    <h4 class="pt-4 fs-1 fw-bold fs-md-5">Bluvard</h4>
                     <h5 class="fs-6 fw-light">Education Initiative</h5>
                     <div id="icon-stack"
-                        class="d-flex me-lg-3  d-md-flex pt-3 justify-content-start justify-content-md-start bg-transparent">
+                        class="d-flex me-lg-3 mb-md-0 mb-4  d-md-flex pt-3 justify-content-start justify-content-md-start justify-content-center text-dark bg-transparent">
                         <ion-icon name="logo-facebook" class="fs-3 pe-2"></ion-icon>
                         <ion-icon name="logo-twitter" class="fs-3 px-2"></ion-icon>
                         <ion-icon name="logo-instagram" class="fs-3 px-2"></ion-icon>
@@ -15,7 +15,8 @@
                     </div>
                 </ul>
             </div>
-            <div class="footer-quicklinks col-md-3">
+            <hr class="d-md-none">
+            <div class="footer-quicklinks col-6 col-md-3">
                 <ul class="text-start text-md-start">
                     <h4>Quick Links </h4>
                     <li> <a href="../index.php">Home</a></li>
@@ -25,7 +26,7 @@
                     <li> <a href="../pages/gallery.php">Our Gallery</a></li>
                 </ul>
             </div>
-            <div class="footer-ourlinks col-md-3">
+            <div class="footer-ourlinks col-6 col-md-3">
                 <ul class="text-start text-md-start">
                     <h4>Our Links </h4>
                     <li> <a href="../pages/volunteer.php">Become a Volunteer</a></li>
@@ -34,17 +35,18 @@
                     <li> <a href="#">Become a sponsor</a></li>
                 </ul>
             </div>
+
             <div class="footer-newsletter col-md-3">
-                <ul class="text-start text-md-start">
+                <ul class="text-start text-md-start text-center">
                     <h4>Newsletter</h4>
-                    <p class="text-white my-3">Subscribe to get latest news and information on our programs,special
+                    <p class=" my-3">Subscribe to get latest news and information on our programs,special
                         offers and lifetime deals
                     </p>
                     <form action="../scripts/newsletter.php" method="POST">
-                        <div class="newsletter-form mb-3">
+                        <!-- <div class="newsletter-form mb-3">
                             <input type="text" name="newslettername" id="" placeholder="Full Name"
                                 class="border-0 form-control bg-none shadow-none" required>
-                        </div>
+                        </div> -->
                         <div class="form-group d-flex newsletter-form">
                             <input type="email" name="newsletteremail" id="" placeholder="Email Address"
                                 class="border-0 form-control shadow-none" required>
@@ -57,10 +59,9 @@
         </div>
     </div>
     <div class="footer-under">
-        <div class="container py-3 text-center text-center">
+        <div class="container py-3 text-center">
             <p class="text-center">Copyright &copy; 2022 Bluvard Education Initiative </p>
         </div>
-
     </div>
 </footer>
 </body>
@@ -100,11 +101,15 @@ $(document).ready(function() {
     }
     $.fn.slickElement('.blog-extract-carousel',2)
     $.fn.slickElement('#partners-showcase',4)
+    $.fn.slickElement('.priority-showcase',1)
 
 })
 </script>
 <script>
-AOS.init();
+AOS.init({
+    once:true,
+});
+
 </script>
 
 </html>

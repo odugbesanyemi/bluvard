@@ -16,13 +16,13 @@ include('scripts/dbConnect.php');
     <link rel="shortcut icon" href="assets/logos/BLUVARD_FAVICON.svg" type="image/x-icon">
     <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
     <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
 <body>
-    <nav class="">
+    <!-- <nav class="">
         <div class="container">
             <div class="d-flex align-items-center justify-content-between">
                 <div class="">
@@ -36,7 +36,7 @@ include('scripts/dbConnect.php');
                 </div>
             </div>
         </div>
-    </nav>
+    </nav> -->
     <header class="">
         <nav class="navbar navbar-expand-lg bg-none navbar-dark align-items-center py-3">
             <div class="container align-items-center">
@@ -50,67 +50,76 @@ include('scripts/dbConnect.php');
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse p-0" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
+                <div class="collapse navbar-collapse " id="navbarNavAltMarkup" >
+                    <div class="d-flex text-white mb-4 justify-content-end">
+                        <!-- close btn -->
+                        <i class="fa fa-times bg-danger p-2 rounded" aria-hidden="true" id="closeBtn" onclick="closeFunction(`#closeBtn`,`#navbarNavAltMarkup`)"></i>
+                    </div>
+                    <div class="navbar-nav ms-auto">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="pages/about.php">The organisation</a></li>
+                                <li><a class="dropdown-item" href="pages/about.php">Who we are</a></li>
                                 <li><a class="dropdown-item" href="pages/about.php#about-team">Our Team</a></li>
-                                <li><a class="dropdown-item" href="pages/blog.php">Blog</a>
+                                <li><a class="dropdown-item" href="#">Theory for Change</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">Programmes</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="../pages/projects.php?digital_rural">Digital
+                                <li><a class="dropdown-item" href="pages/digital_rural.php">Digital
                                         Rural</a></li>
                                 <li><a class="dropdown-item" href="../pages/projects.php?girls_in_tech">Girls in
                                         Tech</a></li>
                             </ul>
                         </li>
-                        <a class="nav-link" href="../pages/event.php">events</a>
-                        <a class="nav-link" href="../pages/gallery.php">gallery</a>
-                        <a class="nav-link" href="../pages/contact.php">contact</a>
+                        <a class="nav-link" href="../pages/event.php">Events</a>
+                        <a class="nav-link" href="pages/blog.php">Blog</a>
+                        <a class="nav-link" href="../pages/gallery.php">Gallery</a>
+                        <a class="nav-link" href="../pages/contact.php">Contact</a>
                     </div>
-                    <div id="nav-btn" class="ms-auto">
-                        <a href="../pages/volunteer.php"><button type="button"
-                                class="btn btn-yellow ms-3 d-flex justify-content-between align-items-center"
-                                id="volunteerBtn" style="background-color:yellow; border:0;">volunteer <ion-icon
-                                    class="ps-2" name="help-buoy-outline">
-                                </ion-icon></button></a>
-                    </div>
+                    <a href="../pages/volunteer.php" class="ps-3"><button type="button" class="btn btn-yellow ms-3 d-flex justify-content-between align-items-center" id="volunteerBtn" style="background-color:yellow; border:0;"> volunteer <ion-icon class="ps-2" name="help-buoy-outline"></ion-icon></button></a>
                 </div>
 
             </div>
         </nav>
-        <div id="header-icon-stack" class="d-none">
-            <ion-icon name="logo-facebook" class="fs-3 py-4"></ion-icon>
-            <ion-icon name="logo-twitter" class="fs-3 py-4"></ion-icon>
-            <ion-icon name="logo-instagram" class="fs-3 py-4"></ion-icon>
-            <ion-icon name="logo-pinterest" class="fs-3 py-4"></ion-icon>
-        </div>
-        <div id="hero" class="container d-flex align-items-start justify-content-center flex-column position-relative">
-            <div id="hero-content" class="row">
-                <div class="col-md-8">
-                    <h1 id="hero-caption" class=""> Finding <span style="color:yellow;">Gems</span> in the rough</h1>
-                    <p class="mb-3">Join us in our quest to bridge the education divide. support a child today</p>
-                    <div>
-                        <button class="btn btn-primary btn py-2 d-flex justify-content-between align-items-center"
-                            onclick="window.location.assign('pages/about.php')">Learn more <ion-icon class="ps-2"
-                                name="chevron-down-circle-outline"></ion-icon></button>
+        <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel" style="z-index:0;">
+            <div class="carousel-inner" style="height:calc(100vh - 80px);">
+                <div class="carousel-item active position-relative">
+                    <img src="assets/pexels-shelagh-murphy-2883380.jpg" class="" alt="...">
+                    <div id="hero-content" class="row">
+                        <div class="col-12 ">
+                            <h1 id="hero-caption" class=""> Finding <span style="color:yellow;">Gems</span> in the rough</h1>
+                            <p class="mb-3">Join us in our quest to bridge the education divide. support a child today</p>
+                            <div>
+                                <button class="btn btn-primary btn py-2 d-flex justify-content-between align-items-center"
+                                    onclick="window.location.assign('pages/about.php')">Learn more <ion-icon class="ps-2"
+                                        name="chevron-down-circle-outline"></ion-icon>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
+                <div class="carousel-item">
+                <img src="assets/pexels-lagos-food-bank-initiative-9968379.jpg" class="" alt="...">
+                </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </header>
     <section id="about" class="">
         <div class="container">
             <div class="row ">
-                <div class="col-md-8 container text-center">
+                <div class="col-md-10 container text-center">
                     <h2 class="mb-4 fw-bold fs-1 text-white text-center">1 in every 3 children
                         from sub-Saharan Africa
                         may never have the opportunity to go to school and 1 in every 5 out-of-school children are from
@@ -121,25 +130,25 @@ include('scripts/dbConnect.php');
                         how then do we democratize access to quality education for young people in rural communities
                         across Nigeria?
                     </p>
-                    <button class="button btn btn-light d-flex align-items-center mx-auto">Read more <ion-icon name="arrow-forward-circle-outline" class="ms-3 fs-4"></ion-icon></button>
+                    <a href="pages/about.php"><button class="button btn btn-lg btn-light d-flex align-items-center mx-auto mt-4">Read more <ion-icon name="arrow-forward-circle-outline" class="ms-3 fs-4"></ion-icon></button></a>
                 </div>
             </div>
         </div>
 
     </section>
-    <section id="programs" class=" position-relative p-0">
+    <section id="programs" class=" position-relative p-0 bg-white" >
         <div class="programs-header d-flex align-items-center">
             <P class="m-0 text-center bg-danger px-5 py-4 text-white">WHAT WE DO</P>
             <h2 class="mb-0 px-4 serif fw-bold text-center">Our Initiatives</h2>
         </div>
-        <div class="programs-showcase py-5 my-5">
+        <div class="programs-showcase">
             <div class="program container">
-                <div class="row g-4 justify-content-end align-items-end">
+                <div class="row justify-content-end align-items-stretch ">
                     <div class="col-md-4 bg-white">
-                        <div class="">
+                        <div class="rounded rounded-3 h-100">
                             <div class="p-4 ">
-                                <img src="assets/IMG_20211207_112142_184.jpg" alt="" class="w-100 mb-4">
-                                <h2 class="fw-bold mb-3">Project Digital Rural</h2>
+                                <img src="assets/IMG_20211207_112142_184.jpg" alt="" class="w-100 mb-4 rounded rounded-2">
+                                <h2 class="fw-bold mb-3 fs-5">Project Digital Rural</h2>
                                 <p class="">Project Digital Rural is a digital inclusion project aimed at equipping
                                     out-of-school/unemployed youths in rural communities across Nigeria with in-depth
                                     digital skills, and mentorship sufficient to launch a career in different digital
@@ -149,13 +158,13 @@ include('scripts/dbConnect.php');
                                     <a href="#" class="">Click more </a><ion-icon name="arrow-forward-circle-outline" class="ms-3 fs-4 "></ion-icon>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                     <div class="col-md-4 bg-white ">
-                        <div class="">
+                        <div class=" rounded rounded-3">
                             <div class="p-4 ">
-                                <h2 class="fw-bold mb-3">Center For Education and Lifelong skills(CELLS)</h2>
+                                <img src="assets/DSC_1491.jpg " alt="" class="w-100 mb-4 rounded rounded-2">
+                                <h2 class="fw-bold mb-3 fs-5">Center For Education and Lifelong skills</h2>
                                 <p class=""> At Bluvard, we establish local innovation hubs in rural or underserved
                                     communities across Nigeria. These CELLS serve as points of convergence for young
                                     people can collaborate, innovate and build together.
@@ -168,8 +177,9 @@ include('scripts/dbConnect.php');
                         </div>
                     </div>
                     <div class="col-md-4 bg-white">
-                        <div class="">
+                        <div class="rounded rounded-3">
                             <div class="p-4 ">
+                                <img src="assets/DSC_1505.jpg" alt="" class="w-100 mb-4 rounded rounded-2">
                                 <h2 class="fw-bold mb-3">Rural Heroes</h2>
                                 <p class=""> Every month, we bring the spotlight to one young person in a rural
                                     community using their skill/ talent to impact the lives of others in their

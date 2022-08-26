@@ -1,6 +1,6 @@
 <?php include("../includes/header.php") ?>
 
-<div class="container">
+<div class="container mt-5">
     <h2 class="fw-bold">PROJECT DIGITAL RURAL</h2>
     <p>Cohort 1.0</p>
     <div class="breadcrumb mb-0">

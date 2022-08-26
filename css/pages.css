@@ -1,7 +1,5 @@
 @media screen and (max-width:480px) {
-    #about-content {
-        padding: 30px;
-    }
+
     #about-content h3{
         font-size: 20px !important;
     }
