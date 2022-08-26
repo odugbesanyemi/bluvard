@@ -105,18 +105,28 @@ img {
 .navbar{
     z-index: 1;
 }
+
+.floating{ 
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 50px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
 @media screen and (max-width:700px) {
     #hero-caption {
         font-size: 50px !important;
     }
-    #hero-content {
-        padding: 80px 20px !important;
-        z-index: 1;
-    }
     .navbar-collapse {
         transition: 0.1s;
         position: absolute;
-        z-index: 1;
+        z-index: 3;
         min-width: 100%;
         left: 0;
         top: 0;
@@ -168,6 +178,10 @@ img {
     }
     footer li,footer p, footer a{
         font-size: 12px;
+    }
+    .hero-svg{
+        width: 80% !important;
+        left: 50% !important;
     }
 }
 
@@ -523,9 +537,9 @@ footer a{
   i .fa-solid{
     font-family: FontAwesome;
   }
-  .carousel-item img{
-    min-height:100vh;
+  .carousel-item .sliderImage{
+    max-height:740px;
     min-width: 100%;
-    object-fit: contain;
+    object-fit: cover;
     object-position: center;
   }

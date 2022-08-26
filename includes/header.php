@@ -35,7 +35,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse ms-auto align-items-center" id="navbarNavAltMarkup">
-                        <div class="d-flex text-white mb-4 justify-content-end">
+                        <div class="d-flex text-white mb-4 justify-content-end d-md-none">
                             <!-- close btn -->
                             <i class="fa fa-times bg-danger p-2 rounded" aria-hidden="true" id="closeBtn" onclick="closeFunction(`#closeBtn`,`#navbarNavAltMarkup`)"></i>
                         </div>
