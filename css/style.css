@@ -5,32 +5,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
-/* .serif{
-    font-family: serif;
-} */
-/* html{
-    overflow-x:hidden ;
-} */
-.custom-shape-divider-bottom-1659948710 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
+@font-face {
+	font-family: 'sublima';
+	src: 
+		local('sublima'),
+		local('Sublima'),
+		url('../assets/fonts/Sublima-ExtraBold.otf') 
+		format('opentype');
+	font-weight: bold;
+}
+@font-face {
+    font-family:"sublima-light";
+    src: url("../assets/fonts/Sublima-Light.otf"),
+    format('opentype');
 }
 
-.custom-shape-divider-bottom-1659948710 svg {
-    position: relative;
-    display: block;
-    width: calc(165% + 1.3px);
-    height: 100px;
-}
-
-.custom-shape-divider-bottom-1659948710 .shape-fill {
-    fill: #f4f9ff;
-}
 :root{
     --primaryColor: #050A30 ;
     --SecondaryColor: #050A30 ;
@@ -180,7 +169,7 @@ img {
         font-size: 12px;
     }
     .hero-svg{
-        width: 80% !important;
+        width: 100% !important;
         left: 50% !important;
     }
 }
@@ -196,7 +185,18 @@ body {
     background-size: cover;
     font-family: "Nunito Sans",sans-serif !important;
 }
-
+.sublimaBold{
+    font-family: 'Sublima',sans-serif;
+}
+.sublimaLight{
+    font-family: "sublima-light",sans-serif;
+}
+.darker-highlight{
+    transition: 1s ease-in-out;
+}
+.darker-highlight:hover{
+    color: #000000 !important;
+}
 header {
     background: linear-gradient(0deg,#050a30f6,#050a30f5);
     /* background-blend-mode:multiply ; */
@@ -305,14 +305,16 @@ section {
 
 
 #about,.shape-fill{
-    background:linear-gradient(0deg,#0073ffbe,#0073ffa8),url('../assets/pexels-dazzle-jam-1029783.jpg') ;
+    background:linear-gradient(0deg,#0073ffbe,#00234da8),url('../assets/img/pexels-dazzle-jam-1029783.jpg') ;
     background-position: center left;    
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 #about p{
-    font-size: 20px;
+    font-family: "sublima",sans-serif;
+    font-size: 30px;
     line-height:1.7;
 }
 
@@ -341,6 +343,7 @@ section {
 
 
 #programs {
+    padding: 100px 0;
     background-color: rgb(219, 239, 255);
     box-sizing: border-box;
 }
@@ -377,10 +380,15 @@ section {
 .programs-card-details{
     margin-top:15px;
 }
-.programs-card-details p {
-    color: #ffffffab;
-    padding-bottom: 10px;
+.program .row>div,.highlight{
+    transition: 0.5s ease;
 }
+.program .row>div:hover,.highlight:hover{
+    box-shadow: 0px 0 30px#00010e1b ;
+    perspective: 230deg;
+    z-index: 2;
+}
+
 .programs-card-desc{
     color: #00010e !important;
 }

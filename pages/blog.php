@@ -1,19 +1,21 @@
 <?php include("../includes/header.php") ?>
 <!-- END OF HEADER -->
 
-<div class="container mt-5">
-    <h2 class="fw-bold">RECENT POSTS</h2>
-    <div class="breadcrumb mb-0">
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">News</li>
-            </ol>
-        </nav>
+    <div class="container mt-5">
+        <h2 class="fw-bold">RECENT POSTS</h2>
+        <div class="breadcrumb mb-0">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">News</li>
+                </ol>
+            </nav>
+        </div>
     </div>
 </div>
-</div>
-<section class="blog-posts grid-system">
+<?php include("../includes/noContent.php");?>
+<section></section>
+<!-- <section class="blog-posts grid-system">
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
@@ -73,5 +75,5 @@
             <?php include('../includes/blog_sidebar.php') ?>
         </div>
     </div>
-</section>
+</section> -->
 <?php include("../includes/footer.php") ?>

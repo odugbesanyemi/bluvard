@@ -1,7 +1,7 @@
 <?php include("../includes/header.php") ?>
 
 <div class="container text-center mt-5">
-    <h2 class="fw-bold">Contact Us</h2>
+    <h2 class="fw-bold sublimaBold">Contact Us</h2>
     <div class="breadcrumb mb-0">
         <nav aria-label="breadcrumb" class="w-100">
             <ol class="breadcrumb justify-content-center">
@@ -14,7 +14,7 @@
 </div>
 <section class="">
         <div class="form-head mb-5 text-center">
-            <h2 class="fw-bold">SEND US A MESSAGE</h2>
+            <h2 class="fw-bold sublimaBold">Send us a message</h2>
             <p class="text-center">We are online 24/7 we respond almost immediately</p>
         </div>
         <div class="d-flex align-items-center flex-column flex-md-row container">
@@ -40,8 +40,8 @@
                     <input type="submit" value="Submit" class="border rounded p-3 mb-3 bg-warning w-100">
                 </div>
             </form>
-            <div class="contact-img ms-md-3">
-                <img src="/assets/pexels-photo-1550337.webp" alt="" class="w-100 h-100">
+            <div class="contact-img ms-md-3 d-none d-md-block">
+                <img src="/assets/img/pexels-photo-1550337.webp" alt="" class="w-100 h-100">
             </div>
         </div>
 </section>

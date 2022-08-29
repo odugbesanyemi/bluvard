@@ -12,43 +12,27 @@
     </div>
 </div>
 </div>
-<div>
+<div >
     <div class="event-group">
-        <div id="events-body" class="py-5 my-5 container">
-            <div class="event-nav p-3 bg-white mb-3 border-bottom d-flex flex-row justify-content-between ">
-                <div class="d-md-flex justify-content-around d-none">
-                    <div class="btn text-danger">All Events</div>
-                    <div class="btn">Ongoing</div>
-                    <div class="btn">Expired</div>
-                    <div class="btn">in View</div>
-                </div>
-                <div class="dropdown d-block d-md-none">
-                    <button class="btn btn-white  dropdown-toggle" type="button" id="dropdownMenuButton1"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        All Events
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                        <li><a class="dropdown-item" href="#">Ongoing</a></li>
-                        <li><a class="dropdown-item" href="#">Expired</a></li>
-                        <li><a class="dropdown-item" href="#">In View</a></li>
-
-                    </ul>
-                </div>
-                <div class="sort">
-                    <div class="btn btn-light shadow shadow-sm d-flex align-items-center">
-                        <p class="mb-0 pe-3">Filter</p>
-                        <ion-icon name="funnel-outline"></ion-icon>
-                    </div>
-                </div>
+        <div id="events-body" class="py-5 container">
+            <div class="event-nav py-5 text-center">
+                <h2 class="sublimaBold">Need to know what we are planning next?</h2>
+                <p class="fs-6 mt-3">Follow us and learn more about our Programmes</p>
             </div>
-            <div class="row gy-3">
-                <div class="col-md-4 border-0">
-                    <div class="shadow shadow-sm">
+            <?php include('../includes/noContent.php')?>
+            <section></section>
+            <!-- <div class="row gy-3" style="padding:70px 0;">
+                <div class="col-12 border-0">
+                    <div class="d-md-flex shadow shadow-sm">
                         <div class="event-img">
-                            <img src="../assets/projectdigitalrural.jpg" alt="" class="w-100">
+                            <img src="../assets/img/projectdigitalrural.jpg" alt="" class="w-100" style="object-fit:cover;height:100%;" >
                         </div>
-                        <div class="event-body py-4 px-3 bg-white">
-                            <h3 class="fs-5 mb-3">Project digital rural 2.0 hangout</h3>
+                        <div class="event-body  p-5 bg-white">
+                            <h3 class="fs-5 mb-3 fw-bold">Project digital rural 2.0 hangout</h3>
+                            <p class="event-desc">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quas enim ducimus commodi aliquid atque itaque saepe ea iure ipsam blanditiis quos, voluptatibus reprehenderit debitis velit! Odio est consequatur dicta?
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam vel, necessitatibus aspernatur natus voluptates rerum voluptatem vitae earum ullam nesciunt sapiente optio! Fuga molestiae deleniti rerum, doloremque iste perspiciatis sit.
+                            </p>
                             <p class="d-flex align-items-center text-danger">
                                 <ion-icon name="time-outline" class="me-2"></ion-icon>24th June, 2022
                             </p>
@@ -58,7 +42,16 @@
                         </div>
                     </div>
                 </div>
-            </div>
+                <div class="row py-4">
+                    <ul class="page-numbers d-flex" style="list-style-type:none;">
+                        <li class="p-3 me-2 bg-secondary"><a href="#"class="text-white">1</a></li>
+                        <li class="p-3 me-2 bg-secondary"><a href="#"class="text-white">2</a></li>
+                        <li class="p-3 me-2 bg-secondary"><a href="#"class="text-white">3</a></li>
+                        <li class="p-3"><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
+                    </ul>
+                </div>            
+            </div> -->
+
         </div>
     </div>
 </div>

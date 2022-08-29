@@ -17,46 +17,38 @@
 <div class="page-group py-5 my-5">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3">
+            <div class="col-lg-4">
                 <aside class="">
-                    <div id="goal">
+                    <!-- <div id="goal">
                         <div class="title bg-success text-white py-2 px-3">
                             <h3 class="fs-5">GOAL</h3>
                         </div>
                         <div class="content p-3">
-                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam eos
-                                cupiditate nam hic odit. Necessitatibus, rerum quibusdam tempora similique id perspiciatis?</p>
+                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam eoscupiditate nam hic odit. Necessitatibus, rerum quibusdam tempora similique id perspiciatis?</p>
                         </div>
-                    </div>
-                    <div id="outcome">
-                        <div class="title bg-success text-white py-2 px-3">
-                            <h3 class="fs-5">Expected Outcome</h3>
+                    </div> -->
+                    <div id="outcome" class="mb-3">
+                        <div class="title bg-primary text-white py-2 px-3">
+                            <h3 class="fs-5">Goals</h3>
                         </div>
                         <div class="p-2 bg-white">
                             <ul>
-                                <li>Capture the minds of youth</li>
-                                <li>Introduce out of school graduates to Programming</li>
-                                <li>shape the Future of Ikorodu Environs</li>
-                                <li>Raise funds for unhealthy Children</li>
+                                <li>Support up to 1000 Financially disabled and Out of school Youths in learning Digital Skills </li>
+                                <li>Offer Free Mentorship and career advice to these group of people. </li>
+                                <li>Create a market for trainees to get jobs and career advancing opportunities.</li>
                             </ul>
                         </div>
                     </div>
                 </aside>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-8">
                 <div class="page-content flex-fill">
                     <div class="px-4">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos accusantium repudiandae illum
-                            ipsum ducimus, fugit ratione vero sint voluptatibus. Eveniet sequi cupiditate obcaecati natus hic
-                            accusantium harum a reiciendis ipsam!</p>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos accusantium repudiandae illum
-                            ipsum ducimus, fugit ratione vero sint voluptatibus. Eveniet sequi cupiditate obcaecati natus hic
-                            accusantium harum a reiciendis ipsam!</p>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos accusantium repudiandae illum
-                            ipsum ducimus, fugit ratione vero sint voluptatibus. Eveniet sequi cupiditate obcaecati natus hic
-                            accusantium harum a reiciendis ipsam!</p>
+                        <p>We live in a digital world, yet 1 in every 3 young persons in rural Nigeria has never used a computer before, not for lack of interest but because of some of these factors: finance, distance, gender, and language barriers. </p>
+                        <p>Project DIgital Rural is a digital inclusion project aimed at equipping out-of-school/unemployed youths in rural communities across Nigeria with in-depth digital skills, and mentorship sufficient to launch a career in different digital fields. Through this project, young people are trained in skills such as Web development, Digital Literacy using tools like Microsoft and the likes, Data Analysis and so on. </p>
+                        <p>we are mainly targeted at youths who do not have the financial capabilities to further their academic pursuits in university or unemployed youths who also do not have any digital skills or positive mentorship in this globalized world. </p>
                     </div>
-                    <div class="objectives">
+                    <!-- <div class="objectives">
                         <ul>
                             <h3 class="fs-5">Objectives</h3>
                             <li>Capture the minds of youth</li>
@@ -73,7 +65,7 @@
                             <li>shape the Future of Ikorodu Environs</li>
                             <li>Raise funds for unhealthy Children</li>
                         </ul>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="col-lg-3"></div>
@@ -82,36 +74,24 @@
 
     </div>
     <div class="gallery container py-5 px-3 text-center">
-        <h3 class="fw-bold">GALLERY</h3>
+        <h3 class="fw-bold sublimaBold">GALLERY</h3>
         <p class="fs-6 mb-5">Check out our collage of pictures during the programme</p>
         <div class="row g-3">
             <div class="col-md-3">
-                <img src="../assets/IMG-20211222-WA0015.jpg" alt="" class="w-100">
+                <img src="../assets/img/IMG-20211222-WA0015.jpg" alt="" class="w-100">
             </div>
             <div class="col-md-3">
-                <img src="../assets/IMG-20211222-WA0015.jpg" alt="" class="w-100">
+                <img src="../assets/img/IMG-20211222-WA0016.jpg" alt="" class="w-100">
             </div>
             <div class="col-md-3">
-                <img src="../assets/IMG-20211222-WA0015.jpg" alt="" class="w-100">
+                <img src="../assets/img/IMG-20211222-WA0020.jpg" alt="" class="w-100">
             </div>
             <div class="col-md-3">
-                <img src="../assets/IMG-20211222-WA0015.jpg" alt="" class="w-100">
-            </div>
-            <div class="col-md-3">
-                <img src="../assets/IMG-20211222-WA0015.jpg" alt="" class="w-100">
-            </div>
-            <div class="col-md-3">
-                <img src="../assets/IMG-20211222-WA0015.jpg" alt="" class="w-100">
-            </div>
-            <div class="col-md-3">
-                <img src="../assets/IMG-20211222-WA0015.jpg" alt="" class="w-100">
-            </div>
-            <div class="col-md-3">
-                <img src="../assets/IMG-20211222-WA0015.jpg" alt="" class="w-100">
+                <img src="../assets/img/DSC_1505.jpg" alt="" class="w-100">
             </div>
         </div>
     </div>
-    <div class="sponsor container">
+    <!-- <div class="sponsor container">
         <div class="text-start my-4">
             <p class="m-0">Want to sponsor this project?</p>
             <h3 class="fs-2 fw-bold">Become a Sponsorer</h3>
@@ -132,6 +112,6 @@
                 </div>
             </form>
         </div>
-    </div>
+    </div> -->
 </div>
 <?php include("../includes/footer.php") ?>

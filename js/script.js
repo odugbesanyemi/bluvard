@@ -14,23 +14,9 @@ if(window.location.pathname == "/pages/about.php"){
        return rect;
     }
 
-    window.onscroll=()=> {
-        for(x of pageContent){
-            // console.log(x.getAttribute('id'))
-            if(tableContent.offsetTop >= x.offsetTop && tableContent.offsetTop <= x.offsetTop+getElementRect(x).height){
-                for (const y of aboutListItem) {
-                    if(y.getAttribute('name')==x.getAttribute('id')){
-                        y.setAttribute('class',"list-group-item active")
-                    }else{
-                        y.setAttribute('class',"list-group-item")
-                    }
-                }
-            }
-        }
-    }
 
     // for image
-    aboutImg.style.background= "linear-gradient(#00000090,#00000090),url('../assets/17.jpg')"
+    aboutImg.style.background= "linear-gradient(0deg,#0073ffbe,#00234da8),url('../assets/img/17.jpg')"
     aboutImg.style.backgroundSize = "cover"
     aboutImg.style.minHeight = `${400}px`
     //  for priority areas
@@ -98,14 +84,14 @@ if(window.location.pathname == "/index.php"){
 
 if(window.location.pathname == "/pages/volunteer.php"){
     
-    aboutImg.style.background= "linear-gradient(#00000090,#00000090),url('../assets/pexels-rodnae-productions-6646852.jpg')"
+    aboutImg.style.background= "linear-gradient(#00000090,#00000090),url('../assets/img/pexels-rodnae-productions-6646852.jpg')"
     aboutImg.style.backgroundSize = "cover"
     aboutImg.style.minHeight = `${400}px`
 }
 // priority areas
 if(window.location.pathname == "/pages/event.php"){
     
-    aboutImg.style.background= "linear-gradient(#00000090,#00000090),url('../assets/pexels-luis-quintero-2774556.jpg')"
+    aboutImg.style.background= "linear-gradient(#00000090,#00000090),url('../assets/img/pexels-luis-quintero-2774556.jpg')"
     aboutImg.style.backgroundSize = "cover"
     aboutImg.style.minHeight = `${400}px`
     aboutImg.style.backgroundPosition="center"
