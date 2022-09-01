@@ -19,18 +19,17 @@
 
 <body>
     <div class="page-head about-img">
-        <nav class="navbar navbar-expand-lg navbar-dark  heading">
+        <nav class="navbar navbar-expand-lg navbar-dark heading" style="box-shadow:0 5px 10px #00000010">
             <div class="container">
                 <a href="../index.php">
                     <div class="navbar-brand d-flex align-items-center"><img src="../assets/logos/Bluvard_svg_logo.svg"
                             alt="" width="50">
-                        <p class="ps-2 fw-bold text-white mb-0">Bluvard Education Initiative</p>
+                        <p class="ps-2 fw-bold secondaryColor mb-0">Bluvard Education Initiative</p>
                     </div>
                 </a>
-                <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                <button class="navbar-toggler border-0 shadow-none primaryColor" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon "></span>
                 </button>
                 <div class="collapse navbar-collapse ms-auto align-items-center" id="navbarNavAltMarkup">
                         <div class="d-flex text-white mb-4 justify-content-end d-md-none">

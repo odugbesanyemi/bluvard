@@ -3,7 +3,7 @@
             <div class="row py-md-5 pb-0 py-5">
                 <div class="footer-about col-md-3">
                     <ul class="text-left text-md-start">
-                        <div class="footer-logo d-flex align-items-center">
+                        <div class="footer-logo d-flex align-items-center justify-content-center">
                             <div class="logo-img">
                                 <img src="../assets/logos/Bluvard_svg_logo_footer.svg" width="50" alt="">
                             </div>
@@ -13,7 +13,7 @@
                             </div>                        
                         </div>
                         <div id="icon-stack"
-                            class="d-flex me-lg-3 mb-md-0 mb-4  d-md-flex pt-3 justify-content-start justify-content-md-start text-dark bg-transparent">
+                            class="d-flex me-lg-3 mb-md-0 mb-4  d-md-flex pt-3 justify-content-center justify-content-md-center text-dark bg-transparent">
                             <ion-icon name="logo-facebook" class="fs-3 pe-2"></ion-icon>
                             <ion-icon name="logo-twitter" class="fs-3 px-2"></ion-icon>
                             <ion-icon name="logo-instagram" class="fs-3 px-2"></ion-icon>
@@ -44,9 +44,8 @@
 
                 <div class="footer-newsletter col-md-3">
                     <ul class="text-start text-md-start text-center">
-                        <h4>Newsletter</h4>
-                        <p class=" my-3">Subscribe to get latest news and information on our programs,special
-                            offers and lifetime deals
+                        <h4 class="fw-bold">NEWSLETTER</h4>
+                        <p class=" my-2">Subscribe to become a part of our community
                         </p>
                         <form action="../scripts/newsletter.php" method="POST">
                             <!-- <div class="newsletter-form mb-3">
@@ -55,7 +54,7 @@
                             </div> -->
                             <div class="form-group d-flex newsletter-form">
                                 <input type="email" name="newsletteremail" id="" placeholder="Email Address"
-                                    class="border-0 form-control shadow-none" required>
+                                    class="border-0 form-control shadow-none rounded" required>
                                 <button class="border-0">SUBSCRIBE</button>
                             </div>
                         </form>
@@ -71,7 +70,7 @@
         </div>
     </footer>
 </body>
-<script src="./js/script.js"></script>
+<script src="../js/script.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

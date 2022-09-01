@@ -73,7 +73,10 @@ if(window.location.pathname == "/pages/blog.php" || window.location.pathname =="
     head.appendChild(link);
 }
 
-if(window.location.pathname == "/index.php"){
+if(window.location.pathname == "/index.php"|| window.location.pathname== "/"){
+    aboutImg.style.background = "white"
+    aboutImg.style.backgroundSize = "cover"
+    aboutImg.style.minHeight = `${70}vh`
     // text limit for the program card descriptions
     let programDesc = document.querySelectorAll('.programs-card-desc')
     for (const x of programDesc) {

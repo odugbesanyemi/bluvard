@@ -14,12 +14,15 @@
     color: white;
     position: relative;
     background-blend-mode: multiply;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
 }
 .about-img{
-    background:linear-gradient(rgba(18, 140, 253, 0.801),#1328cc), url("../assets/patterns/head-background-wallpaper.jpg");
+    /* background:linear-gradient(rgba(18, 140, 253, 0.801),#1328cc), url("../assets/patterns/head-background-wallpaper.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: multiply;
+    background-blend-mode: multiply; */
 }
 .page-head h2{
     font-size: 40px;

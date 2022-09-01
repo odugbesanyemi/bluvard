@@ -21,23 +21,14 @@
 }
 
 :root{
-    --primaryColor: #050A30 ;
-    --SecondaryColor: #050A30 ;
-    --footer:#1328e7ec;
-    /* --tertiaryColor:;
-    --textHeader:;
-    --text */
+    --primaryColor: #10294c;
+    --SecondaryColor: #1e5998;
+    --tertiaryColor:#9b1a70;
     box-sizing: border-box;
-
 }
-.theme1{
-    background-color: #03045e;
-}
-.swiper {
-    width: 600px;
-    height: 300px;
-}
-
+.primaryColor{color:var(--primaryColor)}
+.secondaryColor{color:var(--SecondaryColor)}
+.tertiaryColor{color:var(--tertiaryColor)}
 h3{
     font-size: 20px !important;
 }
@@ -93,14 +84,11 @@ img {
 
 .navbar{
     z-index: 1;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 
-.floating{ 
-    animation-name: floating;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-}
  
 @keyframes floating {
     0% { transform: translate(0,  0px); }
@@ -180,10 +168,9 @@ a {
 
 body {
     background: rgba(255, 255, 255, 0.445), url('../assets/pexels-mudassir-ali-2680270.jpg');
-    background-color: ghostwhite !important;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: "Nunito Sans",sans-serif !important;
+    font-family: "calibri",sans-serif !important;
 }
 .sublimaBold{
     font-family: 'Sublima',sans-serif;
@@ -197,15 +184,6 @@ body {
 .darker-highlight:hover{
     color: #000000 !important;
 }
-header {
-    background: linear-gradient(0deg,#050a30f6,#050a30f5);
-    /* background-blend-mode:multiply ; */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    /* background-blend-mode: multiply; */
-}
 
 .nav-brand {
     color: rgb(3, 0, 0);
@@ -214,6 +192,7 @@ header {
 .nav-link {
     padding: 15px 10px ;
     transition: .3s ease-in-out;
+    color: var(--primaryColor);
     /* background: ; */
 }
 
@@ -222,8 +201,7 @@ header {
 }
 
 #hero {
-    color: #ffffff;
-    min-height: calc(100vh - 125px);
+    min-height: 400px;
     position: relative;
 }
 
@@ -294,22 +272,19 @@ section ion-icon:not(#about ion-icon) {
     color: #03045e;
 }
 
-.active {
-    color: rgba(255, 255, 255, 0.521) !important;
-    /* border-bottom: 1px solid yellow; */
-}
 
 section {
     padding: 100px 0;
 }
 
-
-#about,.shape-fill{
-    background:linear-gradient(0deg,#0073ffbe,#00234da8),url('../assets/img/pexels-dazzle-jam-1029783.jpg') ;
+#about{
+    background:linear-gradient(0deg,#ffffffbe,#ffffffda),url('../assets/img/pexels-dazzle-jam-1029783.jpg') ;
     background-position: center left;    
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    min-height:500px !important;
+    padding: 0 10% !important;
 }
 
 #about p{
@@ -395,9 +370,7 @@ section {
 .programs-header p{
     transform: skewX();
 }
-#partners{
-    background:linear-gradient(rgba(255, 255, 255, 0.856),rgba(255, 255, 255, 0.836)), url('../assets/patterns/background-pattern.jpg');
-}
+
 #partners-showcase ion-icon {
     font-size: 100px;
     color: rgb(103, 103, 103);
@@ -408,7 +381,10 @@ section {
 }
 
 #partners-showcase {
-    width: 100%;
+    width: 80%;
+    margin: auto;
+    min-height: 300px;
+
 }
 #partners-showcase div img{
     width: 100%;
@@ -423,7 +399,7 @@ section {
     color: white;
 }
 footer{
-    background-color: #f5f5f5;
+    background-color: #ffffff;
 }
 footer ul{
     list-style-type: none;
