@@ -205,7 +205,7 @@ body {
     box-sizing: border-box;
 }
 .nav-link:hover{
-    background-color: var(--primaryColor);
+    background-color: var(--tertiaryColor);
     transform: perspective(230deg);
     transform-origin: right;
 }
@@ -237,7 +237,7 @@ body {
 }
 .hero {
     min-height: 600px;
-    background:linear-gradient(var(--SecondaryColor),var(--primaryColor)),url(../assets/img/crumpled-white-paperboard.jpg);
+    background:linear-gradient(var(--SecondaryColor),var(--primaryColor),url('../assets/img/ESTHER EDWARD 5.jpg'));
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -265,11 +265,13 @@ body {
 }
 
 .hero h1{
+    color: var(--primaryColor);
     font-family:serif;
     font-size: 60px;
     font-weight: 800;
     line-height: 60px;
-    text-shadow: -10px 10px 15px rgba(0, 0, 0, 0.18);
+    max-width: 700px;
+    /* text-shadow: -10px 10px 15px rgba(0, 0, 0, 0.18); */
 }
 
 
@@ -327,7 +329,7 @@ section {
 }
 
 #about{
-    background:linear-gradient(0deg,#ffffff06,#ffffff00),url('../assets/img/ESTHER EDWARD 5.jpg') ;
+    background:linear-gradient(var(--SecondaryColor),var(--primaryColor)),url('../assets/img/ESTHER EDWARD 5.jpg') ;
     background-position: center left;    
     background-repeat: no-repeat;
     background-size: cover;
@@ -375,8 +377,36 @@ section {
     background-color: rgb(219, 239, 255);
     box-sizing: border-box;
 }
-#programs h2{
-    color: #00043f;
+.programs-row>div{
+    position: relative;
+    z-index: 1;
+}
+.program{
+    background-color: white;
+    padding: 30px;
+    border: 4px solid var(--SecondaryColor);
+    position: relative;
+}
+
+.program:before{
+    content: "";
+    position: absolute;
+    border-right:4px solid var(--tertiaryColor);
+    border-bottom:4px solid var(--tertiaryColor);
+    z-index: -1;
+    width: 100%;
+    top:15px;
+    left: 15px;
+    height:100%;
+
+}
+.program:hover .program:before{
+    content: "";
+    background-color: white;
+}
+.program .program-title h2{
+    color: var(--tertiaryColor)  !important;
+    margin-bottom: 0;
 }
 
 #programs img{
