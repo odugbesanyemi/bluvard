@@ -76,7 +76,6 @@ if(window.location.pathname == "/pages/blog.php" || window.location.pathname =="
 if(window.location.pathname == "/index.php"|| window.location.pathname== "/"){
     aboutImg.style.background = "white"
     aboutImg.style.backgroundSize = "cover"
-    aboutImg.style.minHeight = `${70}vh`
     // text limit for the program card descriptions
     let programDesc = document.querySelectorAll('.programs-card-desc')
     for (const x of programDesc) {
@@ -111,7 +110,19 @@ let closeFunction = (btn, target)=>{
             targetElement.classList.add('show')
             }
         }
- 
-
 }
-
+// for navbar scroll function
+let navbar= document.querySelector('.navbar')
+window.onscroll = (e)=>{
+    if(window.pageYOffset >= 100){
+        navbar.style.position = "fixed"
+        navbar.style.top = 0
+        navbar.style.width = `${100}%`
+        navbar.style.zIndex = 2
+        navbar.style.padding = `${50}px,${0} !important`
+    }else{
+        navbar.style.position = "relative"
+        navbar.style.backgroundColor = 'white'
+    }
+    console.log(window.pageYOffset)
+}

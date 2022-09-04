@@ -19,12 +19,12 @@
 
 <body>
     <div class="page-head about-img">
-        <nav class="navbar navbar-expand-lg navbar-dark heading" style="box-shadow:0 5px 10px #00000010">
+        <nav class="navbar navbar-expand-lg navbar-dark heading py-3" >
             <div class="container">
                 <a href="../index.php">
-                    <div class="navbar-brand d-flex align-items-center"><img src="../assets/logos/Bluvard_svg_logo.svg"
+                    <div class="navbar-brand d-flex align-items-center p-0"><img src="../assets/logos/Bluvard_svg_logo.svg"
                             alt="" width="50">
-                        <p class="ps-2 fw-bold secondaryColor mb-0">Bluvard Education Initiative</p>
+                        <p class="ps-2 fw-bold secondaryColor mb-0">BLUVARD EDUCATION INITIATIVE</p>
                     </div>
                 </a>
                 <button class="navbar-toggler border-0 shadow-none primaryColor" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -48,7 +48,7 @@
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">programmes</a>
+                                    data-bs-toggle="dropdown" aria-expanded="false">Programmes</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item" href="../pages/digital_rural.php">Digital Rural</a></li>
                                     <li><a class="dropdown-item" href="#">Center For Education(CELLS)</a></li>
@@ -60,14 +60,14 @@
                             <!-- <a class="nav-link" href="../pages/gallery.php">Gallery</a> -->
                             <a class="nav-link" href="../pages/contact.php">Contact</a>
                         </div>
-                        <a href="../pages/volunteer.php" class="ps-3">
+                        <!-- <a href="../pages/volunteer.php" class="ps-3">
                             <button type="button"
                                 class="btn btn-white ms-3 d-flex justify-content-between align-items-center "
                                 id="volunteerBtn" style = "background-color:yellow;">volunteer
                                 <ion-icon class="ps-2" name="help-buoy-outline">
                                 </ion-icon>
                             </button>
-                        </a>                 
+                        </a>                  -->
                 </div>
             </div>
         </nav>

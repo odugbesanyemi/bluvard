@@ -2,9 +2,15 @@
 include('scripts/dbConnect.php');
 include('includes/header.php');
 ?>
-    <div class="hero">
-        <h1>Hello world</h1>
-    </div>
+        <div class="hero">
+            <div>
+                <h1>Driving inclusive Education and Inspiring Hope. </h1>
+                <div class="btn-group">
+                    <button> Learn More</button>
+                    <button>Donate</button>
+                </div>
+            </div>
+        </div>
     </div>
     <section id="about" class=""  style="min-height:300px; display:flex; flex-direction:column; justify-content:center;">
         <div class="container">
