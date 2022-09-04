@@ -46,7 +46,7 @@ include('includes/header.php');
         </div>
 
     </section>
-    <section id="programs" class="position-relative bg-white" >
+    <section id="programs" class="position-relative bg-white p-md-5 p-4"  >
         <div class="programs-header d-flex align-items-center justify-content-center">
             <h2 class="mb-5 px-4 fs-1 fw-bold text-center" style="font-family:serif;color:var(--primaryColor)">Our Initiatives</h2>
         </div>
@@ -129,7 +129,6 @@ include('includes/header.php');
         </div>
         
     </section>
-
     <section id = "partners">
         <div class="container">
             <div class="partners-title text-center">
