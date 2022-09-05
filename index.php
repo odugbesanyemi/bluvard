@@ -3,19 +3,23 @@ include('scripts/dbConnect.php');
 include('includes/header.php');
 include('includes/popup.php')
 ?>
-        <div class="hero">
-            <div>
-                <h1>Driving inclusive Education and Inspiring Hope. </h1>
-                <div class="btn-group">
-                    <button> Learn More <i class="fa fa-long-arrow-right ms-3" aria-hidden="true"></i></button>
-                    <button>Donate</button>
+        <div class="hero ">
+            <div class="d-flex flex-column flex-md-row position-relative align-items-center container">
+                <div>
+                    <h1>Driving inclusive Education and Inspiring Hope. </h1>
+                    <div class="btn-group">
+                        <button> Learn More <i class="fa fa-long-arrow-right ms-3" aria-hidden="true"></i></button>
+                        <button>Donate</button>
+                    </div>                    
                 </div>
+                <!-- <img src="assets/img/ben-white-83tkHLPgg2Q-unsplash.png" alt="" class=""> -->
             </div>
         </div>
     </div>
+    
     <section id="about" class=""  style="min-height:300px; display:flex; flex-direction:column; justify-content:center;">
         <div class="container">
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="z-index:0;">
+            <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel" style="z-index:0;">
                 <div class="carousel-inner">
                     <div class="carousel-item position-relative active">
                         <p class="text-center">1 in every 3 children from sub-Saharan Africa may never have the opportunity to go to school and 1 in every 5 out-of-school children are from Nigeria</p>
@@ -55,20 +59,10 @@ include('includes/popup.php')
             <div class="row justify-content-end align-items-stretch g-4 programs-row">
                 <div class="col-md-4 bg-white">
                     <div class="program">
-                        <!-- <div class="p-4">
-                            <img src="assets/img/IMG_20211207_112142_184.jpg" alt="" class="w-100 mb-4 rounded rounded-2">
-                            <p class="">Project Digital Rural is a digital inclusion project aimed at equipping
-                                out-of-school/unemployed youths in rural communities across Nigeria with in-depth
-                                digital skills, and mentorship sufficient to launch a career in different digital
-                                fields
-                            </p>
-                            <div class="">
-                                <a href="#" class="">Click more </a><ion-icon name="arrow-forward-circle-outline" class="ms-3 fs-4 "></ion-icon>
-                            </div>
-                        </div> -->
                         <div class="program-title">
                             <h2 class="fw-bold fs-5">Project Digital Rural</h2>
                         </div>
+                        <img src="assets/img/DSC_1505.jpg" alt="" class="w-100 my-3">
                         <div class="program-desc py-3">
                             <p>Equipping out-of-school/unemployed youths in rural communities across Nigeria with in-depth
                                 digital skills, and mentorship sufficient to launch a career in different digital
@@ -80,19 +74,11 @@ include('includes/popup.php')
                 </div>
                 <div class="col-md-4 bg-white ">
                     <div class="program">
-                        <!-- <div class="p-4 ">
-                            <img src="assets/img/DSC_1491.jpg " alt="" class="w-100 mb-4 rounded rounded-2">
-                            <p class=""> At Bluvard, we establish local innovation hubs in rural or underserved
-                                communities across Nigeria. These CELLS serve as points of convergence for young
-                                people can collaborate, innovate and build together.
-                            </p>
-                            <div class="">
-                                <a href="#" class="">Click more</a><ion-icon name="arrow-forward-circle-outline" class="ms-3 fs-4 "></ion-icon>
-                            </div>
-                        </div> -->
+
                         <div class="program-title">
                             <h2 class="fw-bold fs-5">Center For Education and Lifelong skills</h2>
                         </div>
+                        <img src="assets/img/IMG-20211222-WA0015.jpg" alt="" class="w-100 my-3">
                         <div class="program-desc py-3">
                             <p>At Bluvard, we establish local innovation hubs in rural or underserved
                                 communities across Nigeria. These CELLS serve as points of convergence for young
@@ -104,19 +90,10 @@ include('includes/popup.php')
                 </div>
                 <div class="col-md-4 bg-white" >
                     <div class="program">
-                        <!-- <div class="p-4">
-                            <img src="assets/img/DSC_1505.jpg" alt="" class="w-100 mb-4 rounded rounded-2">
-                            <p class=""> Every month, we bring the spotlight to one young person in a rural
-                                community using their skill/ talent to impact the lives of others in their
-                                community.
-                            </p>
-                            <div class="">
-                                <a href="pages/digital_rural.php" class="">Click more</a><ion-icon name="arrow-forward-circle-outline" class="ms-3 fs-4 "></ion-icon>
-                            </div>
-                        </div> -->
                         <div class="program-title">
                             <h2 class="fw-bold fs-5">Rural Heroes</h2>
                         </div>
+                        <img src="assets/img/projectdigitalrural.jpg" alt="" class="w-100 my-3">
                         <div class="program-desc py-3">
                             <p>Every month, we bring the spotlight to one young person in a rural
                                 community using their skill/ talent to impact the lives of others in their

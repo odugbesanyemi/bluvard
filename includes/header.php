@@ -29,7 +29,7 @@
                 </a>
                 <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon" style="color:var(--primaryColor) !important ;"></span>
+                    closedir
                 </button>
                 <div class="collapse navbar-collapse ms-auto align-items-center" id="navbarNavAltMarkup">
                         <div class="d-flex text-white mb-4 justify-content-end d-md-none">

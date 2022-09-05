@@ -111,6 +111,14 @@ let closeFunction = (btn, target)=>{
             }
         }
 }
+let hideFunction = (btn,target)=>{
+    let btnElement = document.querySelector(btn)
+    let targetElement = document.querySelector(target)
+    
+        btnElement.onclick =()=>{
+            targetElement.classList.replace('show','hide')
+        }
+}
 // for navbar scroll function
 let navbar= document.querySelector('.navbar')
 window.onscroll = (e)=>{

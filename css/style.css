@@ -238,11 +238,14 @@ body {
 }
 .hero {
     min-height: 600px;
-    background:linear-gradient(var(--SecondaryColor),var(--primaryColor),url('../assets/img/ESTHER EDWARD 5.jpg'));
+    background-image:url(../assets/img/bg-01.png) ;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-blend-mode: multiply;
+    background-attachment:fixed;
+    position: relative;
 }
 .btn-group{
     margin-top: 30px;
@@ -260,9 +263,6 @@ body {
     box-shadow: -10px 10px 20px var(--primaryColor);
     transform-origin: left;
     border: 1px solid white;
-}
-.hero>div{
-    padding: 0 15%;
 }
 
 .hero h1{
@@ -313,7 +313,7 @@ section {
 }
 
 #about{
-    background:linear-gradient(var(--SecondaryColor),var(--primaryColor)),url('../assets/img/ESTHER EDWARD 5.jpg') ;
+    background:linear-gradient(var(--SecondaryColor),var(--SecondaryColor)),url('../assets/img/ESTHER EDWARD 5.jpg') ;
     background-position: center left;    
     background-repeat: no-repeat;
     background-size: cover;
@@ -391,6 +391,7 @@ section {
     border-bottom:4px solid var(--tertiaryColor);
     top:15px;
     left: 15px;
+    background-color: var(--primaryColor);
 }
 .program .program-title h2{
     color: var(--tertiaryColor)  !important;

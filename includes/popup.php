@@ -1,6 +1,6 @@
 <div class="popup hide">
     <div class="position-relative">
-        <div class="closeBtn bg-white text-danger py-2 px-3 position-absolute shadow" style="position:absolute; left:90%">
+        <div class="closeBtn bg-white text-danger py-2 px-3 position-absolute shadow" style="position:absolute; left:90%" onclick="hideFunction('.closeBtn','.popup')">
             <i class="fa fa-times" aria-hidden="true"></i>
         </div>
         <div class="row">
