@@ -124,5 +124,13 @@ window.onscroll = (e)=>{
         navbar.style.position = "relative"
         navbar.style.backgroundColor = 'white'
     }
-    console.log(window.pageYOffset)
+    // console.log(window.pageYOffset)
+}
+
+// delay popup  and add to the screen
+let popup = document.querySelector('.popup')
+window.onload = ()=>{
+    setTimeout(function(){
+        popup.classList.replace('hide','show')
+    },15000)
 }

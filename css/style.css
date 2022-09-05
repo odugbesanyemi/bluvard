@@ -104,6 +104,13 @@ img {
     #hero-caption {
         font-size: 50px !important;
     }
+    .hero h1{
+        font-size: 45px !important;
+        line-height: 1 !important;
+    }
+    .btn-group button{
+        padding: 10px !important;
+    }
     .navbar-collapse {
         transition: 0.1s;
         position: absolute;
@@ -141,14 +148,8 @@ img {
         color: white;
         padding: 20px;
     }
-    
-    p{
-        font-size: 14px !important ;
-        /* text-align: justify; */
-        line-height: 1.5;
-    }
     #about p{
-        font-size: 13px !important;
+        font-size: 20px !important;
     }
     section{
         padding: 50px 0px !important;
@@ -280,28 +281,11 @@ body {
     border-radius:50px;
     color: #ffffff53;
 }
-#header-icon-stack{
-    background-color: #180874;
-    border-radius:0 30px 30px 0;
-    padding: 0 15px;
-    color: #ffffffb2;
-    border: rgba(255, 255, 255, 0.075) 1px solid;
-    box-shadow: 0 0 10px#e7e9ff0d ;
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 60px;
-    height: 306px;
-    transition: 1s ease;
+#icon-stack a{
+    font-size: 25px;
+    margin-right: 10px;
 }
-#header-icon-stack:hover{
-    color: #03045e;
-    background-color: #f1f2ff;
-}
-#header-icon-stack ion-icon:hover{
-    font-size: 45px !important;
-}
+
 #svg-stroke {
     position: absolute;
     width: 40%;
@@ -390,13 +374,6 @@ section {
 .program:hover{
     cursor: pointer;
     transition: 1s ease;
-}
-.program:hover>.program-desc{
-    display: block;
-}
-.program-desc{
-    display: none;
-    transition: 1s cubic-bezier(0.23, 1, 0.320, 1);
 }
 .program:before{
     content: "";
@@ -497,7 +474,7 @@ footer{
 }
 footer ul{
     list-style-type: none;
-    color:black;
+    color: white;
     padding: 0;
 }
 footer li{
@@ -508,22 +485,21 @@ footer li:hover a{
     color: white;
 }
 footer a{
-    color: rgb(0, 0, 0) !important;
+    color: rgba(255, 255, 255, 0.408);
 }
 .footer-under{
-    background-color: #e6e6e6;
-    color: rgb(44, 44, 44) !important;
+    background-color:var(--primaryColor);
 }
 .footer-under p{
     margin-bottom: 0;
-    font-size: 12px;
-    color: rgb(31, 31, 31);
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.408);
 }
 .newsletter-form {
     background-color: rgba(255, 255, 255, 0.287);
-    /* border-radius: 50px; */
+    border-radius: 5px;
     padding: 5px 15px;
-    border: 1px solid black;
+    border-bottom: var(--primaryColor) 3px solid;
 }
 .newsletter-form p{
     color: #00010e;
@@ -621,3 +597,22 @@ footer a{
     object-fit: cover;
     object-position: center;
   }
+
+/* popup message */
+.popup{
+    background-color: var(--tertiaryColor);
+    max-width: 600px;
+    min-width: 350px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    transform-style: preserve-3d;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}

@@ -24,12 +24,12 @@
                 <a href="../index.php">
                     <div class="navbar-brand d-flex align-items-center p-0"><img src="../assets/logos/Bluvard_svg_logo.svg"
                             alt="" width="50">
-                        <p class="ps-2 fw-bold secondaryColor mb-0">BLUVARD EDUCATION INITIATIVE</p>
+                        <p class="ps-2 fw-bold secondaryColor mb-0">Bluvard Education Initiative</p>
                     </div>
                 </a>
-                <button class="navbar-toggler border-0 shadow-none primaryColor" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon "></span>
+                    <span class="navbar-toggler-icon" style="color:var(--primaryColor) !important ;"></span>
                 </button>
                 <div class="collapse navbar-collapse ms-auto align-items-center" id="navbarNavAltMarkup">
                         <div class="d-flex text-white mb-4 justify-content-end d-md-none">

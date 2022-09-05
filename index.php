@@ -1,12 +1,13 @@
 <?php 
 include('scripts/dbConnect.php');
 include('includes/header.php');
+include('includes/popup.php')
 ?>
         <div class="hero">
             <div>
                 <h1>Driving inclusive Education and Inspiring Hope. </h1>
                 <div class="btn-group">
-                    <button> Learn More</button>
+                    <button> Learn More <i class="fa fa-long-arrow-right ms-3" aria-hidden="true"></i></button>
                     <button>Donate</button>
                 </div>
             </div>
@@ -14,7 +15,7 @@ include('includes/header.php');
     </div>
     <section id="about" class=""  style="min-height:300px; display:flex; flex-direction:column; justify-content:center;">
         <div class="container">
-            <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel" style="z-index:0;">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="z-index:0;">
                 <div class="carousel-inner">
                     <div class="carousel-item position-relative active">
                         <p class="text-center">1 in every 3 children from sub-Saharan Africa may never have the opportunity to go to school and 1 in every 5 out-of-school children are from Nigeria</p>
@@ -48,9 +49,9 @@ include('includes/header.php');
     </section>
     <section id="programs" class="position-relative bg-white p-md-5 p-4"  >
         <div class="programs-header d-flex align-items-center justify-content-center">
-            <h2 class="mb-5 px-4 fs-1 fw-bold text-center" style="font-family:serif;color:var(--primaryColor)">Our Initiatives</h2>
+            <h2 class="py-5 px-4 fs-1 fw-bold text-center" style="font-family:serif;color:var(--primaryColor)">Our Initiatives</h2>
         </div>
-        <div class="programs-showcase container">
+        <div class="programs-showcase container d-flex flex-column justify-content-center " style="min-height:400px;">
             <div class="row justify-content-end align-items-stretch g-4 programs-row">
                 <div class="col-md-4 bg-white">
                     <div class="program">
@@ -127,14 +128,13 @@ include('includes/header.php');
                 </div>
             </div>
         </div>
-        
     </section>
     <section id = "partners">
         <div class="container">
             <div class="partners-title text-center">
                 <h2 class="my-3 sublimaBold">Our partners</h2>
             </div>
-            <div id="partners-showcase" class="d-flex justify-content-around  align-items-center py-md-5">
+            <div id="partners-showcase" class="d-flex justify-content-around g-4 align-items-center py-md-5" style="gap:30px ;">
                 <!-- <div class="partner-logo"><img src="assets/img/microsoft-logo-2012-present.jpeg" alt=""></div> -->
                 <!-- <div class="partner-logo"><img src="assets/img/Tech4Dev-IAmAWomanTechster-Campaign.jpg" alt=""></div> -->
                 <div class="partner-logo"><img src="assets/img/logo-global-youth-mobilization.png" alt=""  width="30"></div>

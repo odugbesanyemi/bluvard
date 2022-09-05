@@ -12,12 +12,10 @@
                                 <h5 class="fs-6 fw-light">Education Initiative</h5>                        
                             </div>                        
                         </div>
-                        <div id="icon-stack"
-                            class="d-flex me-lg-3 mb-md-0 mb-4  d-md-flex pt-3 justify-content-center justify-content-md-center text-dark bg-transparent">
-                            <ion-icon name="logo-facebook" class="fs-3 pe-2"></ion-icon>
-                            <ion-icon name="logo-twitter" class="fs-3 px-2"></ion-icon>
-                            <ion-icon name="logo-instagram" class="fs-3 px-2"></ion-icon>
-                            <ion-icon name="logo-pinterest" class="fs-3 px-2"></ion-icon>
+                        <div id="icon-stack" class="d-flex me-lg-3 mb-md-0 mb-4  d-md-flex pt-3 justify-content-center justify-content-md-center text-dark bg-transparent">
+                                <a href="https://twitter.com/Bluvard_NGO?t=ozqhyY8xwC5sfCy0QtjARQ&s=09"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="https://instagram.com/invites/contact/?i=nak86oc8ut2f&utm_content=lpgyjhz"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href="https://www.linkedin.com/company/the-bluvard-education-initiative/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </div>
                     </ul>
                 </div>
