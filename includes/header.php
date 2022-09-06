@@ -11,6 +11,8 @@
     <title>Bluvard Education Initiative- Bridging the Education Divide</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/pages.css">
+    <link rel="stylesheet" href="../css/animation.css">
+    <link rel="stylesheet" href="../assets/mklb/css/mklb.css" />
     <link rel="shortcut icon" href="../assets/logos/BLUVARD_FAVICON.svg" type="image/x-icon">
     <link rel="stylesheet" href="../slick-1.8.1/slick/slick-theme.css">
     <link rel="stylesheet" href="../slick-1.8.1/slick/slick.css">
@@ -18,15 +20,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <body>
     <div class="page-head about-img">
-        <nav class="navbar navbar-expand-lg navbar-dark heading">
+        <nav class="navbar navbar-expand-lg navbar-dark heading p-0">
             <div class="container">
                 <a href="../index.php">
                     <div class="navbar-brand d-flex align-items-center p-0"><img
                             src="../assets/logos/Bluvard_svg_logo.svg" alt="" width="50">
-                        <p class="ps-2 fw-bold text-white mb-0 py-3">Bluvard Education Initiative</p>
+                        <p class="ps-2 fw-bold text-white mb-0 py-4">Bluvard Education Initiative</p>
                     </div>
                 </a>
                 <button class="navbar-toggler border-0 shadow-none text-dark" type="button" data-bs-toggle="collapse"

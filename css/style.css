@@ -30,8 +30,10 @@
     --primaryColor: #10294c;
     --SecondaryColor: #1e5998;
     --tertiaryColor:#9b1a70;
+    --textmute:rgba(0, 0, 0, 0.611);
     box-sizing: border-box;
 }
+.textmute{color:var(--textmute)}
 .primaryColor{color:var(--primaryColor)}
 .secondaryColor{color:var(--SecondaryColor)}
 .tertiaryColor{color:var(--tertiaryColor)}
@@ -88,11 +90,30 @@ img {
 
 .navbar{
     z-index: 1;
-    position: sticky;
+    position: absolute;
     top: 0;
     background-color: var(--primaryColor);
 }
 
+.premise-content p{
+    font-size: 130% !important;
+}
+.value-containers>div>div>div{
+    transition: .5s ease;
+}
+.value-containers>div>div>div img{
+    border: 2px solid white;
+}
+.value-containers>div>div>div:hover{
+    z-index: 3;
+    background-color: #1e5998;
+    transform: scale3d(10deg);
+    color: white;
+    transform: scale(110%);
+}
+.gallery img{
+    border-radius: 10px;
+}
  
 @keyframes floating {
     0% { transform: translate(0,  0px); }
@@ -123,7 +144,7 @@ img {
         top: 0;
         min-height: 100vh;  
         backdrop-filter: blur(10px);
-        background-color: #050a30f5;
+        background-color: var(--SecondaryColor);
         padding: 30px;  
     }
     .navbar-collapse .dropdown-menu{
@@ -138,6 +159,7 @@ img {
         border-bottom: 1px solid rgba(255, 255, 255, 0.082);
         border-radius: none !important;
         width: 100%;
+        text-align: left !important;
     }
     .nav-link:hover{
         background-color:rgba(255, 255, 255, 0.295);
@@ -205,12 +227,18 @@ body {
     text-align: center;
     font-weight: bold;
     box-sizing: border-box;
+    position: relative;
 }
-.nav-link:hover{
-    background-color: var(--tertiaryColor);
-    transform: perspective(230deg);
-    border-radius: 10px;
+.nav-link:hover::before{
+    content: "";
+    top: 5px;
+    left: 0;
+    position: absolute;
+    border-bottom: 4px solid var(--tertiaryColor);
+    width: 100%;
+    height: 100%;
 }
+
 .navbar-collapse .dropdown-menu{
     position: absolute;
     left: 0;
@@ -251,7 +279,7 @@ body {
     margin-top: 30px;
 }
 .btn-group button{
-    border: 1px solid var(--primaryColor);
+    border: 1px solid transparent;
     color: var(--primaryColor);
     padding: 10px 30px;
     margin-right: 10px;
@@ -260,7 +288,7 @@ body {
 .btn-group button:hover{
     color: white;
     background-color: var(--primaryColor);
-    box-shadow: -10px 10px 20px var(--primaryColor);
+    box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.257);
     transform-origin: left;
     border: 1px solid white;
 }
@@ -313,7 +341,7 @@ section {
 }
 
 #about{
-    background:linear-gradient(var(--SecondaryColor),var(--SecondaryColor)),url('../assets/img/ESTHER EDWARD 5.jpg') ;
+    background:radial-gradient(var(--SecondaryColor)0%,var(--primaryColor))100%,url('../assets/img/ESTHER EDWARD 5.jpg') ;
     background-position: center left;    
     background-repeat: no-repeat;
     background-size: cover;
@@ -358,7 +386,8 @@ section {
 
 #programs {
     padding: 100px 0;
-    background-color: rgb(219, 239, 255);
+    /* background-image: url(../assets/img/bg-01.png); */
+    background-size: contain;
     box-sizing: border-box;
 }
 .programs-row>div{
@@ -394,7 +423,7 @@ section {
     background-color: var(--primaryColor);
 }
 .program .program-title h2{
-    color: var(--tertiaryColor)  !important;
+    color: var(--SecondaryColor)  !important;
     margin-bottom: 0;
 }
 
@@ -527,7 +556,9 @@ footer a{
     color: rgb(36, 36, 36);
     font-weight: lighter;
 }
-
+input:focus{
+    outline: none;
+}
 .img-shadow{
     position: absolute;
     background:linear-gradient(rgba(255, 255, 255, 0.26),#ffffff63) ;
@@ -585,7 +616,7 @@ footer a{
     width: 1.3em; /* same as padding-left set on li */
   }
   #priority{
-    background-color: #00043f;
+    background-color: var(--primaryColor);
     color: white !important;
   }
 
@@ -602,14 +633,15 @@ footer a{
 /* popup message */
 .popup{
     background-color: var(--tertiaryColor);
-    max-width: 600px;
-    min-width: 350px;
+    max-width: 500px;
+    min-width: 320px;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
     transform-style: preserve-3d;
+    box-sizing: border-box;
 }
 .hide{
     display: none;

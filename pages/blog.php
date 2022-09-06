@@ -1,7 +1,7 @@
-<?php include("../includes/header.php") ?>
+<?php include("../includes/header.php"); ?>
 <!-- END OF HEADER -->
 
-    <div class="container mt-5">
+    <div class="container" style="padding:10%;">
         <h2 class="fw-bold">RECENT POSTS</h2>
         <div class="breadcrumb mb-0">
             <nav aria-label="breadcrumb">
@@ -13,8 +13,7 @@
         </div>
     </div>
 </div>
-<?php include("../includes/noContent.php");?>
-<section></section>
+<?php include("../includes/noContent.php"); ?>
 <!-- <section class="blog-posts grid-system">
     <div class="container">
         <div class="row">
@@ -76,4 +75,4 @@
         </div>
     </div>
 </section> -->
-<?php include("../includes/footer.php") ?>
+<?php include("../includes/footer.php"); ?>

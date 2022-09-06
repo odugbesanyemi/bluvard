@@ -1,6 +1,6 @@
 <?php include("../includes/header.php") ?>
 
-<div class="container text-center d-flex flex-column align-items-center h-100 mt-5">
+<div class="container text-center d-flex flex-column align-items-center h-100">
     <h2 class="fw-bold">Events</h2>
     <div class="breadcrumb mb-0">
         <nav aria-label="breadcrumb" class="w-100">
@@ -20,7 +20,6 @@
                 <p class="fs-6 mt-3">Follow us and learn more about our Programmes</p>
             </div>
             <?php include('../includes/noContent.php')?>
-            <section></section>
             <!-- <div class="row gy-3" style="padding:70px 0;">
                 <div class="col-12 border-0">
                     <div class="d-md-flex shadow shadow-sm">

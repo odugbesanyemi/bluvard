@@ -15,11 +15,10 @@ $message = "";
     }else{
         // results doesn't exist so we can move further to save user details
         //we want  to connect to newslettermembers and save details that users leave to the website
-        $sql = "INSERT INTO `newslettermembers`(`fullName`,`email`) VALUES (?,?)";
+        $sql = "INSERT INTO `newslettermembers`(`email`) VALUES (?)";
         if ($stmt = mysqli_prepare($conn,$sql)){
             // bind data
-            mysqli_stmt_bind_param($stmt,"ss",$param_fullname, $param_email);
-            $param_fullname = $_POST['newslettername'];
+            mysqli_stmt_bind_param($stmt,"s", $param_email);
             $param_email = $_POST['newsletteremail'];
             mysqli_stmt_execute($stmt);
             // header("location: $_SERVER[HTTP_REFERER]");
@@ -29,48 +28,48 @@ $message = "";
     }
 
 }
-include('../includes/header.php');
 
 ?>
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="container text-center">
-    <h2 class="fw-bold">Newsletter</h2>
-    <p>Don't be left out on our programs and events. Get updates early </p>
-    <div class="breadcrumb mb-0">
-        <nav aria-label="breadcrumb" class="text-center">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Gallery</li>
-            </ol>
-        </nav>
-    </div>
-</div>
-</div>
-<div class="py-5">
-    <div class="container">
-        <div class="row container">
-            <div class="col-md-6 bg-white text-center p-5">
-                <img src="../assets/envelope.jpg" alt="" class="w-50">
-                <p class="fw-bold fs-3 text-primary text-center">NEWSLETTER</p>
-            </div>
-            <div class="col-md-6 bg-dark">
-                <div class="p-5 text-light">
-                    <h3 class="fw-bold fs-1" style="color:yellow">Thank You</h3>
-                    <p class="fs-4 lh-0 fw-bold">For subscribing to our Newsletter</p>
-                    <p>Bluvard Education initiative newsletter is the best way to find out about our current
-                        programs
-                        and events</p>
-                    <p>once or twice a month, you will receive a newsletter with information about Bluvard's
-                        Programs,
-                        and much more
-                        events
-                    </p>
-                    <p class="small"><small>we're happy to have you on board!</small> </p>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tecxha IT Solutions">
+    <meta name="description"
+        content="Bluvard is a youth led organisation focused on bridging the education divide through non-conventional learning strategies for children in rural communities.">
+    <title>Bluvard Education Initiative- Bridging the Education Divide</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/pages.css">
+    <link rel="shortcut icon" href="../assets/logos/BLUVARD_FAVICON.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="../slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="py-5">
+        <div class="container">
+            <div class="row container">
+                <div class="col-md-8  m-auto" style="background-color:var(--primaryColor)">
+                    <div class="p-5 text-light">
+                        <h3 class="fw-bold fs-1" style="color:yellow">Thank You</h3>
+                        <p class="fs-4 lh-0 fw-bold">For subscribing to our Newsletter</p>
+                        <p>Bluvard Education initiative newsletter is the best way to find out about our current
+                            programs
+                            and events</p>
+                        <p>once or twice a month, you will receive a newsletter with information about Bluvard's
+                            Programs,
+                            and much more
+                            events
+                        </p>
+                        <p class="small"><small>we're happy to have you on board!</small> </p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<?php
-include('../includes/footer.php');
-?>

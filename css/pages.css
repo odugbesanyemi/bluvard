@@ -14,17 +14,21 @@
     color: white;
     position: relative;
     background-blend-mode: multiply;
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    justify-content: space-between; */
+    justify-content: space-between;
+}
+
+.page-head>div:not(.popup,.hero){
+    min-height:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .about-img{
-
-    /* background:linear-gradient(rgba(18, 140, 253, 0.801),#1328cc), url("../assets/patterns/head-background-wallpaper.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: multiply; */
-    
+    background-attachment: fixed;
+    background-position: center !important;
 }
 .page-head h2{
     font-size: 40px;

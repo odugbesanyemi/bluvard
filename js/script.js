@@ -16,9 +16,9 @@ if(window.location.pathname == "/pages/about.php"){
 
 
     // for image
-    aboutImg.style.background= "linear-gradient(0deg,#0073ffbe,#00234da8),url('../assets/img/17.jpg')"
+    aboutImg.style.background="url('../assets/img/17.jpg')"
     aboutImg.style.backgroundSize = "cover"
-    aboutImg.style.minHeight = `${400}px`
+    aboutImg.style.minHeight = `${300}px`
     //  for priority areas
     const prioritytabs = document.querySelectorAll("#priority-tabs>button");
     const priorityfield = document.querySelectorAll("#priority-field>div");
@@ -57,18 +57,16 @@ if(window.location.pathname == "/pages/gallery.php"){
 
 // 
 if(window.location.pathname == "/pages/blog.php" || window.location.pathname =="/pages/blog-posts.php"){
+    aboutImg.style.background = "linear-gradient(#1e5998 0%, #10294c 100%),url('../assets/img/blog.jpg')"
+    aboutImg.style.backgroundSize = "cover"
+    
     var head = document.getElementsByTagName('HEAD')[0];
-    console.log(head)
     // Create new link Element
     var link = document.createElement('link');
-
     // set the attributes for link element
     link.rel = 'stylesheet';
- 
     link.type = 'text/css';
- 
     link.href = '../css/templatemo-stand-blog.css';
-
     // Append link element to HTML head
     head.appendChild(link);
 }
@@ -83,17 +81,26 @@ if(window.location.pathname == "/index.php"|| window.location.pathname== "/"){
         x.textContent = newText +"..."
     }
 }
-
+if(window.location.pathname == "/pages/digital_rural.php"){
+    aboutImg.style.background= "linear-gradient(#1e5998 0%, #10294c 100%),url('../assets/img/digitalruralheader.png')"
+    aboutImg.style.backgroundSize = "cover"
+    aboutImg.style.minHeight = `${300}px`
+}
 if(window.location.pathname == "/pages/volunteer.php"){
     
-    aboutImg.style.background= "linear-gradient(#00000090,#00000090),url('../assets/img/pexels-rodnae-productions-6646852.jpg')"
+    aboutImg.style.background = "linear-gradient(#1e5998 0%, #10294c 100%),url('../assets/img/pexels-rodnae-productions-6646852.jpg')"
     aboutImg.style.backgroundSize = "cover"
-    aboutImg.style.minHeight = `${400}px`
+    aboutImg.style.minHeight = `${300}px`
+}
+if (window.location.pathname == "/pages/contact.php") {
+    aboutImg.style.background = "linear-gradient(#1e5998 0%, #10294c 100%),url('../assets/img/contact-us-image.jpg')"
+    aboutImg.style.backgroundSize = "cover"
+    aboutImg.style.minHeight = `${300}px`
 }
 // priority areas
 if(window.location.pathname == "/pages/event.php"){
-    
-    aboutImg.style.background= "linear-gradient(#00000090,#00000090),url('../assets/img/pexels-luis-quintero-2774556.jpg')"
+
+    aboutImg.style.background = "linear-gradient(#1e5998 0%, #10294c 100%),url('../assets/img/pexels-luis-quintero-2774556.jpg')"
     aboutImg.style.backgroundSize = "cover"
     aboutImg.style.minHeight = `${400}px`
     aboutImg.style.backgroundPosition="center"

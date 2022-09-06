@@ -8,8 +8,9 @@ include('includes/popup.php')
         <div>
             <h1>Driving inclusive Education and Inspiring Hope. </h1>
             <div class="btn-group">
-                <button> Learn More <i class="fa fa-long-arrow-right ms-3" aria-hidden="true"></i></button>
-                <button>Donate</button>
+                <a href="pages/about.php"><button> Learn More <i class="fa fa-long-arrow-right ms-3"
+                            aria-hidden="true"></i></button></a>
+                <a href="#"><button>Donate</button></a>
             </div>
         </div>
         <!-- <img src="assets/img/ben-white-83tkHLPgg2Q-unsplash.png" alt="" class=""> -->
@@ -27,7 +28,7 @@ include('includes/popup.php')
                         to go to school and 1 in every 5 out-of-school children are from Nigeria</p>
                 </div>
                 <div class="carousel-item position-relative">
-                    <p class="text-dark text-center" data-aos="zoom-out-up">If quality education is not just a basic
+                    <p class="text-dark text-center">If quality education is not just a basic
                         human right but also
                         fundamental in closing the gaps created by inequality and ultimately reducing global poverty,
                         how then do we democratize access to quality education for young people in rural communities
@@ -62,7 +63,7 @@ include('includes/popup.php')
     </div>
     <div class="programs-showcase container d-flex flex-column justify-content-center " style="min-height:400px;">
         <div class="row justify-content-end align-items-stretch g-4 programs-row">
-            <div class="col-md-4 bg-white">
+            <div class="col-md-4 bg-white" data-aos="fade-up">
                 <div class="program">
                     <div class="program-title">
                         <h2 class="fw-bold fs-5">Project Digital Rural</h2>
@@ -73,14 +74,13 @@ include('includes/popup.php')
                             digital skills, and mentorship sufficient to launch a career in different digital
                             fields
                         </p>
-                        <a href=""><button class="programBtn">Read More <i class="fa fa-long-arrow-right"
-                                    aria-hidden="true"></i></button></a>
+                        <a href="pages/digital_rural.php"><button class="programBtn">Read More <i
+                                    class="fa fa-long-arrow-right" aria-hidden="true"></i></button></a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 bg-white ">
                 <div class="program">
-
                     <div class="program-title">
                         <h2 class="fw-bold fs-5">Center For Education and Lifelong skills</h2>
                     </div>
@@ -90,7 +90,7 @@ include('includes/popup.php')
                             communities across Nigeria. These CELLS serve as points of convergence for young
                             people can collaborate, innovate and build together.
                         </p>
-                        <a href=""><button class="programBtn">Read More <i class="fa fa-long-arrow-right"
+                        <a href="#"><button class="programBtn">Read More <i class="fa fa-long-arrow-right"
                                     aria-hidden="true"></i></button></a>
                     </div>
                 </div>
@@ -100,13 +100,13 @@ include('includes/popup.php')
                     <div class="program-title">
                         <h2 class="fw-bold fs-5">Rural Heroes</h2>
                     </div>
-                    <img src="assets/img/" alt="" class="w-100 my-3">
+                    <img src="assets/img/bluvard Heroes.png" alt="" class="w-100 my-3" style="object-position:center;">
                     <div class="program-desc py-3">
                         <p>Every month, we bring the spotlight to one young person in a rural
                             community using their skill/ talent to impact the lives of others in their
                             community.
                         </p>
-                        <a href=""><button class="programBtn">Read More <i class="fa fa-long-arrow-right"
+                        <a href="#"><button class="programBtn">Read More <i class="fa fa-long-arrow-right"
                                     aria-hidden="true"></i></button></a>
                     </div>
                 </div>
@@ -117,20 +117,20 @@ include('includes/popup.php')
 <section id="partners">
     <div class="container">
         <div class="partners-title text-center">
-            <h2 class="my-3 sublimaBold">Our partners</h2>
+            <h2 class="my-3 fw-bold" style="font-family:serif;color:var(--primaryColor)">Our partners</h2>
         </div>
         <div id="partners-showcase" class="d-flex justify-content-around g-4 align-items-center py-md-5"
             style="gap:30px ;">
             <!-- <div class="partner-logo"><img src="assets/img/microsoft-logo-2012-present.jpeg" alt=""></div> -->
             <!-- <div class="partner-logo"><img src="assets/img/Tech4Dev-IAmAWomanTechster-Campaign.jpg" alt=""></div> -->
-            <div class="partner-logo"><img src="assets/img/logo-global-youth-mobilization.png" alt="" width="30"></div>
-            <div class="partner-logo"><img src="assets/img/tecxha logo-04.jpg" alt="" width="30"></div>
-            <div class="partner-logo"><img src="assets/img/LBS-sustainability-centre-logo_big.png" alt="" width="30">
-            </div>
-            <div class="partner-logo"><img src="assets/img/innocentChukwumalogo.png" alt="" width="30"></div>
-            <div class="partner-logo"><img src="assets/img/carrignton_youth_fellowship.png" alt="" width="30"></div>
-            <div class="partner-logo"><img src="assets/img/young_africa_leadership.png" alt="" width="30"></div>
+            <div class="partner-logo"><img src="assets/img/logo-global-youth-mobilization.png" alt=""></div>
+            <div class="partner-logo"><img src="assets/img/tecxha logo-04.jpg" alt=""></div>
+            <!-- <div class="partner-logo"><img src="assets/img/LBS-sustainability-centre-logo_big.png" alt="" width="30"> -->
         </div>
+        <!-- <div class="partner-logo"><img src="assets/img/innocentChukwumalogo.png" alt="" width="30"></div> -->
+        <!-- <div class="partner-logo"><img src="assets/img/carrignton_youth_fellowship.png" alt="" width="30"></div> -->
+        <!-- <div class="partner-logo"><img src="assets/img/young_africa_leadership.png" alt="" width="30"></div> -->
+    </div>
     </div>
 </section>
 <?php include("includes/footer.php") ?>

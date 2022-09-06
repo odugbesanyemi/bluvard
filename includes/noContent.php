@@ -1,4 +1,4 @@
-<div class="d-flex flex-column justify-content-center align-items-center" style="padding:40px;">
+<div class="d-flex flex-column justify-content-center align-items-center" style="padding:40px;margin-bottom:50px;">
     <div class="wrapper text-center" data-aos="fade-in">
         <img src="../assets/SVG/nothing_to_see.gif" alt="broken_page" class="mb-3" style="border-radius:50%; width:150px;height:150px"  >
         <h2 class="fw-bold text-danger fs-1 mb-3">Oops!</h2>
