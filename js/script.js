@@ -130,7 +130,7 @@ window.onscroll = (e)=>{
         navbar.style.padding = `${50}px,${0} !important`
     }else{
         navbar.style.position = "relative"
-        navbar.style.backgroundColor = 'white'
+        navbar.style.backgroundColor = 'var(--primaryColor)'
     }
     // console.log(window.pageYOffset)
 }
