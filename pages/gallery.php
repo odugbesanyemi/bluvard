@@ -1,12 +1,12 @@
 <?php include("../includes/header.php") ?>
 
-<div class="container text-center mt-5">
+<div class="container text-center">
     <h2 class="fw-bold">Gallery</h2>
     <div class="breadcrumb mb-0 justify-content-center">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Gallery</li>
+                <li class="breadcrumb-item"><a href="../index.php">Home</a></li>
+                <li class="breadcrumb-item" aria-current="page">Gallery</li>
             </ol>
         </nav>
     </div>
@@ -43,96 +43,68 @@
                 </div>
             </div>
         </div>
-        <div class="row gy-3">
-            <div class="col-md-3 border-0">
-                <div class="galleryimg-group">
-                    <div class="gallery-img">
-                        <img src="../assets/projectdigitalrural.jpg" alt="" class="w-100">
-                    </div>
-                    <div class="galleryimg-desc">
-                        <ion-icon name="heart-outline" class="imglike"></ion-icon>
-                        <p class="fs-6">Volunteers Day 01 Digital Rural </p>
-                    </div>
-                </div>
+            <div class="parent">
+            <div class="div1">
+                <img src="../assets/img/projectdigitalrural01.jpg" alt="" class="mklbItem">
             </div>
-            <div class="col-md-3 border-0">
-                <div class="galleryimg-group">
-                    <div class="gallery-img">
-                        <img src="../assets/projectdigitalrural.jpg" alt="" class="w-100">
-                    </div>
-                    <div class="galleryimg-desc">
-                        <ion-icon name="heart-outline" class="imglike"></ion-icon>
-                        <p class="fs-6">Volunteers Day 01 Digital Rural </p>
-                    </div>
-                </div>
+            <div class="div2"> 
+                <img src="../assets/img/projectdigitalrural02.jpg" alt="" class="mklbItem">
             </div>
-            <div class="col-md-3 border-0">
-                <div class="galleryimg-group">
-                    <div class="gallery-img">
-                        <img src="../assets/projectdigitalrural.jpg" alt="" class="w-100">
-                    </div>
-                    <div class="galleryimg-desc">
-                        <ion-icon name="heart-outline" class="imglike"></ion-icon>
-                        <p class="fs-6">Volunteers Day 01 Digital Rural </p>
-                    </div>
-                </div>
+            <div class="div3"> 
+                <img src="../assets/img/projectdigitalrural03.jpg" alt="" class="mklbItem">
             </div>
-            <div class="col-md-3 border-0">
-                <div class="galleryimg-group">
-                    <div class="gallery-img">
-                        <img src="../assets/projectdigitalrural.jpg" alt="" class="w-100">
-                    </div>
-                    <div class="galleryimg-desc">
-                        <ion-icon name="heart-outline" class="imglike"></ion-icon>
-                        <p class="fs-6">Volunteers Day 01 Digital Rural </p>
-                    </div>
-                </div>
+            <div class="div4"> 
+                <img src="../assets/img/projectdigitalrural04.jpg" alt="" class="mklbItem">
             </div>
-            <div class="col-md-3 border-0">
-                <div class="galleryimg-group">
-                    <div class="gallery-img">
-                        <img src="../assets/projectdigitalrural.jpg" alt="" class="w-100">
-                    </div>
-                    <div class="galleryimg-desc">
-                        <ion-icon name="heart-outline" class="imglike"></ion-icon>
-                        <p class="fs-6">Volunteers Day 01 Digital Rural </p>
-                    </div>
-                </div>
+            <div class="div5"> 
+                <img src="../assets/img/projectdigitalrural05.jpg" alt="" class="mklbItem">                
             </div>
-            <div class="col-md-3 border-0">
-                <div class="galleryimg-group">
-                    <div class="gallery-img">
-                        <img src="../assets/projectdigitalrural.jpg" alt="" class="w-100">
-                    </div>
-                    <div class="galleryimg-desc">
-                        <ion-icon name="heart-outline" class="imglike"></ion-icon>
-                        <p class="fs-6">Volunteers Day 01 Digital Rural </p>
-                    </div>
-                </div>
+            <div class="div6"> 
+                <img src="../assets/img/projectdigitalrural06.jpg" alt="" class="mklbItem">                
             </div>
-            <div class="col-md-3 border-0">
-                <div class="galleryimg-group">
-                    <div class="gallery-img">
-                        <img src="../assets/projectdigitalrural.jpg" alt="" class="w-100">
-                    </div>
-                    <div class="galleryimg-desc">
-                        <ion-icon name="heart-outline" class="imglike"></ion-icon>
-                        <p class="fs-6">Volunteers Day 01 Digital Rural </p>
-                    </div>
-                </div>
+            <div class="div7"> 
+                <img src="../assets/img/projectdigitalrural07.jpg" alt="" class="mklbItem">                
             </div>
-            <div class="col-md-3 border-0">
-                <div class="galleryimg-group">
-                    <div class="gallery-img">
-                        <img src="../assets/projectdigitalrural.jpg" alt="" class="w-100">
-                    </div>
-                    <div class="galleryimg-desc">
-                        <ion-icon name="heart-outline" class="imglike"></ion-icon>
-                        <p class="fs-6">Volunteers Day 01 Digital Rural </p>
-                    </div>
-                </div>
+            <div class="div8"> 
+                <img src="../assets/img/projectdigitalrural08.jpg" alt="" class="mklbItem">                
             </div>
-        </div>
+            <div class="div9"> 
+                <img src="../assets/img/projectdigitalrural09.jpg" alt="" class="mklbItem">                
+            </div>
+            <div class="div10"> 
+                <img src="../assets/img/projectdigitalrural10.jpg" alt="" class="mklbItem">                
+            </div>
+            <div class="div11"> 
+                <img src="../assets/img/projectdigitalrural11.jpg" alt="" class="mklbItem">                
+            </div>
+            <div class="div12"> 
+                <img src="../assets/img/projectdigitalrural12.jpg" alt="" class="mklbItem">                
+            </div>
+            <div class="div13"> 
+                <img src="../assets/img/projectdigitalrural13.jpg" alt="" class="mklbItem">                
+            </div>
+            <div class="div14"> 
+                <img src="../assets/img/projectdigitalrural14.jpg" alt="" class="mklbItem">                
+            </div>
+            <div class="div15"> 
+                <img src="../assets/img/projectdigitalrural15.jpg" alt="" class="mklbItem">                
+            </div>
+            <div class="div16"> 
+                <img src="../assets/img/projectdigitalrural16.jpg" alt="" class="mklbItem">                
+            </div>
+            <div class="div17"> 
+                <img src="../assets/img/projectdigitalrural17.jpg" alt="" class="mklbItem">                
+            </div>
+            <div class="div18"> 
+                <img src="../assets/img/projectdigitalrural18.jpg" alt="" class="mklbItem">                
+            </div>
+            <div class="div19"> 
+                <img src="../assets/img/projectdigitalrural19.jpg" alt="" class="mklbItem">                
+            </div>
+            <div class="div20"> 
+                <img src="../assets/img/projectdigitalrural20.jpg" alt="" class="mklbItem">                
+            </div>
+            </div>
     </div>
 </div>
 

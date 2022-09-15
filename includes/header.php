@@ -36,20 +36,20 @@
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse ms-auto align-items-center" id="navbarNavAltMarkup">
+                <div class="collapse navbar-collapse align-items-center" id="navbarNavAltMarkup">
                     <div class="d-flex text-white mb-4 justify-content-end d-md-none">
                         <!-- close btn -->
                         <i class="fa fa-times bg-danger p-2 rounded" aria-hidden="true" id="closeBtn"
                             onclick="closeFunction(`#closeBtn`,`#navbarNavAltMarkup`)"></i>
                     </div>
-                    <div class="navbar-nav ms-auto">
+                    <div class="navbar-nav ">
                         <a class="nav-link" href="../">Home</a>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="../pages/about.php">Who we are</a></li>
-                                <li><a class="dropdown-item" href="../pages/about.php#about-team">Our Team</a>
+                                <li><a class="dropdown-item" href="../pages/our_people.php">Our Team</a>
                                 <li><a class="dropdown-item" href="#">Our Theory for Change</a></li>
                             </ul>
                         </li>
@@ -59,22 +59,20 @@
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="../pages/digital_rural.php">Digital Rural</a></li>
                                 <li><a class="dropdown-item" href="#">Center For Education(CELLS)</a></li>
-                                <li><a class="dropdown-item" href="#">Rural Heroes</a></li>
+                                <li><a class="dropdown-item" href="../pages/rural_heroes.php">Rural Heroes</a></li>
                             </ul>
                         </li>
                         <a class="nav-link" href="../pages/event.php">Events</a>
                         <a class="nav-link" href="../pages/blog.php">Blog</a>
-                        <!-- <a class="nav-link" href="../pages/gallery.php">Gallery</a> -->
+                        <a class="nav-link" href="../pages/gallery.php">Gallery</a>
                         <a class="nav-link" href="../pages/contact.php">Contact</a>
                     </div>
-                    <!-- <a href="../pages/volunteer.php" class="ps-3">
+                    <a href="../pages/contact.php" class="ms-auto">
                             <button type="button"
-                                class="btn btn-white ms-3 d-flex justify-content-between align-items-center "
-                                id="volunteerBtn" style = "background-color:yellow;">volunteer
-                                <ion-icon class="ps-2" name="help-buoy-outline">
-                                </ion-icon>
+                                class="btn btn-danger my-3 my-md-0"
+                                id="volunteerBtn"> Donate <i class="fa fa-life-buoy ms-2" aria-hidden="true"></i>
                             </button>
-                        </a>                  -->
+                        </a>                 
                 </div>
             </div>
         </nav>

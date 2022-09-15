@@ -5,8 +5,8 @@
     <div class="breadcrumb mb-0">
         <nav aria-label="breadcrumb" class="w-100">
             <ol class="breadcrumb justify-content-center">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Events</li>
+                <li class="breadcrumb-item"><a href="../index.php">Home</a></li>
+                <li class="breadcrumb-item" aria-current="page">Events</li>
             </ol>
         </nav>
     </div>

@@ -2,7 +2,7 @@
 // about.php javascript code
 const aboutImg = document.querySelector('.about-img');
 
-if(window.location.pathname == "/pages/about.php"){
+if(window.location.pathname == "/pages/about.php"|| window.location.pathname==="/pages/our_people.php"){
     const historySection = document.querySelector('#history')
     const missionStatement = document.querySelector('#about-mission')
     const tableContent = document.querySelector(".table-of-content")
@@ -14,9 +14,8 @@ if(window.location.pathname == "/pages/about.php"){
        return rect;
     }
 
-
     // for image
-    aboutImg.style.background="url('../assets/img/17.jpg')"
+    aboutImg.style.background ="linear-gradient(#1e5998 0%, #10294c 100%),url('../assets/img/17.jpg')"
     aboutImg.style.backgroundSize = "cover"
     aboutImg.style.minHeight = `${300}px`
     //  for priority areas
@@ -50,9 +49,10 @@ if(window.location.pathname == "/pages/gallery.php"){
                 x.setAttribute('name',"heart-outline")
                 x.style.color = "white"
             }
-            
         }
     }
+    aboutImg.style.background = "linear-gradient(#1e5998 0%, #10294c 100%),url('../assets/img/galleryheader.png')"
+    aboutImg.style.backgroundSize = "cover"    
 }
 
 // 
@@ -102,7 +102,7 @@ if(window.location.pathname == "/pages/event.php"){
 
     aboutImg.style.background = "linear-gradient(#1e5998 0%, #10294c 100%),url('../assets/img/pexels-luis-quintero-2774556.jpg')"
     aboutImg.style.backgroundSize = "cover"
-    aboutImg.style.minHeight = `${400}px`
+    aboutImg.style.minHeight = `${300}px`
     aboutImg.style.backgroundPosition="center"
 }
 // close btn function
@@ -148,4 +148,33 @@ window.onload = ()=>{
     setTimeout(function(){
         popup.classList.replace('hide','show')
     },15000)
+}
+
+// highlight function to expand divs
+let highlight = document.querySelectorAll('.highlight')
+
+for (const x of highlight) {
+    let bottom = x.querySelector(':scope > .highlight-bottom')
+    let topIcon = x.querySelector(':scope i')
+    x.onclick =()=>{
+        bottom.classList.toggle('collapse')
+        topIcon.classList.toggle('rotate')
+    }
+
+}
+if (window.location.pathname == "/pages/rural_heroes.php") {
+    aboutImg.style.background = "linear-gradient(#1e5998 0%, #10294c 100%),url('../assets/img/Bluvard heroes.png')"
+    aboutImg.style.backgroundSize = "cover"
+    aboutImg.style.minHeight = `${300}px`
+    aboutImg.style.backgroundPosition = "top !important"
+}
+
+// for image preveiw
+let teamMember = document.querySelectorAll('.team-member')
+
+for (const x of teamMember) {
+    let teamModal = x.querySelector(":root .team-modal")
+    x.onclick =()=>{
+        teamModal.classList.toggle('collapse')
+    }
 }

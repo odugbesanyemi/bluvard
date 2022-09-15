@@ -1,11 +1,11 @@
 <?php include("../includes/header.php") ?>
 
-<div class="container" style="padding:10%">
+<div class="container" style="padding:0 5%">
     <h2 class="fw-bold m-0">PROJECT DIGITAL RURAL</h2>
     <div class="breadcrumb mb-0">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="../index.php">Home</a></li>
                 <li class="breadcrumb-item" aria-current="page">Digital Rural</li>
             </ol>
         </nav>

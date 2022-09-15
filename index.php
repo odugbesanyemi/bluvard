@@ -1,16 +1,16 @@
 <?php 
 include('scripts/dbConnect.php');
 include('includes/header.php');
-include('includes/popup.php')
+// include('includes/popup.php');
 ?>
-<div class="hero ">
+<div class="hero" data-aos="fade-up">
     <div class="d-flex flex-column flex-md-row position-relative align-items-center container">
         <div>
-            <h1>Driving inclusive Education and Inspiring Hope. </h1>
+            <h1>Bridging Educational Barriers; Inspiring Hope. </h1>
             <div class="btn-group">
                 <a href="pages/about.php"><button> Learn More <i class="fa fa-long-arrow-right ms-3"
                             aria-hidden="true"></i></button></a>
-                <a href="#"><button>Donate</button></a>
+                <a href="pages/volunteer.php"><button class="bgSecondaryColor text-white">Volunteer</button></a>
             </div>
         </div>
         <!-- <img src="assets/img/ben-white-83tkHLPgg2Q-unsplash.png" alt="" class=""> -->
@@ -20,21 +20,15 @@ include('includes/popup.php')
 
 <section id="about" class="" style="min-height:300px; display:flex; flex-direction:column; justify-content:center;">
     <div class="container">
-        <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel"
-            style="z-index:0;">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="z-index:0;">
             <div class="carousel-inner">
-                <div class="carousel-item position-relative active">
-                    <p class="text-center">1 in every 3 children from sub-Saharan Africa may never have the opportunity
-                        to go to school and 1 in every 5 out-of-school children are from Nigeria</p>
-                </div>
                 <div class="carousel-item position-relative">
-                    <p class="text-dark text-center">If quality education is not just a basic
-                        human right but also
-                        fundamental in closing the gaps created by inequality and ultimately reducing global poverty,
-                        how then do we democratize access to quality education for young people in rural communities
-                        across Nigeria?
-                    </p>
+                    <p class="text-dark text-center">  If the prevalent school curriculums are not sufficient to prepare young people for the future, how then can we transform education beyond the confines of the classrooms?</p>
+                </div>                
+                <div class="carousel-item position-relative active">
+                    <p class="text-center">If quality education is not just a basic human right but also fundamental in closing the gaps created by inequality, and ultimately reducing global poverty, how then do we democratize access to quality education for young people in rural communities across Nigeria?</p>
                 </div>
+
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
                 data-bs-slide="prev">
@@ -58,12 +52,11 @@ include('includes/popup.php')
 </section>
 <section id="programs" class="position-relative bg-white p-md-5 p-4">
     <div class="programs-header d-flex align-items-center justify-content-center">
-        <h2 class="py-5 px-4 fs-1 fw-bold text-center" style="font-family:serif;color:var(--primaryColor)">Our
-            Initiatives</h2>
+        <h2 class="py-5 px-4 fs-1 fw-bold text-center" style="font-family:serif;color:var(--primaryColor)">Our Programmes</h2>
     </div>
     <div class="programs-showcase container d-flex flex-column justify-content-center " style="min-height:400px;">
         <div class="row justify-content-end align-items-stretch g-4 programs-row">
-            <div class="col-md-4 bg-white" data-aos="fade-up">
+            <div class="col-lg-4 bg-white">
                 <div class="program">
                     <div class="program-title">
                         <h2 class="fw-bold fs-5">Project Digital Rural</h2>
@@ -79,7 +72,7 @@ include('includes/popup.php')
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 bg-white ">
+            <div class="col-lg-4 bg-white ">
                 <div class="program">
                     <div class="program-title">
                         <h2 class="fw-bold fs-5">Center For Education and Lifelong skills</h2>
@@ -95,7 +88,7 @@ include('includes/popup.php')
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 bg-white">
+            <div class="col-lg-4 bg-white">
                 <div class="program">
                     <div class="program-title">
                         <h2 class="fw-bold fs-5">Rural Heroes</h2>
@@ -106,7 +99,7 @@ include('includes/popup.php')
                             community using their skill/ talent to impact the lives of others in their
                             community.
                         </p>
-                        <a href="#"><button class="programBtn">Read More <i class="fa fa-long-arrow-right"
+                        <a href="pages/rural_heroes.php"><button class="programBtn">Read More <i class="fa fa-long-arrow-right"
                                     aria-hidden="true"></i></button></a>
                     </div>
                 </div>
@@ -117,7 +110,7 @@ include('includes/popup.php')
 <section id="partners">
     <div class="container">
         <div class="partners-title text-center">
-            <h2 class="my-3 fw-bold" style="font-family:serif;color:var(--primaryColor)">Our partners</h2>
+            <h2 class="my-3 fw-bold fs-1" style="font-family:serif;color:var(--primaryColor)">Our partners</h2>
         </div>
         <div id="partners-showcase" class="d-flex justify-content-around g-4 align-items-center py-md-5"
             style="gap:30px ;">

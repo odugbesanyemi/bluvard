@@ -15,11 +15,10 @@
                         <div id="icon-stack"
                             class="d-flex me-lg-3 mb-md-0 mb-4  d-md-flex pt-3 justify-content-center justify-content-md-center text-dark bg-transparent">
                             <a href="https://twitter.com/Bluvard_NGO?t=ozqhyY8xwC5sfCy0QtjARQ&s=09"><i
-                                    class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="https://instagram.com/invites/contact/?i=nak86oc8ut2f&utm_content=lpgyjhz"><i
-                                    class="fa fa-instagram" aria-hidden="true"></i></a>
-                            <a href="https://www.linkedin.com/company/the-bluvard-education-initiative/"><i
-                                    class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                    class="fa fa-twitter" aria-hidden="true" style="color:#00acee;"></i></a>
+                            <a href="https://instagram.com/invites/contact/?i=nak86oc8ut2f&utm_content=lpgyjhz"> <i class="fa fa-instagram" aria-hidden="true" style="color:#f77737;"></i></a>
+                                <a href="https://www.linkedin.com/company/the-bluvard-education-initiative/"><i
+                                    class="fa fa-linkedin" aria-hidden="true"  style="color:#ffffff;"></i></a>
                         </div>
                     </ul>
                 </div>
@@ -32,7 +31,7 @@
                         <li> <a href="../pages/digital_rural.php">project Digital Rural</a></li>
                         <!-- <li> <a href="../pages/projects.php">Our Programs</a></li> -->
                         <li> <a href="../pages/contact.php">Contact Us</a></li>
-                        <!-- <li> <a href="../pages/gallery.php">Our Gallery</a></li> -->
+                        <li> <a href="../pages/gallery.php">Our Gallery</a></li>
                     </ul>
                 </div>
                 <div class="footer-ourlinks col-6 col-md-3">
@@ -41,7 +40,7 @@
                         <li> <a href="../pages/volunteer.php">Become a Volunteer</a></li>
                         <li> <a href="../pages/event.php?category=upcoming">Upcoming Events</a></li>
                         <li> <a href="../pages/event.php?category=upcoming">Ongoing Programs</a></li>
-                        <li> <a href="#">Become a sponsor</a></li>
+                        <li> <a href="#">Donate</a></li>
                     </ul>
                 </div>
 

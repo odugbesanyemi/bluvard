@@ -4,7 +4,7 @@
         <div class="breadcrumb mb-0">
             <nav aria-label="breadcrumb" class="w-100">
                 <ol class="breadcrumb justify-content-center">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="../index.php">Home</a></li>
                     <li class="breadcrumb-item " aria-current="page">about us</li>
                 </ol>
             </nav>
@@ -133,76 +133,72 @@
                 <div class="container">
                     <h3 class="serif fw-bold mb-3 text-white sublimaBold text-center fs-1">Priority Areas</h3>
                 </div>
-                <div class="carousel slide container py-4" id="priority-field">
-                    <div class="carousel-inner">
-                        <div class="active container carousel-item" id="priority-1">
+                <div class="container py-4" id="priority-field">
+                    <div class="container highlight" id="">
+                        <div class="highlight-top">
                             <h4 class="fw-bold ">Foundational Literacy</h4>
-                            <p class="">Leveraging technology to expand the realm of the possible.</p>
-                            <div class="content">
-                                <p class="">The social class of a student plays a significant role in determining the
-                                    kind of learning environment, digital tools, and teachers they have access to. An
-                                    estimate of 90 percent of children in sub-Saharan Africa aged between 6- 14 won't
-                                    reach the minimum reading requirement even after they complete secondary education.
-                                </p>
-                                <p>To thrive in a rapidly evolving, technology-mediated world, students must not only
-                                    possess strong skills in areas such as language arts, mathematics and science, but
-                                    they must also be adept at digital skills, all too often, however, students in many
-                                    countries are not attaining these skills. </p>
-                                <p>At Bluvard, we are leveraging technology to drive digital inclusion for children and
-                                    young people in rural communities across Nigeria through our flagship project
-                                    Project Digital Rural </p>
-                            </div>
+                            <i class="fa fa-plus" aria-hidden="true"></i>
                         </div>
-                        <div id="priority-2" class="container carousel-item">
-                            <h4 class="fw-bold">Competency Skills</h4>
-                            <div class="content">
-                                <p>Historically, being able to understand written texts and quantitative relationships
-                                    was sufficient for entry into the workforce. Now, these skills represent just the
-                                    starting point on the path toward mastering 21st-century skills. Competencies
-                                    describe how students approach complex challenges. Where being able to critically
-                                    evaluate and convey knowledge, as well as work well with a team, has become the
-                                    norm, a projected 65% of children entering grade school will work in jobs that do
-                                    not exist today, a transformation that will require social and emotional skills such
-                                    as creativity, initiative, and adaptability to navigate. (WEF- New Vision 2019) </p>
-                                <p>These skills include,</p>
-                                <ul>
-                                    <li>Creativity</li>
-                                    <li>Communication</li>
-                                    <li>collaboration</li>
-                                    <li>Critical Thinking</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div id="priority-3" class="container carousel-item ">
-                            <h4 class="fw-bold">Character Development</h4>
-                            <div class="content">
-                                <p>Amid a rapidly changing globe, character qualities such as persistence and
-                                    adaptability ensure greater resilience and success in the face of obstacles.
-                                    Curiosity and initiative serve as starting points for discovering new concepts and
-                                    ideas. Leadership and social and cultural awareness involve constructive
-                                    interactions with others in socially, ethically, and culturally appropriate ways.
-                                </p>
-                                <p>These skills include,</p>
-                                <ul>
-                                    <li>Leadership in action for young people</li>
-                                    <li>Resilence</li>
-                                    <li>Adaptation</li>
-                                    <li>Curiosity</li>
-                                    <li>Social and Cultural awareness</li>
-                                </ul>
-                            </div>
+                        <div class="highlight-bottom collapse" id='bottom1'>
+                            <p class="">The social class of a student plays a significant role in determining the
+                                kind of learning environment, digital tools, and teachers they have access to. An
+                                estimate of 90 percent of children in sub-Saharan Africa aged between 6- 14 won't
+                                reach the minimum reading requirement even after they complete secondary education.
+                            </p>
+                            <p>To thrive in a rapidly evolving, technology-mediated world, students must not only
+                                possess strong skills in areas such as language arts, mathematics and science, but
+                                they must also be adept at digital skills, all too often, however, students in many
+                                countries are not attaining these skills. </p>
+                            <p>At Bluvard, we are leveraging technology to drive digital inclusion for children and
+                                young people in rural communities across Nigeria through our flagship project
+                                Project Digital Rural </p>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#priority-field"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#priority-field"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+                    <div id="priority-2 " class="container highlight">
+                        <div class="highlight-top">
+                            <h4 class="fw-bold">Competency Skills</h4>
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </div>
+                        <div class="highlight-bottom collapse" id="bottom2">
+                            <p>Historically, being able to understand written texts and quantitative relationships
+                                was sufficient for entry into the workforce. Now, these skills represent just the
+                                starting point on the path toward mastering 21st-century skills. Competencies
+                                describe how students approach complex challenges. Where being able to critically
+                                evaluate and convey knowledge, as well as work well with a team, has become the
+                                norm, a projected 65% of children entering grade school will work in jobs that do
+                                not exist today, a transformation that will require social and emotional skills such
+                                as creativity, initiative, and adaptability to navigate. (WEF- New Vision 2019) </p>
+                            <p>These skills include,</p>
+                            <ul>
+                                <li>Creativity</li>
+                                <li>Communication</li>
+                                <li>collaboration</li>
+                                <li>Critical Thinking</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="priority-3 " class="container highlight">
+                        <div class="highlight-top">
+                            <h4 class="fw-bold">Character Development</h4>
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </div>
+                        <div class="highlight-bottom collapse">
+                            <p>Amid a rapidly changing globe, character qualities such as persistence and
+                                adaptability ensure greater resilience and success in the face of obstacles.
+                                Curiosity and initiative serve as starting points for discovering new concepts and
+                                ideas. Leadership and social and cultural awareness involve constructive
+                                interactions with others in socially, ethically, and culturally appropriate ways.
+                            </p>
+                            <p>These skills include,</p>
+                            <ul>
+                                <li>Leadership in action for young people</li>
+                                <li>Resilence</li>
+                                <li>Adaptation</li>
+                                <li>Curiosity</li>
+                                <li>Social and Cultural awareness</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-- <div id="about-team">
