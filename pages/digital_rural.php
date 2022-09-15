@@ -1,4 +1,8 @@
-<?php include("../includes/header.php") ?>
+<?php
+
+include("../includes/header.php");
+pageHeader("Digital Rural | Bluvard Education Inititiative", "Equipping out-of-school/unemployed youths in rural communities across Nigeria with in-depth digital skills, and mentorship sufficient to launch a career in different digital fields");
+?>
 
 <div class="container" style="padding:0 5%">
     <h2 class="fw-bold m-0">PROJECT DIGITAL RURAL</h2>

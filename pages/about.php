@@ -1,10 +1,12 @@
-<?php include("../includes/header.php") ?>
-    <div class="container text-center " style="">
+<?php include("../includes/header.php");
+pageHeader("Who we are | Bluvard Education Inititiative","At Bluvard Education Initiative, Our Vision is for an Africa where access to holistic education becomes the everyday reality of all children living in rural communities regardless of gender, tribe, or religion");
+?>
+    <div class="container text-center">
         <h2 class="fw-bold sublimaBold">Who we are</h2>
         <div class="breadcrumb mb-0">
             <nav aria-label="breadcrumb" class="w-100">
                 <ol class="breadcrumb justify-content-center">
-                    <li class="breadcrumb-item"><a href="../index.php">Home</a></li>
+                    <li class="breadcrumb-item"><a href="../">Home</a></li>
                     <li class="breadcrumb-item " aria-current="page">about us</li>
                 </ol>
             </nav>

@@ -1,4 +1,6 @@
-<?php include("../includes/header.php"); ?>
+<?php include("../includes/header.php"); 
+pageHeader("Blog | Bluvard Education Initiative", "Be the first to know about what happens at Bluvard Education. Subscribe to our daily post to get notified when a new content arrives.")
+?>
 <!-- END OF HEADER -->
 
     <div class="container" style="padding:10%;">
@@ -6,7 +8,7 @@
         <div class="breadcrumb mb-0">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="../index.php">Home</a></li>
+                    <li class="breadcrumb-item"><a href="../">Home</a></li>
                     <li class="breadcrumb-item" aria-current="page">News</li>
                 </ol>
             </nav>

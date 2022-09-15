@@ -1,4 +1,6 @@
-<?php include("../includes/header.php") ?>
+<?php include("../includes/header.php");
+pageHeader("Gallery | Bluvard Education Initiative","Check our library of pictures for our moments doing what we love doing.")
+?>
 
 <div class="container text-center">
     <h2 class="fw-bold">Gallery</h2>

@@ -16,7 +16,7 @@
                             class="d-flex me-lg-3 mb-md-0 mb-4  d-md-flex pt-3 justify-content-center justify-content-md-center text-dark bg-transparent">
                             <a href="https://twitter.com/Bluvard_NGO?t=ozqhyY8xwC5sfCy0QtjARQ&s=09"><i
                                     class="fa fa-twitter" aria-hidden="true" style="color:#00acee;"></i></a>
-                            <a href="https://instagram.com/invites/contact/?i=nak86oc8ut2f&utm_content=lpgyjhz"> <i class="fa fa-instagram" aria-hidden="true" style="color:#f77737;"></i></a>
+                            <a href="https://instagram.com/invites/contact/?i=nak86oc8ut2f&utm_content=lpgyjhz"> <i class="fa fa-instagram" aria-hidden="true" style="color:white;"></i></a>
                                 <a href="https://www.linkedin.com/company/the-bluvard-education-initiative/"><i
                                     class="fa fa-linkedin" aria-hidden="true"  style="color:#ffffff;"></i></a>
                         </div>
@@ -30,16 +30,16 @@
                         <li> <a href="../pages/about.php">About us</a></li>
                         <li> <a href="../pages/digital_rural.php">project Digital Rural</a></li>
                         <!-- <li> <a href="../pages/projects.php">Our Programs</a></li> -->
-                        <li> <a href="../pages/contact.php">Contact Us</a></li>
-                        <li> <a href="../pages/gallery.php">Our Gallery</a></li>
+                        <li> <a href="../pages/contact">Contact Us</a></li>
+                        <li> <a href="../pages/gallery">Our Gallery</a></li>
                     </ul>
                 </div>
                 <div class="footer-ourlinks col-6 col-md-3">
                     <ul class="text-start text-md-start">
                         <h4>Our Links </h4>
-                        <li> <a href="../pages/volunteer.php">Become a Volunteer</a></li>
-                        <li> <a href="../pages/event.php?category=upcoming">Upcoming Events</a></li>
-                        <li> <a href="../pages/event.php?category=upcoming">Ongoing Programs</a></li>
+                        <li> <a href="../pages/volunteer">Become a Volunteer</a></li>
+                        <li> <a href="../pages/event?category=upcoming">Upcoming Events</a></li>
+                        <li> <a href="../pages/event?category=upcoming">Ongoing Programs</a></li>
                         <li> <a href="#">Donate</a></li>
                     </ul>
                 </div>
@@ -78,7 +78,7 @@
     <script src="../assets/mklb/js/mklb.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous ">
     </script>
@@ -113,12 +113,9 @@
         })
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.6.0/lightgallery.min.js" integrity="sha512-2Vd6dnkrqkfNnWC9qlNhcy3IaWYwggi4xW/98lt76TfBOvzhWLCCrxELko/qFiwgsZRn1jd5MbtcF8cgBmkuDg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script>
-        AOS.init();
-    </script>
 
     <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
         var Tawk_API = Tawk_API || {},
             Tawk_LoadStart = new Date();
         (function() {
@@ -130,7 +127,7 @@
             s1.setAttribute('crossorigin', '*');
             s0.parentNode.insertBefore(s1, s0);
         })();
-    </script>
+    </script> -->
     <!--End of Tawk.to Script-->
 
     </html>

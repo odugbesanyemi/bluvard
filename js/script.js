@@ -1,23 +1,18 @@
-// on scroll function in about.php function to check when an id is on focus and when so, we want to change the active in the table of content
-// about.php javascript code
+// on scroll function in about function to check when an id is on focus and when so, we want to change the active in the table of content
+// about javascript code
 const aboutImg = document.querySelector('.about-img');
-
-if(window.location.pathname == "/pages/about.php"|| window.location.pathname==="/pages/our_people.php"){
-    const historySection = document.querySelector('#history')
-    const missionStatement = document.querySelector('#about-mission')
-    const tableContent = document.querySelector(".table-of-content")
-    const aboutListItem = document.querySelectorAll(".list-group li")
-    const pageContent = document.querySelectorAll(".page-content>div")
+let activeValue = "";
+if (window.location.pathname == "/pages/about" || window.location.pathname == "/pages/our_people"){
     // function that returns rect property of a particular element
+    activeValue = "About Us"
     const getElementRect = function(e){
        let rect = e.getBoundingClientRect()
        return rect;
     }
-
     // for image
     aboutImg.style.background ="linear-gradient(#1e5998 0%, #10294c 100%),url('../assets/img/17.jpg')"
     aboutImg.style.backgroundSize = "cover"
-    aboutImg.style.minHeight = `${300}px`
+    aboutImg.style.height = `${300}px`
     //  for priority areas
     const prioritytabs = document.querySelectorAll("#priority-tabs>button");
     const priorityfield = document.querySelectorAll("#priority-field>div");
@@ -31,13 +26,13 @@ if(window.location.pathname == "/pages/about.php"|| window.location.pathname==="
                 }else{
                 }
             }
-
         }
     }
 
 }
-if(window.location.pathname == "/pages/gallery.php"){
+if(window.location.pathname == "/pages/gallery"){
     const imglikebtn = document.querySelectorAll(".imglike")
+    activeValue = "Gallery"    
     for (const x of imglikebtn) {
         x.onclick= ()=>{
             if(x.getAttribute('name')=="heart-outline"){
@@ -53,13 +48,13 @@ if(window.location.pathname == "/pages/gallery.php"){
     }
     aboutImg.style.background = "linear-gradient(#1e5998 0%, #10294c 100%),url('../assets/img/galleryheader.png')"
     aboutImg.style.backgroundSize = "cover"    
+    aboutImg.style.height = `${300}px`    
 }
-
-// 
-if(window.location.pathname == "/pages/blog.php" || window.location.pathname =="/pages/blog-posts.php"){
+if(window.location.pathname == "/pages/blog" || window.location.pathname =="/pages/blog-posts"){
     aboutImg.style.background = "linear-gradient(#1e5998 0%, #10294c 100%),url('../assets/img/blog.jpg')"
     aboutImg.style.backgroundSize = "cover"
-    
+    aboutImg.style.minHeight = `${300}px`    
+    activeValue = "Blog"
     var head = document.getElementsByTagName('HEAD')[0];
     // Create new link Element
     var link = document.createElement('link');
@@ -70,10 +65,10 @@ if(window.location.pathname == "/pages/blog.php" || window.location.pathname =="
     // Append link element to HTML head
     head.appendChild(link);
 }
-
-if(window.location.pathname == "/index.php"|| window.location.pathname== "/"){
+if(window.location.pathname == "/index"|| window.location.pathname== "/"){
     aboutImg.style.background = "white"
     aboutImg.style.backgroundSize = "cover"
+    activeValue = "Home" 
     // text limit for the program card descriptions
     let programDesc = document.querySelectorAll('.programs-card-desc')
     for (const x of programDesc) {
@@ -81,42 +76,50 @@ if(window.location.pathname == "/index.php"|| window.location.pathname== "/"){
         x.textContent = newText +"..."
     }
 }
-if(window.location.pathname == "/pages/digital_rural.php"){
+if(window.location.pathname == "/pages/digital_rural"){
     aboutImg.style.background= "linear-gradient(#1e5998 0%, #10294c 100%),url('../assets/img/digitalruralheader.png')"
     aboutImg.style.backgroundSize = "cover"
-    aboutImg.style.minHeight = `${300}px`
+    aboutImg.style.height = `${300}px`
+    activeValue = "Programmes"
 }
-if(window.location.pathname == "/pages/volunteer.php"){
-    
+if(window.location.pathname == "/pages/volunteer"){
+    activeValue = "volunteer"
     aboutImg.style.background = "linear-gradient(#1e5998 0%, #10294c 100%),url('../assets/img/pexels-rodnae-productions-6646852.jpg')"
     aboutImg.style.backgroundSize = "cover"
-    aboutImg.style.minHeight = `${300}px`
+    aboutImg.style.height = `${300}px`
 }
-if (window.location.pathname == "/pages/contact.php") {
+if (window.location.pathname == "/pages/contact") {
     aboutImg.style.background = "linear-gradient(#1e5998 0%, #10294c 100%),url('../assets/img/contact-us-image.jpg')"
     aboutImg.style.backgroundSize = "cover"
-    aboutImg.style.minHeight = `${300}px`
+    aboutImg.style.height = `${300}px`
+    activeValue =  "Contact"
 }
-// priority areas
-if(window.location.pathname == "/pages/event.php"){
-
+if(window.location.pathname == "/pages/event"){
     aboutImg.style.background = "linear-gradient(#1e5998 0%, #10294c 100%),url('../assets/img/pexels-luis-quintero-2774556.jpg')"
     aboutImg.style.backgroundSize = "cover"
-    aboutImg.style.minHeight = `${300}px`
+    aboutImg.style.height = `${300}px`
     aboutImg.style.backgroundPosition="center"
+    activeValue = "Events"
+}
+if (window.location.pathname == "/pages/rural_heroes") {
+    aboutImg.style.background = "linear-gradient(#1e5998 0%, #10294c 100%),url('../assets/img/BluvardHeroes.jpg')"
+    aboutImg.style.backgroundSize = "cover"
+    aboutImg.style.height = `${300}px`
+    aboutImg.style.backgroundPosition = "top !important"
+    activeValue = "Programmes"
 }
 // close btn function
 let closeFunction = (btn, target)=>{
     let btnElement = document.querySelector(btn)
     let targetElement = document.querySelector(target)
     
-        btnElement.onclick =()=>{
-            if(targetElement.classList.contains("show")){
-            targetElement.classList.remove('show')
-           }else{
-            targetElement.classList.add('show')
-            }
+    btnElement.onclick =()=>{
+        if(targetElement.classList.contains("show")){
+        targetElement.classList.remove('show')
+        }else{
+        targetElement.classList.add('show')
         }
+    }
 }
 let hideFunction = (btn,target)=>{
     let btnElement = document.querySelector(btn)
@@ -143,11 +146,17 @@ window.onscroll = (e)=>{
 }
 
 // delay popup  and add to the screen
-let popup = document.querySelector('.popup')
+let popup = document.querySelector('.popup')          
 window.onload = ()=>{
-    setTimeout(function(){
-        popup.classList.replace('hide','show')
-    },15000)
+    if (localStorage.getItem('has_seen') == undefined){
+        setTimeout(function () {
+            popup.classList.replace('hide', 'show')
+            localStorage.setItem('has_seen', '1')
+        }, 15000) 
+    }else{
+       
+    }
+
 }
 
 // highlight function to expand divs
@@ -162,12 +171,6 @@ for (const x of highlight) {
     }
 
 }
-if (window.location.pathname == "/pages/rural_heroes.php") {
-    aboutImg.style.background = "linear-gradient(#1e5998 0%, #10294c 100%),url('../assets/img/Bluvard heroes.png')"
-    aboutImg.style.backgroundSize = "cover"
-    aboutImg.style.minHeight = `${300}px`
-    aboutImg.style.backgroundPosition = "top !important"
-}
 
 // for image preveiw
 let teamMember = document.querySelectorAll('.team-member')
@@ -176,5 +179,15 @@ for (const x of teamMember) {
     let teamModal = x.querySelector(":root .team-modal")
     x.onclick =()=>{
         teamModal.classList.toggle('collapse')
+    }
+}
+
+// function for adding nav-active to active page
+// loop for all the navlinks
+
+let headerLinks = document.querySelectorAll('.nav-link')
+for (const x of headerLinks) {
+    if(x.textContent == activeValue){
+        x.classList.add('nav-active')
     }
 }

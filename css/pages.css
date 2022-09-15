@@ -21,7 +21,7 @@
 }
 
 .page-head>div:not(.popup,.hero){
-    min-height:300px;
+    height:228px !important;
     display: flex;
     flex-direction: column;
     justify-content: center;

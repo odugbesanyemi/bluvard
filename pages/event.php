@@ -1,4 +1,6 @@
-<?php include("../includes/header.php") ?>
+<?php include("../includes/header.php");
+pageHeader("Events | Bluvard Education Initiative","Want to Find our About when and what programmes we are embarking on, view past events and signup for future ones.")
+?>
 
 <div class="container text-center d-flex flex-column align-items-center h-100">
     <h2 class="fw-bold">Events</h2>

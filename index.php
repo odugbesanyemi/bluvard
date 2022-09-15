@@ -1,16 +1,17 @@
 <?php 
 include('scripts/dbConnect.php');
 include('includes/header.php');
-// include('includes/popup.php');
+pageHeader('Home | Bluvard Education Inititiative','At Bluvard Education Initiative, Our Vision is for an Africa where access to holistic education becomes the everyday reality of all children living in rural communities regardless of gender, tribe, or religion');
+include('includes/popup.php');
 ?>
 <div class="hero" data-aos="fade-up">
     <div class="d-flex flex-column flex-md-row position-relative align-items-center container">
         <div>
-            <h1>Bridging Educational Barriers; Inspiring Hope. </h1>
+            <h1>Bridging Educational Barriers; Inspiring Hope.</h1>
             <div class="btn-group">
-                <a href="pages/about.php"><button> Learn More <i class="fa fa-long-arrow-right ms-3"
+                <a href="pages/about"><button> Learn More <i class="fa fa-long-arrow-right ms-3"
                             aria-hidden="true"></i></button></a>
-                <a href="pages/volunteer.php"><button class="bgSecondaryColor text-white">Volunteer</button></a>
+                <a href="pages/volunteer"><button class="bgSecondaryColor text-white">Volunteer</button></a>
             </div>
         </div>
         <!-- <img src="assets/img/ben-white-83tkHLPgg2Q-unsplash.png" alt="" class=""> -->
@@ -93,7 +94,7 @@ include('includes/header.php');
                     <div class="program-title">
                         <h2 class="fw-bold fs-5">Rural Heroes</h2>
                     </div>
-                    <img src="assets/img/bluvard Heroes.png" alt="" class="w-100 my-3" style="object-position:center;">
+                    <img src="assets/img/bluvardHeroes.jpg" alt="" class="w-100 my-3" style="object-position:center;">
                     <div class="program-desc py-3">
                         <p>Every month, we bring the spotlight to one young person in a rural
                             community using their skill/ talent to impact the lives of others in their
