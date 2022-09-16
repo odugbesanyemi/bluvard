@@ -35,7 +35,7 @@ pageHeader("Contact us | Bluvard Education Initiative","Send us a message today.
                 <Textarea placeholder="Your Message *" name="message" class="p-3 mb-3 w-100 border rounded" required></Textarea>
             </div>
             <div class="form-group">
-                <button class="border-0 rounded p-3 mb-3 w-100"style="background-color:var(--primaryColor); color:white"><i class="fa fa-check" aria-hidden="true" name="sendMessage"></i> Submit</button>
+                <button class="border-0 rounded p-3 mb-3 w-100"style="background-color:var(--primaryColor); color:white" name="sendMessage"><i class="fa fa-check" aria-hidden="true" ></i> Submit</button>
             </div>
         </form>
     </div>

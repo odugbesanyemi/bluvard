@@ -4,7 +4,7 @@
 // 1. Mail component 
 // will send an Html Mail to selected mail
 
-function sendMail ($to,$senderName,$senderMail,$subject,$message){
+function sendMail ($to,$senderName,$senderMail,$sendertel,$subject,$message){
 
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
@@ -18,18 +18,20 @@ $htmlContent = "
         <meta name='viewport' content='width=device-width, initial-scale=1.0'>    
         <title>New Message</title> 
     </head> 
-    <body style='background-color:ghostwhite; padding:10%;'> 
-        <h1 style='backround-color:#10294c; color:white; padding:4%;'>Someone just messaged Bluvard Education Initiative</h1> 
-        <div style='background-color:white; margin-top:20px; border-radius:10px;padding:5%;'>
-            <p style=''>$message</p>
-            <p style='margin-top:20px;'>sender:$senderMail</p>
+    <body style='background-color:ghostwhite; padding:10%;'>
+        <div style='background-color:#10294c;padding:5%;color:white;'>
+            <h1 style=margin:20px 0; color:white;>Someone just messaged Bluvard Education Initiative</h1> 
+            <div style='background-color:white; margin-top:20px; border-radius:10px;padding:5%;'>
+                <h5 style='color:#10294c;'>$message</h5>
+                <p style='margin-top:20px;color:#10294c;'>sender:$senderMail</p>
+                <p style='color:#10294c;'> Sender Telephone: $sendertel</p>
+            </div>
         </div>
-        
     </body> 
     </html>
 ";
 
-if(mail($to,$subject.$htmlContent,$headers)){
+if(mail($to,$subject,$htmlContent,$headers)){
     include('../includes/header.php');
     pageHeader('message sent Successfully |Bluvard leadership Initiative','');
     echo "
@@ -42,9 +44,8 @@ if(mail($to,$subject.$htmlContent,$headers)){
             </div>
         </div>
     ";
-    include('../includes/header.php');
+    include('../includes/footer.php');
 }else{
-
     include('../includes/header.php');
     pageHeader('Error Sending Message |Bluvard leadership Initiative', '');
     echo "
@@ -57,7 +58,6 @@ if(mail($to,$subject.$htmlContent,$headers)){
         </div>
     ";
     include('../includes/footer.php');
-
 }
 }
 
@@ -79,7 +79,7 @@ if (isset($_POST['sendMessage'])) {
     $subject = test_input($_POST["subject"]);
     $message = test_input($_POST["message"]);
 
-    sendMail('tecxha@gmail.com', $name, $email, $subject, $message);
+    sendMail('hello@bluvard.org', $name, $email,$tel,$subject, $message);
 }
 
 if(isset($_POST['volunteerBtn'])){
@@ -89,7 +89,7 @@ if(isset($_POST['volunteerBtn'])){
  $tel = test_input($_POST['tel']);
  $message = test_input($_POST['message']);
 
-    sendMail('hello@bluvard.org',$firstName." ". $lastName,$email,"APPLICATION TO BECOME A VOLUNTEER",$message);
+    sendMail('hello@bluvard.org',$firstName." ". $lastName,$email,$tel,"APPLICATION TO BECOME A VOLUNTEER",$message);
 }
 
 
